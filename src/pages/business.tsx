@@ -90,12 +90,6 @@ const Component = () => {
                 <a>運営会社</a>
               </Link>
             </li>
-            {/* <li>
-              <a href="https://tiger-pay.com/business/">日本語</a>
-            </li>
-            <li>
-              <a href="https://tiger-pay.com/business/en/">Eng</a>
-            </li> */}
           </ul>
         </div>
         <div id="main_wrap">
@@ -110,30 +104,28 @@ const Component = () => {
           <div id="section2">
             <div id="main_btn">
               <p id="main_v_btn">
-                <a
-                  href="https://secure.tiger-pay.com/dashboard/register"
-                  target="_blank"
-                >
-                  <img
-                    src="./img/business_btn1.png"
-                    width="2279"
-                    height="350"
-                    alt="ビジネス口座開設"
-                  />
-                </a>
+                <Link href="/secure/register">
+                  <a target="_blank">
+                    <img
+                      src="./img/business_btn1.png"
+                      width="2279"
+                      height="350"
+                      alt="ビジネス口座開設"
+                    />
+                  </a>
+                </Link>
               </p>
               <p id="main_v_btn2">
-                <a
-                  href="https://secure.tiger-pay.com/dashboard/register"
-                  target="_blank"
-                >
-                  <img
-                    src="./img/business_btn1_sp.png"
-                    width="2279"
-                    height="350"
-                    alt="ビジネス口座開設"
-                  />
-                </a>
+                <Link href="/secure/register">
+                  <a target="_blank">
+                    <img
+                      src="./img/business_btn1_sp.png"
+                      width="2279"
+                      height="350"
+                      alt="ビジネス口座開設"
+                    />
+                  </a>
+                </Link>
               </p>
             </div>
             <div id="sec2_inner">
@@ -315,30 +307,28 @@ const Component = () => {
         </div>
         <div id="footer_area">
           <p id="footer_btn">
-            <a
-              href="https://secure.tiger-pay.com/dashboard/register"
-              target="_blank"
-            >
-              <img
-                src="./img/businessf_footer_btn.png"
-                width="2280"
-                height="351"
-                alt="口座開設"
-              />
-            </a>
+            <Link href="/secure/register">
+              <a target="_blank">
+                <img
+                  src="./img/businessf_footer_btn.png"
+                  width="2280"
+                  height="351"
+                  alt="口座開設"
+                />
+              </a>
+            </Link>
           </p>
           <p id="footer_btn2">
-            <a
-              href="https://secure.tiger-pay.com/dashboard/register"
-              target="_blank"
-            >
-              <img
-                src="./img/business_footer_btnsp.png"
-                width="2280"
-                height="351"
-                alt="口座開設"
-              />
-            </a>
+            <Link href="/secure/register">
+              <a target="_blank">
+                <img
+                  src="./img/business_footer_btnsp.png"
+                  width="2280"
+                  height="351"
+                  alt="口座開設"
+                />
+              </a>
+            </Link>
           </p>
         </div>
         <div id="footer_area2">

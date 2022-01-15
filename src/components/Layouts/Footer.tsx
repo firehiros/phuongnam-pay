@@ -22,17 +22,16 @@ const Component = ({ ...props }) => {
                 <span className="title_color">S-WALLET</span>
               </p>
               <p id="footer_inner_btn">
-                <a
-                  href="https://secure.tiger-pay.com/dashboard/register"
-                  target="_blank"
-                >
-                  <span className="btn_color">S-WALLET</span>口座開設
-                </a>
+                <Link href="/secure/register">
+                  <a target="_blank">
+                    <span className="btn_color">S-WALLET</span>口座開設
+                  </a>
+                </Link>
               </p>
               <p id="footer_inner_btn2">
-                <a href="https://secure.tiger-pay.com/" target="_blank">
-                  S-WALLETログイン
-                </a>
+                <Link href="/secure/login">
+                  <a target="_blank">S-WALLETログイン</a>
+                </Link>
               </p>
             </div>
           </div>

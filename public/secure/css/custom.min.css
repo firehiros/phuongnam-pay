@@ -1,0 +1,45 @@
+footer{position:relative}footer .active-list{position:fixed;right:22px;bottom:22px;z-index:999999}footer .active-list button{border-radius:50%;background:red;display:block;margin-bottom:10px;transition:ease all .2s;padding:15px;border:none;cursor:pointer}footer .active-list button img{width:30px;height:30px}footer .active-list button.bal{background:#24cbe5}footer .active-list button.cur{background:#fea100}footer .balance_container,footer .currency_container{background:#fff;position:fixed;top:0;right:-550px;max-width:500px;width:100%;height:100vh;z-index:99999999999;transition:ease all .5s}footer .balance_container.show,footer .currency_container.show{right:0;transition:ease all .5s}footer .balance_container .close-mods,footer .currency_container .close-mods{background:#00cee9;padding:5px 10px;position:absolute;cursor:pointer;left:-27px;color:#fff}@media only screen and (max-width:375px){footer .balance_container .close-mods,footer .currency_container .close-mods{left:0}}footer .balance_container .balance-inner,footer .currency_container .balance-inner{margin:0;height: calc(100vh - 50px);padding:25px;display:flex;flex-direction:column;width: 50%;float: left}footer .balance_container .balance-inner .balance-header,footer .currency_container .balance-inner .balance-header{border-bottom:1px solid #f2f2f2;padding:15px 0}footer .balance_container .balance-inner .balance-header .header-icon,footer .currency_container .balance-inner .balance-header .header-icon{float:left}footer .balance_container .balance-inner .balance-header .header-icon img,footer .currency_container .balance-inner .balance-header .header-icon img{width:25px;height:25px}footer .balance_container .balance-inner .balance-header h2,footer .currency_container .balance-inner .balance-header h2{font-size:18px;float:left;padding:5px 10px;margin:0}footer .balance_container .balance-inner li,footer .currency_container .balance-inner li{font-family:Helvetica;border-bottom:1px solid #24cbe5;padding:10px 0;font-size:15px}footer .balance_container .balance-inner li:first-child,footer .currency_container .balance-inner li:first-child{/*border:0!important*/}footer .balance_container .balance-inner li .balance-list,footer .currency_container .balance-inner li .balance-list{float:left}footer .balance_container .balance-inner li .balance-list .cur-icon,footer .currency_container .balance-inner li .balance-list .cur-icon{margin-right:10px}footer .balance_container .balance-inner li .balance-list .cur-icon img,footer .currency_container .balance-inner li .balance-list .cur-icon img{width:25px;height:25px}footer .balance_container .balance-inner li .b-rate,footer .currency_container .balance-inner li .b-rate{float:right}
+.balance-header{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 15px 35px;overflow: hidden;
+}.balance-header .header-icon{
+    float: left;
+}.balance-header .header-icon img{
+    width: 25px;
+    height: 25px;
+}.balance-header h2{
+    font-size: 18px;
+    float: left;
+    padding: 5px 10px;
+    margin: 0;
+}.balance-body{width:100%;overflow: auto;padding: 0 10px;}.balance-total{width: 100%;
+    display: block;
+    text-align: left;
+    padding: 10px 25px 0;
+    border-bottom: 1px solid #f2f2f2;}
+.balance-total .select3{width:40%;}
+.balance-total .balance-totalamount{display: inline-block;
+    float: right;
+    font-size: 26px;
+    color: #474747;font-weight: 700;}
+@media screen and (max-width: 768px){
+	footer .balance_container .balance-inner{
+	    padding: 10px;
+	}
+	footer .balance_container .balance-inner li .b-rate{
+	    line-height: 24px;    margin-left: 5px;
+	}
+	
+	footer .balance_container .close-mods{
+		position: absolute;
+	    right: 21px;
+	    bottom: 130px;
+	    left: auto;
+	    padding: 5px;
+	    width: 60px;
+	    height: 60px;
+	    border-radius: 30px;
+	    line-height: 60px;line-height: 44px;
+	    font-size: 30px;
+    }
+}

@@ -28,40 +28,38 @@ const Component = ({ ...props }) => {
               </Link>
             </p>
             <p className="open_btn">
-              <a
-                href="https://secure.tiger-pay.com/dashboard/register"
-                target="_blank"
-              >
-                口座開設
-              </a>
+              <Link href="/secure/register">
+                <a target="_blank">口座開設</a>
+              </Link>
             </p>
             <p className="login_btn">
-              <a href="https://secure.tiger-pay.com/" target="_blank">
-                ログイン
-              </a>
+              <Link href="/secure/login">
+                <a target="_blank">ログイン</a>
+              </Link>
             </p>
             <p className="open_btn_sp">
-              <a
-                href="https://secure.tiger-pay.com/dashboard/register"
-                target="_blank"
-              >
-                <img
-                  src="./img/header_news_icon.png"
-                  width="48"
-                  height="48"
-                  alt="口座開設"
-                />
-              </a>
+              <Link href="/secure/register">
+                <a target="_blank">
+                  <img
+                    src="./img/header_news_icon.png"
+                    width="48"
+                    height="48"
+                    alt="口座開設"
+                  />
+                </a>
+              </Link>
             </p>
             <p className="login_btn_sp">
-              <a href="https://secure.tiger-pay.com/" target="_blank">
-                <img
-                  src="./img/header_login_icon.png"
-                  width="48"
-                  height="48"
-                  alt="ログイン"
-                />
-              </a>
+              <Link href="/secure/login">
+                <a target="_blank">
+                  <img
+                    src="./img/header_login_icon.png"
+                    width="48"
+                    height="48"
+                    alt="ログイン"
+                  />
+                </a>
+              </Link>
             </p>
           </div>
           <nav id="gNav">
@@ -86,127 +84,6 @@ const Component = ({ ...props }) => {
                   <a>パートナー</a>
                 </Link>
               </li>
-              {/* <li id="n_depodit">
-                <a
-                  href="https://tiger-pay.com/jp/#"
-                  style={{ borderWidth: "medium" }}
-                >
-                  操作方法
-                </a>
-                <ul>
-                  <li>
-                    <div className="gmenu_inner">
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">アカウント</span>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/register.html"
-                          id="n_register"
-                        >
-                          <span>登録手順</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">銀行</span>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/bank_register.html"
-                          id="n_bank_register"
-                        >
-                          <span>銀行口座登録</span>
-                        </a>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/bank.html"
-                          id="n_bank"
-                        >
-                          <span>銀行入金</span>
-                        </a>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/bank_withdraw.html"
-                          id="n_bank_withdraw"
-                        >
-                          <span>銀行出金</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">
-                          プリペイドカード
-                        </span>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/credit.html"
-                          id="n_credit_card"
-                        >
-                          <span>カード発行申請</span>
-                        </a>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/card_charge.html"
-                          id="n_card_charge"
-                        >
-                          <span>カードチャージ</span>
-                        </a>
-                        <a
-                          href="https://tiger-pay.com/jp/card_balance.html"
-                          id="n_card_balance"
-                        >
-                          <span>カード残高照会</span>
-                        </a>
-                        <a
-                          href="https://tiger-pay.com/campaign/"
-                          id="pr"
-                          target="_blank"
-                        >
-                          <span>25$ キャッシュバック</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">仮想通貨</span>{" "}
-                        <a href="https://tiger-pay.com/jp/cc.html" id="n_vc">
-                          <span>入金</span>
-                        </a>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/cc_withdraw.html"
-                          id="n_vc_withdraw"
-                        >
-                          <span>出金</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">その他</span>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/payeasy.html"
-                          id="n_payeasy"
-                        >
-                          <span>ペイジー決済</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">両替</span>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/transfer.html"
-                          id="n_transfer"
-                        >
-                          <span>両替方法</span>
-                        </a>{" "}
-                      </div>
-                      <div className="gmenu_box">
-                        {" "}
-                        <span className="gmenu_list">本人確認</span>{" "}
-                        <a href="https://tiger-pay.com/jp/kyc.html" id="n_kyc">
-                          <span>手順</span>
-                        </a>{" "}
-
-                        <Link href="/kyc_personal">
-                          <a>書類詳細</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </li> */}
               <li>
                 <Link href="/fee">
                   <a>手数料・処理時間</a>
@@ -260,162 +137,6 @@ const Component = ({ ...props }) => {
               <a>パートナー</a>
             </Link>
           </li>
-          {/* <li className="parent">
-            <a href="#" className="close">
-              操作方法
-            </a>
-            <ul className="submenu close">
-              <li>
-                <a
-                  href="https://tiger-pay.com/jp/register.html"
-                  className="close"
-                >
-                  S-WALLET 登録手順
-                </a>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>銀行</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/bank_register.html"
-                      className="close"
-                    >
-                      銀行口座 登録
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/bank.html"
-                      className="close"
-                    >
-                      銀行 入金
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/bank_withdraw.html"
-                      className="close"
-                    >
-                      銀行 出金
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>プリペイドカード</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/credit.html"
-                      className="close"
-                    >
-                      カード発行申請
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/card_charge.html"
-                      className="close"
-                    >
-                      カードチャージ
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/card_balance.html"
-                      className="close"
-                    >
-                      カード残高照会
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>仮想通貨</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/cc.html"
-                      className="close"
-                    >
-                      仮想通貨 入金
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/cc_withdraw.html"
-                      className="close"
-                    >
-                      仮想通貨 出金
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>その他</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/payeasy.html"
-                      className="close"
-                    >
-                      ペイジー決済
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>両替</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/transfer.html"
-                      className="close"
-                    >
-                      両替方法
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="parent">
-                {" "}
-                <a href="#" className="close">
-                  <span>本人確認</span>
-                </a>
-                <ul className="submenu close">
-                  <li>
-                    <a
-                      href="https://tiger-pay.com/jp/kyc.html"
-                      className="close"
-                    >
-                      手順
-                    </a>
-                  </li>
-                  <li>
-                      <Link href="/kyc_personal">
-                        <a>書類詳細</a>
-                      </Link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li> */}
           <li>
             <Link href="/fee">
               <a>手数料・処理時間</a>
