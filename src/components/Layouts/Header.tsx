@@ -23,14 +23,9 @@ const Component = ({ ...props }) => {
         <div id="header_menu">
           <div id="sub_menu">
             <p className="to_business">
-              <a href="https://tiger-pay.com/business/" target="_blank">
-                事業者の方はこちら
-              </a>
-            </p>
-            <p className="sponsor">
-              <a href="https://tiger-pay.com/sponsor/" target="_blank">
-                スポンサー活動
-              </a>
+              <Link href="/business">
+                <a>事業者の方はこちら</a>
+              </Link>
             </p>
             <p className="open_btn">
               <a
@@ -68,36 +63,6 @@ const Component = ({ ...props }) => {
                 />
               </a>
             </p>
-            <ul>
-              <li>
-                <a href="https://tiger-pay.com/jp/">日本語</a>
-              </li>
-              <li>
-                <a href="https://tiger-pay.com/en/">Eng</a>
-              </li>
-            </ul>
-            <div id="lang_sp">
-              <p className="lang_icon">
-                <a href="https://tiger-pay.com/jp/">
-                  <img
-                    src="./img/lang_jp_sp.png"
-                    width="60"
-                    height="60"
-                    alt="jp"
-                  />
-                </a>
-              </p>
-              <p className="lang_icon">
-                <a href="https://tiger-pay.com/en/">
-                  <img
-                    src="./img/lang_en_sp.png"
-                    width="60"
-                    height="60"
-                    alt="en"
-                  />
-                </a>
-              </p>
-            </div>
           </div>
           <nav id="gNav">
             <ul id="dropmenu">
@@ -117,9 +82,11 @@ const Component = ({ ...props }) => {
                 </Link>
               </li>
               <li id="n_partner">
-                <a href="https://tiger-pay.com/jp/partner.html">パートナー</a>
+                <Link href="/partner">
+                  <a>パートナー</a>
+                </Link>
               </li>
-              <li id="n_depodit">
+              {/* <li id="n_depodit">
                 <a
                   href="https://tiger-pay.com/jp/#"
                   style={{ borderWidth: "medium" }}
@@ -241,12 +208,16 @@ const Component = ({ ...props }) => {
                     </div>
                   </li>
                 </ul>
+              </li> */}
+              <li>
+                <Link href="/fee">
+                  <a>手数料・処理時間</a>
+                </Link>
               </li>
               <li>
-                <a href="https://tiger-pay.com/jp/fee.html">手数料・処理時間</a>{" "}
-              </li>
-              <li>
-                <a href="https://tiger-pay.com/jp/card.html">提携カード</a>{" "}
+                <Link href="/card">
+                  <a>提携カード</a>
+                </Link>
               </li>
               <li>
                 <a href="https://support.tiger-pay.com/ja/" target="_blank">
@@ -287,9 +258,11 @@ const Component = ({ ...props }) => {
             </Link>
           </li>
           <li>
-            <a href="https://tiger-pay.com/jp/partner.html">パートナー</a>
+            <Link href="/partner">
+              <a>パートナー</a>
+            </Link>
           </li>
-          <li className="parent">
+          {/* <li className="parent">
             <a href="#" className="close">
               操作方法
             </a>
@@ -447,12 +420,16 @@ const Component = ({ ...props }) => {
                 </ul>
               </li>
             </ul>
+          </li> */}
+          <li>
+            <Link href="/fee">
+              <a>手数料・処理時間</a>
+            </Link>
           </li>
           <li>
-            <a href="https://tiger-pay.com/jp/fee.html">手数料・処理時間</a>
-          </li>
-          <li>
-            <a href="https://tiger-pay.com/jp/card.html">提携カード</a>
+            <Link href="/card">
+              <a>提携カード</a>
+            </Link>
           </li>
           <li>
             <a href="https://support.tiger-pay.com/ja/" target="_blank">

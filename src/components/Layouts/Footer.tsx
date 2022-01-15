@@ -38,9 +38,9 @@ const Component = ({ ...props }) => {
           </div>
         </div>
         <div id="footer">
-          <div id="footer_inner">
+          <div id={props.inner2 == 1 ? "footer_inner2" : "footer_inner"}>
             <figure>
-              <a href="https://tiger-pay.com/jp/">
+              <a href="/">
                 <img
                   src="./img/footer_logo.png"
                   width="2083"
@@ -67,23 +67,22 @@ const Component = ({ ...props }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/business/">
-                    事業者の方はこちら
-                  </a>
+                  <Link href="/business">
+                    <a>事業者の方はこちら</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/partner.html">パートナー</a>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/sponsor/">スポンサー活動</a>
+                  <Link href="/partner">
+                    <a>パートナー</a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://tiger-pay.com/jp/kyc.html">本人確認手順</a>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/fee.html">
-                    手数料・処理時間
-                  </a>
+                  <Link href="/fee">
+                    <a>手数料・処理時間</a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://tiger-pay.com/jp/terms.html">利用規約</a>
@@ -112,65 +111,74 @@ const Component = ({ ...props }) => {
                   </a>
                 </li>
               </ul>
-              <div id="browser_box">
-                <h2>推奨ブラウザ</h2>
-                <ul>
-                  <li>
-                    <img
-                      src="./img/chrome.png"
-                      width="225"
-                      height="225"
-                      alt="chrome"
-                    />
-                  </li>
-                  <li>
-                    <img
-                      src="./img/firefox.png"
-                      width="225"
-                      height="225"
-                      alt="firefox"
-                    />
-                  </li>
-                  <li>
-                    <img src="./img/ie.png" width="225" height="225" alt="ie" />
-                  </li>
-                </ul>
-              </div>
-              <div id="sns_box">
-                <h2>公式SNSアカウント</h2>
-                <ul>
-                  <li>
-                    <a href="https://twitter.com/TigerpayEwallet">
+              {props.inner2 == 1 ? null : (
+                <div id="browser_box">
+                  <h2>推奨ブラウザ</h2>
+                  <ul>
+                    <li>
                       <img
-                        src="./img/twitter.png"
+                        src="./img/chrome.png"
                         width="225"
                         height="225"
-                        alt="twitter"
+                        alt="chrome"
                       />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://line.me/R/ti/p/@tigerpay">
+                    </li>
+                    <li>
                       <img
-                        src="./img/line.png"
+                        src="./img/firefox.png"
                         width="225"
                         height="225"
-                        alt="line"
+                        alt="firefox"
                       />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/TigerpayEwallet">
+                    </li>
+                    <li>
                       <img
-                        src="./img/facebook.png"
+                        src="./img/ie.png"
                         width="225"
                         height="225"
-                        alt="facebook"
+                        alt="ie"
                       />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                    </li>
+                  </ul>
+                </div>
+              )}
+              {props.inner2 == 1 ? null : (
+                <div id="sns_box">
+                  <h2>公式SNSアカウント</h2>
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/TigerpayEwallet">
+                        <img
+                          src="./img/twitter.png"
+                          width="225"
+                          height="225"
+                          alt="twitter"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://line.me/R/ti/p/@tigerpay">
+                        <img
+                          src="./img/line.png"
+                          width="225"
+                          height="225"
+                          alt="line"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/TigerpayEwallet">
+                        <img
+                          src="./img/facebook.png"
+                          width="225"
+                          height="225"
+                          alt="facebook"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -181,7 +189,7 @@ const Component = ({ ...props }) => {
           <a></a>
         </Link>
       </div>
-      <p id="copy">©S-WALLET.All rights resarved.</p>
+      <p id="copy">©S-WALLET.All rights reserved.</p>
 
       <Script
         strategy="afterInteractive"

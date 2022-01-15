@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-Wallet</title>
+        <title>S-WALLET｜グローバル対応のEウォレット</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -28,7 +28,6 @@ const Component = () => {
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
-        <link href="./css/bnr.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
         <link
           rel="apple-touch-icon"

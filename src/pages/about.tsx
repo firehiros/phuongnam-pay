@@ -9,17 +9,12 @@ import Link from "next/link";
 // App Import
 import Header from "../components/Layouts/Header";
 import Footer from "../components/Layouts/Footer";
-import GoTop from "../components/Elements/GoTop";
-
-import Slider from "../components/Elements/Slider";
-import Menu from "../components/Elements/Menu";
-import Reversation from "../components/Elements/Reversation";
 
 const Component = () => {
   return (
     <>
       <Head>
-        <title>S-Wallet</title>
+        <title>S-WALLET グローバル対応の最新Eウォレット | S-WALLET 運営会社</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -33,7 +28,6 @@ const Component = () => {
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
-        <link href="./css/bnr.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
         <link
           rel="apple-touch-icon"

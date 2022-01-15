@@ -44,7 +44,7 @@ body {
   float: right;
 }
 #header_menu #sub_menu {
-    width: 830px;
+    width: 600px;
     margin-left: auto;
     padding-top: 20px;
     padding-bottom: 26px;
@@ -3941,7 +3941,7 @@ h2:after {
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 820px;
+    width: 550px;
   }
   #header .pc_main img {
     height: 80px;

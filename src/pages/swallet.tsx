@@ -9,11 +9,6 @@ import Link from "next/link";
 // App Import
 import Header from "../components/Layouts/Header";
 import Footer from "../components/Layouts/Footer";
-import GoTop from "../components/Elements/GoTop";
-
-import Slider from "../components/Elements/Slider";
-import Menu from "../components/Elements/Menu";
-import Reversation from "../components/Elements/Reversation";
 
 const Component = () => {
   return (
@@ -33,7 +28,6 @@ const Component = () => {
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
-        <link href="./css/bnr.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
         <link
           rel="apple-touch-icon"
@@ -76,11 +70,11 @@ const Component = () => {
             <Header />
 
             <div id="main_title">
-              <h2>TIGER PAYとは？</h2>
+              <h2>S-WALLETとは？</h2>
             </div>
             <div id="tiger_about">
               <div id="tiger_about_inner">
-                <h3>TIGER PAYとは？</h3>
+                <h3>S-WALLETとは？</h3>
                 <p className="tiger_about_p">
                   タイガーペイは、国際間のスムーズな送金や決済ソリューションをお求めの企業
                   / 個人様の為の、通貨、仮想通貨をご利用いただけるE
@@ -256,10 +250,9 @@ const Component = () => {
             </div>
             <div id="tiger_about2">
               <div id="tiger_about_inner2">
-                <h3>TIGER PAYの機能一覧</h3>
+                <h3>S-WALLETの機能一覧</h3>
                 <p>
-                  TIGER
-                  PAYは、クレジットカードからの入金や国内銀行や仮想通貨での入出金など様々なシーンで入出金することができます。
+                  S-WALLETは、クレジットカードからの入金や国内銀行や仮想通貨での入出金など様々なシーンで入出金することができます。
                   <br />
                   また仮想通貨を含む両替は手数料無料で行うことができます。
                 </p>
@@ -268,7 +261,7 @@ const Component = () => {
                     src="./img/tiger_about_img.png"
                     width="1779"
                     height="1172"
-                    alt="TIGER PAYの機能一覧"
+                    alt="S-WALLETの機能一覧"
                   />
                 </figure>
                 <figure className="about_img_sp">
@@ -445,8 +438,7 @@ const Component = () => {
                   <p>
                     ご自身のアカウント内から口座のアップグレードを行う事で、よりおおくの通貨・より高い金額の取引が可能になります。
                     <br />
-                    またTIGER
-                    PAYのサービスの一つである”プリペイド式デビットカード”もお申し込みいただけます。
+                    またS-WALLETのサービスの一つである”プリペイド式デビットカード”もお申し込みいただけます。
                     <br className="pc" />
                     （＊アップグレードには「本人確認 /
                     事業者確認」が必要になります）
@@ -470,10 +462,8 @@ const Component = () => {
                         <td>
                           お客様のビジネスをご支援する事を目的とし、Personal口座よりも利用上限がアップされ
                           ます。また、決済ソリューションとしての提供を行う為にAPIでの接続も可能です。
-                          顧客様にTiger
-                          Payを使用した入出金ソリューションをご提供可能になります。
-                          なお、Tiger
-                          Payでは、ビジネスでの利用を幅広く行えるよう、今後様々なソリューションや
+                          顧客様にS-WALLETを使用した入出金ソリューションをご提供可能になります。
+                          なお、S-WALLETでは、ビジネスでの利用を幅広く行えるよう、今後様々なソリューションや
                           機能の提供を計画しています。
                         </td>
                       </tr>
@@ -601,8 +591,8 @@ const Component = () => {
                 </p>
                 <p>
                   導入ご相談窓口:
-                  <a href="mailto:business@tiger-pay.com">
-                    business@tiger-pay.com
+                  <a href="mailto:business@s-wallet.com">
+                    business@s-wallet.com
                   </a>
                 </p>
                 <h4>導入するとご利用頂けるプレミアム 機能</h4>
