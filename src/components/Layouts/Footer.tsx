@@ -102,12 +102,9 @@ const Component = ({ ...props }) => {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://secure.tiger-pay.com/dashboard/support"
-                    target="_blank"
-                  >
-                    お問合わせ
-                  </a>
+                  <Link href="/qa">
+                    <a>よくある質問</a>
+                  </Link>
                 </li>
                 <li>
                   <Link href="/sitemap">

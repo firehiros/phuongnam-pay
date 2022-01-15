@@ -11,7 +11,7 @@ const Component = ({ ...props }) => {
     <header>
       <div id="header">
         <h1 className="pc_main">
-          <a href="https://tiger-pay.com/jp/">
+          <a href="/">
             <img
               src="./img/tigerpay.png"
               width="2083"
@@ -218,9 +218,9 @@ const Component = ({ ...props }) => {
                 </Link>
               </li>
               <li>
-                <a href="https://support.tiger-pay.com/ja/" target="_blank">
-                  よくある質問
-                </a>{" "}
+                <Link href="/qa">
+                  <a>よくある質問</a>
+                </Link>
               </li>
             </ul>
             <div className="mask"></div>
@@ -243,7 +243,7 @@ const Component = ({ ...props }) => {
         </p>
         <ul className="close" style={{ display: "none" }}>
           <li>
-            <a href="https://tiger-pay.com/jp/">TOP</a>
+            <a href="/">TOP</a>
           </li>
           <li>
             <Link href="/about">
@@ -427,9 +427,9 @@ const Component = ({ ...props }) => {
             </Link>
           </li>
           <li>
-            <a href="https://support.tiger-pay.com/ja/" target="_blank">
-              よくある質問
-            </a>
+            <Link href="/qa">
+              <a>よくある質問</a>
+            </Link>
           </li>
         </ul>
       </nav>

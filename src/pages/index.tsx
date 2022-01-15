@@ -85,7 +85,7 @@ const Component = () => {
                   </h1>
                   <p id="main_btn">
                     <a
-                      href="https://secure.tiger-pay.com/dashboard/register"
+                      href="/secure/register"
                       target="_blank"
                     >
                       <span className="btn_color">S-WALLET</span>口座開設
@@ -390,7 +390,7 @@ const Component = () => {
                 <h4>S-WALLETは様々なサービスでご利用いただけます!</h4>
                 <div className="store_card">
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -398,7 +398,7 @@ const Component = () => {
                     <h3>総合通販</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -406,7 +406,7 @@ const Component = () => {
                     <h3>家電/PC</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -414,7 +414,7 @@ const Component = () => {
                     <h3>ゲーム</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -422,7 +422,7 @@ const Component = () => {
                     <h3>エンタメ</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -430,7 +430,7 @@ const Component = () => {
                     <h3>配送</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -438,7 +438,7 @@ const Component = () => {
                     <h3>飲食</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -446,7 +446,7 @@ const Component = () => {
                     <h3>コスメ・ビューティー</h3>
                   </a>
                   <a
-                    href="https://tiger-pay.com/jp/#"
+                    href="/"
                     className="store_card_box"
                     style={{ pointerEvents: "none" }}
                   >
@@ -561,19 +561,6 @@ const Component = () => {
                         <br />
                         なお、銀行振込サービスをご利用いただけるのは、本人確認が完了し「スタンダード」へアップグレードされたアカウントのみが可能です。
                         <br />
-                        <br />
-                        銀行送金の入金方法については、以下のリンクより詳細をご確認いただけます。
-                        <br />
-                        <a href="https://tiger-pay.com/jp/bank.html">
-                          S-WALLET銀行振込手順
-                        </a>
-                        <br />
-                        <br />
-                        暗号通貨の入金方法については、以下のリンクより詳細をご確認いただけます。
-                        <br />
-                        <a href="https://tiger-pay.com/jp/cc.html">
-                          S-WALLET仮想通貨入金手順
-                        </a>
                       </p>
                     </li>
                     <li>
@@ -584,8 +571,7 @@ const Component = () => {
                           <span></span>
                         </p>
                         <h5>
-                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がTIGER
-                          PAYのアカウントに反映されていない場合はどうすればいいですか？
+                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がS-WALLETのアカウントに反映されていない場合はどうすればいいですか？
                         </h5>
                       </a>
                       <p>
@@ -598,9 +584,6 @@ const Component = () => {
                     </li>
                   </ul>
                 </div>
-                <p id="faq_btn">
-                  <a href="https://support.tiger-pay.com/ja/">READ MORE</a>
-                </p>
               </section>
             </div>
             <Footer />

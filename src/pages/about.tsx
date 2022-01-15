@@ -123,13 +123,12 @@ const Component = () => {
                           <tbody>
                             <tr>
                               <th>会社名</th>
-                              <td>URBAN SQUARE PLUS INC.</td>
+                              <td>株式会社アンノーン(Unoun, Inc.)</td>
                             </tr>
                             <tr>
                               <th>住所</th>
                               <td>
-                                15th Floor MDI Corporation Center, 10th Ave.
-                                Corner 39th St., BGC,{" "}
+                              〒103-0014 東京都中央区日本橋蛎殻町1-17-11 カナメビル5F新館,{" "}
                               </td>
                             </tr>
                           </tbody>
