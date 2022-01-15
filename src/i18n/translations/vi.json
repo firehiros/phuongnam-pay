@@ -1,0 +1,202 @@
+{
+  "Copyright @ 2019 Newhomes. All rights reserved": "Copyright @ 2019 Newhomes. All rights reserved",
+  "About Us": "Về chúng tôi",
+  "About VAIJ": "Về Hội người Việt",
+  "Terms of Use": "Điều khoản sử dụng",
+  "Privacy Policy": "Chính sách sử dụng",
+  "Support": "Hỗ trợ",
+  "APN Setting": "Hướng dẫn cài đặt APN",
+  "9:00 - 19:00 Weekdays": "9:00 - 19:00 Weekdays",
+  "Hotline: 070-1076-5934": "Hotline: 070-1076-5934",
+  "FAQs": "Câu hỏi thường gặp",
+  "Contact to Customer Support": "Liên hệ hỗ trợ",
+  "Get Started": "Bắt đầu",
+  "Watch Video": "Xem Video",
+  "Register Now": "Đăng ký ngay",
+  "Home": "Trang chủ",
+  "Services": "Dịch vụ",
+  "Help": "Hỗ trợ",
+  "Login/Register": "Đăng nhập",
+  "News": "Tin Tức",
+  "Shop": "Cửa hàng",
+  "Contact": "Liên hệ",
+  "Our Partner": "Đơn vị đồng hành",
+  "Low Data Packages": "Gói dung lượng thấp",
+  "Big Data Packages": "Gói dung lượng cao",
+  "/Mo": "/ Tháng",
+  "{number}GB Package": "Gói {number}GB",
+  "Activation fee": "Phí đăng ký",
+  "Pay once while register": "Chỉ Trả khi đăng ký",
+  "Domestic Call ¥20/30sec": "Phí gọi nội mạng (trong nước Nhật) ¥20/30 giây",
+  "International Call From ¥30/30sec": "Phí gọi quốc tế (ngoài nước Nhật): từ ¥30/30 giây",
+  "Free incoming calls": "Miễn phí nhận cuộc gọi",
+  "Available with all Devices(except Softbank/AU)": "Dùng được mọi thiết bị (Ngoại trừ thiết bị khoá mạng Softbank/AU)",
+  "MNP Fee": "Phí giữ số",
+  "More Packages": "Xem thêm gói cước",
+  "Extra Services": "Dịch vụ thêm",
+  "The prices are not included Tax": "Tất cả giá được liệt kê trong danh mục này chưa bao gồm thuế tiêu dùng",
+  "Unlimited Call": "Gọi không giới hạn",
+  "Extra Data": "Mua thêm dung lượng",
+  "MNP": "Chuyển mạng giữ số",
+  "Ask Your Question": "Thắc mắc của bạn",
+  "Name": "Tên",
+  "Mail": "Địa chỉ email",
+  "Subject": "Tiêu Đề",
+  "Message": "Nội dung",
+  "Submit Now": "Gửi",
+  "FAQ": "Câu hỏi thường gặp",
+  "Address": "Địa chỉ",
+  "Phone": "Số điện thoại",
+  "Our Smart Team": "Đội ngũ của chúng tôi",
+  "format": {
+    "package": "Gói {{number}}GB",
+    "usage": "Dùng được {{number}}GB Internet tốc độ cao Mỗi tháng"
+  },
+  "banner": {
+    "title": "Giải pháp di động cho người Việt ở Nhật",
+    "description": "Không ngừng nỗ lực, Không ngừng phát triển. Chúng tôi sẽ luôn là người bạn đồng hành hỗ trợ cho cuộc sống của người Việt Nam tại Nhật Bản."
+  },
+  "pricing": {
+    "title": "Danh sách gói cước"
+  },
+  "overview": {
+    "title": "Sim Vàng - Nhà mạng dành riêng cho người Việt Nam ở Nhật",
+    "description": "Được sự hỗ trợ từ Đại Sứ Quán Việt Nam và Nhà Mạng Docomo. Hội người Việt Nam tại Nhật đã kết hợp với công ty Du Học Thanh Giang Seikou thực hiện dự án SIM VÀNG với mục tiêu hỗ trợ người Việt Nam đăng ký và sở hữu số điện thoại dễ dàng hơn tại Nhật.",
+    "feature_1": {
+      "title": "Mạng lưới NTT DOCOMO",
+      "description": "Hệ thống của Sim Vàng sử dụng mạng lưới của công ty NTT Docomo, một trong 3 công ty viễn thông hàng đầu tại Nhật Bản. Sử dụng Sim Vàng bạn sẽ được:",
+      "content": "<ul><li>Sử dụng internet tốc độ cao với công nghệ 4G/LTE</li><li>Phủ sóng 99% diện tích toàn nước Nhật</li><li>Phù hợp với mọi thiết bị (trừ những thiết bị khoá mạng Softbank/AU)</li></ul>"
+    },
+    "feature_2": {
+      "title": "Dành riêng cho người Việt",
+      "description": "Sim Vàng là nhà mạng được lập ra dành riêng cho người Việt Nam tại Nhật.",
+      "content": "<ul><li>Hỗ trợ hoàn toàn bằng Tiếng Việt</li><li>Hỗ trợ mọi vùng miền có người Việt Nam sinh sống tại Nhật Bản</li><li>Đội ngũ tư vấn viên luôn túc trực để trả lời bạn.</li></ul>"
+    }
+  },
+  "feature": {
+    "title": "Ưu điểm của Sim Vàng",
+    "caption": "",
+    "description": "Với mục tiêu làm hài lòng khách hàng nhất hết mức có thể, chúng tôi không ngừng nỗ lực và cải thiện từng ngày để phát triển.",
+    "feature_1": {
+      "title": "Dễ dàng thanh toán",
+      "description": "Dễ dàng thanh toán thông qua chuyển khoảng ngân hàng hoặc thanh toán tại Kombini bằng smartpit"
+    },
+    "feature_2": {
+      "title": "An toàn & Tin cậy",
+      "description": "Mọi dữ liệu về thông tin cá nhân sẽ được lưu vào cơ sở dữ liệu và được bảo mật với hệ thống Bảo Mật của Google."
+    },
+    "feature_3": {
+      "title": "Đăng ký dễ dàng",
+      "description": "Chỉ cần điền đầy đủ thông tin, trong vòng 2-3 ngày chúng tôi sẽ gửi SIM đến cho bạn."
+    },
+    "feature_4": {
+      "title": "Mọi thiết bị",
+      "description": "SIM được cấp bởi Sim Vàng có thể được sử dụng bởi bất kỳ thiết bị nào (Ngoại trừ thiết bị khoá mạng của Softbank/AU)"
+    }
+  },
+  "payment": {
+    "bank_transfer": "Chuyển khoảng ngân hàng",
+    "bank_transfer_description": "Thanh toán bằng cách Chuyển khoảng trực tiếp tới ngân hàng của công ty, hiện tại chúng tôi đã hỗ trợ MUFG(UFJ), Seven Bank",
+    "combini": "Cửa hàng tiện lợi (コンビニ)",
+    "combini_description": "Thanh toán tại コンビニ tại máy dịch vụ",
+    "credit_card": "Credit Card",
+    "credit_card_description": "Thanh toán online bằng thẻ tín dụng (credit card)",
+    "digital_wallet": "Ví điện tử",
+    "digital_wallet_description": "Thanh toán online thông qua các ví điện tử như Paypay, Linepay",
+    "cod": "Thanh toán tại nhà (COD - Cash on Delivery)",
+    "cod_description": "Nhân viên chuyển phát sẽ thu tiền trực tiếp tại nhà"
+  },
+  "process": {
+    "title": "Các bước đăng ký thuê bao",
+    "description": "Chỉ với 1 vài bước cơ bản, quý khách sẽ ngay lập tức được sử dụng dịch vụ"
+  },
+  "button": {
+    "buynow": "Đặt mua ngay",
+    "register_now": "Đăng ký ngay",
+    "readmore": "Tìm hiểu thêm"
+  },
+  "testimonials": {
+    "title": "Đánh giá của Khách hàng",
+    "description": "Hãy cùng xem đánh giá của những khách hàng đã từng sử dụng dịch vụ của chúng tôi",
+    "person1": {
+      "name": "Thu nghiem",
+      "job_title": "Job Title",
+      "description": "Description"
+    }
+  },
+  "services": {
+    "unlimited_call": "Miễn phí cước gọi trong vòng 10 phút. Sau 10 phút cước gọi sẽ được tính theo giá 10 Yên/ 30 giây",
+    "extra_data": "Cho phép mua thêm dung lượng tốc độ cao, với giá 1200¥ mỗi 500MB và tối đa 1 tháng mua được 3GB",
+    "mnp": "Cho phép chuyển đổi mạng cung cấp dịch vụ từ nhà mạng khác sang Sim Vàng mà vẫn giữ được số điện thoại hiện tại của mình."
+  },
+  "questions": [{
+    "question": "SIM VÀNG có phát Wifi (Tethering) được không?",
+    "answer": "Nếu điện thoại có chức năng Tethering và cài đặt được điểm phát sóng (APN) thì có thể phát Wifi cho thiết bị khác miễn phí."
+  },{
+    "question": "SIM VÀNG có gửi tin nhắn SMS không?",
+    "answer": "Sim nghe gọi, thì có sẵn chức năng gửi SMS. Sim data thì nếu quý khách đăng ký có gói dịch vụ SMS đính kèm ( + 150 yên/ tháng) thì có thể sử dụng được chức năng SMS."
+  },{
+    "question": "SIM VÀNG có thể dùng được mail chuyên dụng không?",
+    "answer": "Dịch vụ của chúng tôi không cung cấp mail chuyên dụng. Nếu quý khách dùng MNP để chuyển dịch vụ từ 3 nhà mạng lớn sang thì địa chỉ mail của các nhà mạng này cũng sẽ không sử dụng được nữa."
+  },{
+    "question": "Thông tin đăng ký, tình trạng sử dụng có thể xác nhận, thay đổi và in ra ở đâu?",
+    "answer": "Xin hãy xem các thông tin này ở trang My page. * Chúng tôi sẽ không gửi thông tin hóa đơn qua bưu điện nên các thông tin liên quan đến tình trạng sử dụng xin xem ở My page."
+  },{
+    "question": "SIM VÀNG có điều khoản hủy hợp đồng dưới 2 năm thì phải trả tiền vi phạm hợp đồng không?",
+    "answer": "Với Sim nghe gọi thì tối thiểu khách hàng phải sử dụng 1 năm, trong vòng 1 năm mà hủy hợp đồng thì chúng tôi sẽ yêu cầu trả tiền vi phạm hợp đồng.  Với Sim Data thì không hạn chế thời gian hợp đồng, nhưng nếu khách hàng cắt hợp đồng giữa tháng thì chúng tôi vẫn sẽ thu phí của tháng đang sử dụng."
+  },{
+    "question": "Với Sim nghe gọi thì tôi có thể chọn số khi đăng ký không?",
+    "answer": "Chúng tôi không cung cấp dịch vụ chọn số, số sẽ do hệ thống tự chọn ngẫu nhiên."
+  },{
+    "question": "Tôi có thể vào mạng, gửi mail hay gọi điện ở nước ngoài không?",
+    "answer": "Chúng tôi không cung cấp dịch vụ ở ngoài Nhật Bản.  Với các dịch vụ có thể sử dụng qua internet thì quý khách có thể sử dụng Wifi."
+  },{
+    "question": "Nếu sử dụng hết dung lượng tháng thì có phải sẽ không sử dụng được mạng nữa đúng không?",
+    "answer": "Quý khách vẫn sử dụng được mạng với tốc độ thấp. Mặt khác, quý khách có thể mua thêm dung lượng để sử dụng."
+  },{
+    "question": "SIM VÀNG có dịch vụ gọi điện miễn phí không?",
+    "answer": "Nếu quý khách mua thêm gói gọi không giới hạn 10 phút ( + 850 yên/tháng) thì quý khách có thể thực hiện các cuộc gọi dưới 10 phút mầ không bị tính cước gọi."
+  },{
+    "question": "Tôi có thể sử dụng bất kỳ điện thoại thông minh (Android / iPhone) nào đúng không?",
+    "answer": "Bất kỳ điện thoại nào của hãng DOCOMO, hoặc điện thoại SIM Free, Unlook SIM đều có thể sử dụng được. Nếu quý khách sử dụng điện thoại của nước ngoài, hãy chọn những điện thoại có dấu [UL Japan]. Thêm vào đó, những điện thoại chỉ dùng được 3G thì sẽ không dùng được mạng tốc độ cao."
+  },{
+    "question": "Tôi có xem số điện thoại và số Seria của mình ở đâu?",
+    "answer": "Quý khách có thể tìm thấy nó trên thẻ SIM hoặc trên bao bì thẻ SIM. Quý khách cũng có thể kiểm tra nó trên My page, nhưng nếu không thể đăng nhập vào My page thì quý khách sẽ cần bao bì thẻ SIM để liên lạc tới trung tâm chăm sóc khách hàng của chúng tôi."
+  },{
+    "question": "Nếu muốn thay đổi nội dung hợp đồng thì tôi hải làm gì?",
+    "answer": "Quý khách có thể thay đổi các gói dịch vụ tại My page. Nội dung thay đổi sẽ được cập nhật vào đầu tháng tiếp theo."
+  },{
+    "question": "Nếu muốn thay đổi nội dung hợp đồng thì tôi phải làm gì?",
+    "answer": "Quý khách có thể thay đổi các gói dịch vụ tại My page. Nội dung thay đổi sẽ được cập nhật vào đầu tháng tiếp theo. Nếu muốn chuyển đổi giữa Sim nghe gọi và Sim data thì quý khách cần gọi điện liên lạc tực tiếp với chúng tôi."
+  },{
+    "question": "Nếu muốn hủy hợp đồng thì tôi phải làm sao?",
+    "answer": "Quý khách có thể tiến hành hủy hợp dồng từ My page."
+  },{
+    "question": "Trong trường hợp làm mất SIM, tôi có thể tạm dừng dịch vụ được không?",
+    "answer": "Có, bạn có thể tạm dừng dịch vụ một thời gian. Vui lòng liên hệ với chúng tôi qua mục Liên hệ hỗ trợ trên Website."
+  },{
+    "question": "Có thời gian nào tôi không sử dụng được số điện thoại hay không?",
+    "answer": "Nếu bạn đăng ký MNP, sẽ mất vài phút khi đổi mạng. Lúc đó có thể không sử dụng được. Dù không thực hiện thao tác đổi mạng thì sau khi Sim được gửi tới địa chỉ của bạn từ 2 đến 5 ngày thì hệ thống cũng sẽ tự động tiến hành đổi mạng. Ngày đổi mạng cũng là ngày bạn kết thúc hợp đồng với nhà mạng cũ."
+  },{
+    "question": "Tôi không có quốc tịch Nhật thì có thể đăng ký số mới được không?",
+    "answer": "Nếu quý khách có địa chỉ tại Nhật thì quý khách có thể đăng ký dịch vụ."
+  },{
+    "question": "Tôi cần chú ý gì khi sử dụng MNP?",
+    "answer": "Trước khi tiến hành chuyển mạng dùng MNP, vui lòng đảm bảo rằng điện thoại của quý khách có thể sử dụng được dịch vụ (điện thoại của hãng DOCOMO, điện thoại SIM Free hay điện thoại Unlook SIM và bắt được dải tần dịch vụ của chúng tôi)."
+  },{
+    "question": "Tôi cần chú ý gì khi sử dụng MNP?",
+    "answer": "Trước khi tiến hành chuyển mạng dùng MNP, vui lòng đảm bảo rằng điện thoại của quý khách có thể sử dụng được dịch vụ (điện thoại của hãng DOCOMO, điện thoại SIM Free hay điện thoại Unlook SIM và bắt được dải tần dịch vụ của chúng tôi). Có thể đăng ký lấy Mã MNP từ nhà mạng đang sử dụng. Khi đăng ký dịch vụ chuyển mạng MNP thì hãy đảm bảo mã số MNP của quý vị còn thời hạn trên 10 ngày. Thêm và đó, thông tin đăng ký của MNP và thông tin đăng ký dịch vụ SIM VÀNG phải giống nhau."
+  },{
+    "question": "Tôi vẫn chưa đủ 20 tuổi thì có thể đăng ký được không?",
+    "answer": "Quý khách vẫn có thể đăng ký được nếu có sự đồng ý của phụ huynh. Ở Nhật, khi chưa đủ 20 tuổi quý khách chưa đăng ký được thẻ tín dụng nên có thể sử dụng thẻ tín dụng của phụ huynh."
+  },{
+    "question": "Mất bao lâu kể từ khi bắt đầu đăng ký đến khi sử dụng được Sim?",
+    "answer": "Tùy theo gói dịch vụ mà thời gian Sim được gửi tới sẽ khác nhau. * Nếu không đăng ký chuyển mạng MNP thì chỉ cần quý khách nhận được Sim thì sẽ có thể sử dụng dịch vụ được."
+  },{
+    "question": "Tôi đã tiến hành đăng ký APN rồi mà vẫn không vào mạng được.",
+    "answer": "Xin quý khách làm thử làm theo hướng dẫn ở đây."
+  },{
+    "question": "Tôi nên làm gì nếu câu hỏi của tôi không có ở đây?",
+    "answer": "Xin vui lòng gửi cho chúng tôi câu hỏi của bạn thông qua trang Liên hệ hỗ trợ."
+  }]
+}

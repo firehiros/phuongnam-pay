@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/* CSS Document */
+#dropmenu {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  float: right;
+}
+#dropmenu li {
+    width: 12.5%;
+    float: left;
+    padding: 0;
+    text-align: center;
+    color: #2e180b;
+}
+#dropmenu li a {
+  display: block;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 18px;
+  color: #2e180b;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#register #n_register {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+
+#register #n_register span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#bank #n_bank {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#card_balance #n_card_balance {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#card_balance #n_card_balance span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#bank #n_bank span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#credit #n_credit_card {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#credit #n_credit_card span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#credit #n_credit_card span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+.gmenu_inner {
+  margin-left: auto;
+  width: 96%;
+  display: -webkit-flex;
+  display: flex;
+}
+#transfer #n_transfer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#transfer #n_transfer span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#withdraw #n_withdraw {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#withdraw #n_withdraw span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#bank_register #n_bank_register {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#bank_register #n_bank_register span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#bank_withdraw #n_bank_withdraw {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#bank_withdraw #n_bank_withdraw span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#vc_withdraw #n_vc_withdraw {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#vc_withdraw #n_vc_withdraw span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#kyc #n_kyc {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#kyc_personal #n_kyc_personal {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#kyc #n_kyc span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #FFCB02;
+}
+#kyc_personal #n_kyc_personal span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #FFCB02;
+}
+#vc #n_vc {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#vc #n_vc span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+#card_charge #n_card_charge, #card_balance #n_card_balance {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  background-image: url(../img/header_arrow_ac.png);
+  background-repeat: no-repeat;
+}
+#card_charge #n_card_charge span, #card_balance #n_card_balance span {
+  border-bottom: 2px solid #FFCB01;
+  background-repeat: no-repeat;
+}
+.gmenu_inner .gmenu_box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.6%;
+    padding-top: 15px;
+}
+.gmenu_box .gmenu_list {
+    display: block;
+    top: auto;
+    margin-top: 10px;
+    color: #2E190B;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.gmenu_inner .gmenu_box a {
+  display: block;
+}
+#dropmenu li ul {
+  list-style: none;
+  position: absolute;
+  z-index: 100;
+  top: 150px;
+  left: 10%;
+  width: 80%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+#dropmenu li ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  color: #797979;
+  transition: .2s;
+  margin-bottom: 0px;
+  text-align: left;
+}
+#dropmenu ul li .nav_tittle {
+  display: block;
+  background-color: #FFFFFF;
+  width: 15.3%;
+  float: left;
+  height: 70px;
+  border-bottom: 5px solid #CCCCCC;
+  padding-top: 22px;
+  font-weight: bold;
+}
+#dropmenu li ul li a {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3B271A;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../img/header_arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-position: 0% 3px;
+}
+#dropmenu li ul li #pr {
+    color: hsla(21,100%,43%,1.00);
+    background-image: url(../img/hot.png);
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    padding-left: 23px;
+}
+#dropmenu > li:hover > a {
+  left: auto;
+  top: auto;
+  border-left-width: medium;
+  width: auto;
+}
+#dropmenu li ul li a:hover {
+    width: auto;
+    top: auto;
+    text-decoration: underline;
+}
+#dropmenu > li:hover > ul > li {
+    overflow: visible;
+    height: auto;
+    padding-bottom: 20px;
+}
+#dropmenu li ul li ul {
+  top: 0;
+  left: 100%;
+}
+#dropmenu li:last-child ul li ul {
+  left: -100%;
+  width: 100%;
+}
+#dropmenu li ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left-color: #454e08;
+}
+#dropmenu li:last-child ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: 200%;
+  margin-left: -20px;
+  border: 5px solid transparent;
+  border-right-color: #454e08;
+}
+#dropmenu li ul li:hover > ul > li {
+  overflow: visible;
+  height: 38px;
+}
+#dropmenu li ul li ul li a {
+  background: #616d0b
+}
+#dropmenu li:hover ul li ul li a:hover {
+  background: #535d09
+}
+@media screen and (max-width: 1100px) {
+  #dropmenu li ul {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+  }
+  #dropmenu li ul li .nav_tittle {
+    display: none;
+  }
+  #dropmenu li ul li a {
+    font-size: 13px;
+  }
+}
