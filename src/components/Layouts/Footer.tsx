@@ -77,7 +77,9 @@ const Component = ({ ...props }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/kyc.html">本人確認手順</a>
+                  <Link href="/kyc">
+                    <a>本人確認手順</a>
+                  </Link>
                 </li>
                 <li>
                   <Link href="/fee">
@@ -85,17 +87,19 @@ const Component = ({ ...props }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/terms.html">利用規約</a>
+                  <Link href="/terms">
+                    <a>利用規約</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/privacy.html">
-                    プライバシーポリシー
-                  </a>
+                  <Link href="/privacy">
+                    <a>プライバシーポリシー</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/tokushouhou.html">
-                    特定商取引法に基づく表示
-                  </a>
+                  <Link href="/tokushouhou">
+                    <a>特定商取引法に基づく表示</a>
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -106,9 +110,9 @@ const Component = ({ ...props }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/sitemap.html">
-                    サイトマップ
-                  </a>
+                  <Link href="/sitemap">
+                    <a>サイトマップ</a>
+                  </Link>
                 </li>
               </ul>
               {props.inner2 == 1 ? null : (
@@ -185,7 +189,7 @@ const Component = ({ ...props }) => {
       </div>
 
       <div id="page_top" style={{ display: "none" }}>
-        <Link href="/">
+        <Link href="#">
           <a></a>
         </Link>
       </div>

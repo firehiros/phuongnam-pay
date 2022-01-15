@@ -529,15 +529,15 @@ const Component = () => {
                         <br />
                         受付可能な書類の一覧は、以下のリンクより詳細をご確認ください。
                         <br />
-                        <a href="https://tiger-pay.com/jp/kyc_personal.html">
-                          本人確認書類の詳細
-                        </a>
+                        <Link href="/kyc_personal">
+                          <a>本人確認書類の詳細</a>
+                        </Link>
                         <br />
                         アカウントのアップグレード方法については、以下のリンクより詳細をご確認ください。
                         <br />
-                        <a href="https://tiger-pay.com/en/kyc.html">
-                          本人確認申請手順
-                        </a>
+                        <Link href="/kyc">
+                          <a>本人確認手順</a>
+                        </Link>
                       </p>
                     </li>
                     <li>

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#contents_inner #copy {
+    text-align: center;
+    background-color: hsla(348, 8%, 13%, 1.00);
+    color: hsla(0, 0%, 100%, 1.00);
+    font-size: 12px;
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+}
+
+#page_top {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    opacity: 0.6;
+    right: 0px;
+    bottom: 0px;
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    background-color: hsla(348,8%,13%,1.00);
+}
+
+#page_top a::before {
+    font-family: FontAwesome;
+    content: '▲';
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -20px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#page_top a::after {
+    content: 'PAGE TOP';
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.mainContents {
+	border-top: 5px solid #FFCB00;
+}
+
+.containerM {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tbl-table .tbl-row .tbl-cell {
+	padding: 16px 24px 16px 0;
+    border-right: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #686868;
+    border-color: #d1d1d1;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ededed;
+    text-align: left;
+}
+
+.sectionHeader h1, .sectionHeader h2 {
+    margin: 0 0px 0px 0;
+    font-size: 25px;
+    padding: 40px 0 0 0px;
+}
+
+.companySection .tbl-table {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.tbl-table {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-left: none;
+    border-right: none;
+    border-color: #d1d1d1;
+}
+
+.tbl-table {
+    display: table;
+}
+
+.tbl-table .tbl-group, .tbl-table .tbl-body {
+    display: table-row-group;
+}
+
+.tbl-table .tbl-row {
+    display: table-row;
+    border-bottom: 1px solid #ededed;
+}
+
+.tbl-table .tbl-row .tbl-th-cell {
+    font-weight: 900;
+    color: #000;
+}
+
+.tbl-table .tbl-cell {
+    display: table-cell;
+    border-right: 1px solid #ededed;
+    padding: 0 5px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	.container, .containerM {
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	
+	.tbl-table .tbl-row .tbl-cell {
+		padding: 10px 8px;
+	}
+}

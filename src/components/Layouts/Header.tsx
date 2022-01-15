@@ -198,12 +198,10 @@ const Component = ({ ...props }) => {
                         <a href="https://tiger-pay.com/jp/kyc.html" id="n_kyc">
                           <span>手順</span>
                         </a>{" "}
-                        <a
-                          href="https://tiger-pay.com/jp/kyc_personal.html"
-                          id="n_kyc_personal"
-                        >
-                          <span>書類詳細</span>
-                        </a>
+
+                        <Link href="/kyc_personal">
+                          <a>書類詳細</a>
+                        </Link>
                       </div>
                     </div>
                   </li>
@@ -410,12 +408,9 @@ const Component = ({ ...props }) => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://tiger-pay.com/jp/kyc_personal.html"
-                      className="close"
-                    >
-                      書類詳細
-                    </a>
+                      <Link href="/kyc_personal">
+                        <a>書類詳細</a>
+                      </Link>
                   </li>
                 </ul>
               </li>
