@@ -9,11 +9,6 @@ import Link from "next/link";
 // App Import
 import Header from "../components/Layouts/Header";
 import Footer from "../components/Layouts/Footer";
-import GoTop from "../components/Elements/GoTop";
-
-import Slider from "../components/Elements/Slider";
-import Menu from "../components/Elements/Menu";
-import Reversation from "../components/Elements/Reversation";
 
 const Component = () => {
   return (
@@ -27,8 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="PAY is an E-ware that supports credit card deposits, domestic banks and virtual currency deposits and withdrawals.
-It is the definitive edition of We handle legal tender such as yen, US dollar, euro and major virtual currencies, and there is no fee for exchange including virtual currencies! You can also withdraw ATMs with affiliated cards!"
+          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -39,31 +33,31 @@ It is the definitive edition of We handle legal tender such as yen, US dollar, e
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="https://tiger-pay.com/en/favicon/apple-touch-icon-180x180.png"
+          href="./favicon/apple-touch-icon-180x180.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://tiger-pay.com/en/favicon/icon-48x48.png"
+          href="./favicon/icon-48x48.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://tiger-pay.com/en/favicon/icon-32x32.png"
+          href="./favicon/icon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="https://tiger-pay.com/en/favicon/icon-16x16.png"
+          href="./favicon/icon-16x16.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="48x48"
-          href="https://tiger-pay.com/en/favicon/favicon.ico"
+          href="./favicon/favicon.ico"
         />
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
@@ -74,471 +68,8 @@ It is the definitive edition of We handle legal tender such as yen, US dollar, e
       <main>
         <div id="contents">
           <div id="contents_inner">
-            <div id="header">
-              <h1 className="pc_main">
-                <a href="https://tiger-pay.com/jp/">
-                  <img
-                    src="./img/tigerpay.png"
-                    width="2083"
-                    height="994"
-                    alt="S-WALLET"
-                  />
-                </a>
-              </h1>
-              <div id="header_menu">
-                <div id="sub_menu">
-                  <p className="to_business">
-                    <a href="https://tiger-pay.com/business/" target="_blank">
-                      事業者の方はこちら
-                    </a>
-                  </p>
-                  <p className="sponsor">
-                    <a href="https://tiger-pay.com/sponsor/" target="_blank">
-                      スポンサー活動
-                    </a>
-                  </p>
-                  <p className="open_btn">
-                    <a
-                      href="https://secure.tiger-pay.com/dashboard/register"
-                      target="_blank"
-                    >
-                      口座開設
-                    </a>
-                  </p>
-                  <p className="login_btn">
-                    <a href="https://secure.tiger-pay.com/" target="_blank">
-                      ログイン
-                    </a>
-                  </p>
-                  <p className="open_btn_sp">
-                    <a
-                      href="https://secure.tiger-pay.com/dashboard/register"
-                      target="_blank"
-                    >
-                      <img
-                        src="./img/header_news_icon.png"
-                        width="48"
-                        height="48"
-                        alt="口座開設"
-                      />
-                    </a>
-                  </p>
-                  <p className="login_btn_sp">
-                    <a href="https://secure.tiger-pay.com/" target="_blank">
-                      <img
-                        src="./img/header_login_icon.png"
-                        width="48"
-                        height="48"
-                        alt="ログイン"
-                      />
-                    </a>
-                  </p>
-                  <ul>
-                    <li>
-                      <a href="https://tiger-pay.com/jp/">日本語</a>
-                    </li>
-                    <li>
-                      <a href="https://tiger-pay.com/en/">Eng</a>
-                    </li>
-                  </ul>
-                  <div id="lang_sp">
-                    <p className="lang_icon">
-                      <a href="https://tiger-pay.com/jp/">
-                        <img
-                          src="./img/lang_jp_sp.png"
-                          width="60"
-                          height="60"
-                          alt="jp"
-                        />
-                      </a>
-                    </p>
-                    <p className="lang_icon">
-                      <a href="https://tiger-pay.com/en/">
-                        <img
-                          src="./img/lang_en_sp.png"
-                          width="60"
-                          height="60"
-                          alt="en"
-                        />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <nav id="gNav">
-                  <ul id="dropmenu">
-                    <li id="n_top">
-                      <a href="https://tiger-pay.com/jp/">TOP</a>
-                    </li>
-                    <li id="n_about">
-                      <a href="https://tiger-pay.com/jp/about.html">運営会社</a>
-                    </li>
-                    <li id="n_tiger">
-                      <a href="https://tiger-pay.com/jp/tiger.html">
-                        S-WALLETとは？
-                      </a>
-                    </li>
-                    <li id="n_partner">
-                      <a href="https://tiger-pay.com/jp/partner.html">
-                        パートナー
-                      </a>
-                    </li>
-                    <li id="n_depodit">
-                      <a
-                        href="https://tiger-pay.com/jp/#"
-                        style={{ borderWidth: "medium" }}
-                      >
-                        操作方法
-                      </a>
-                      <ul>
-                        <li>
-                          <div className="gmenu_inner">
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">
-                                アカウント
-                              </span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/register.html"
-                                id="n_register"
-                              >
-                                <span>登録手順</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">銀行</span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/bank_register.html"
-                                id="n_bank_register"
-                              >
-                                <span>銀行口座登録</span>
-                              </a>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/bank.html"
-                                id="n_bank"
-                              >
-                                <span>銀行入金</span>
-                              </a>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/bank_withdraw.html"
-                                id="n_bank_withdraw"
-                              >
-                                <span>銀行出金</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">
-                                プリペイドカード
-                              </span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/credit.html"
-                                id="n_credit_card"
-                              >
-                                <span>カード発行申請</span>
-                              </a>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/card_charge.html"
-                                id="n_card_charge"
-                              >
-                                <span>カードチャージ</span>
-                              </a>
-                              <a
-                                href="https://tiger-pay.com/jp/card_balance.html"
-                                id="n_card_balance"
-                              >
-                                <span>カード残高照会</span>
-                              </a>
-                              <a
-                                href="https://tiger-pay.com/campaign/"
-                                id="pr"
-                                target="_blank"
-                              >
-                                <span>25$ キャッシュバック</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">仮想通貨</span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/cc.html"
-                                id="n_vc"
-                              >
-                                <span>入金</span>
-                              </a>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/cc_withdraw.html"
-                                id="n_vc_withdraw"
-                              >
-                                <span>出金</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">その他</span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/payeasy.html"
-                                id="n_payeasy"
-                              >
-                                <span>ペイジー決済</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">両替</span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/transfer.html"
-                                id="n_transfer"
-                              >
-                                <span>両替方法</span>
-                              </a>{" "}
-                            </div>
-                            <div className="gmenu_box">
-                              {" "}
-                              <span className="gmenu_list">本人確認</span>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/kyc.html"
-                                id="n_kyc"
-                              >
-                                <span>手順</span>
-                              </a>{" "}
-                              <a
-                                href="https://tiger-pay.com/jp/kyc_personal.html"
-                                id="n_kyc_personal"
-                              >
-                                <span>書類詳細</span>
-                              </a>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="https://tiger-pay.com/jp/fee.html">
-                        手数料・処理時間
-                      </a>{" "}
-                    </li>
-                    <li>
-                      <a href="https://tiger-pay.com/jp/card.html">
-                        提携カード
-                      </a>{" "}
-                    </li>
-                    <li>
-                      <a
-                        href="https://support.tiger-pay.com/ja/"
-                        target="_blank"
-                      >
-                        よくある質問
-                      </a>{" "}
-                    </li>
-                  </ul>
-                  <div className="mask"></div>
-                </nav>
-              </div>
-            </div>
-            <nav className="Nav" role="navigation" aria-label="メインメニュー">
-              <h1 className="nav_taxt">
-                <img
-                  src="./img/tigerpay.png"
-                  width="2083"
-                  height="994"
-                  alt="S-WALLET"
-                />
-              </h1>
-              <p className="navbtn">
-                <a href="#" className="close">
-                  <span>メニューを開く</span>
-                </a>
-              </p>
-              <ul className="close" style={{ display: "none" }}>
-                <li>
-                  <a href="https://tiger-pay.com/jp/">TOP</a>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/jp/about.html">運営会社</a>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/jp/tiger.html">
-                    S-WALLETとは？
-                  </a>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/jp/partner.html">パートナー</a>
-                </li>
-                <li className="parent">
-                  <a href="#" className="close">
-                    操作方法
-                  </a>
-                  <ul className="submenu close">
-                    <li>
-                      <a
-                        href="https://tiger-pay.com/jp/register.html"
-                        className="close"
-                      >
-                        S-WALLET 登録手順
-                      </a>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>銀行</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/bank_register.html"
-                            className="close"
-                          >
-                            銀行口座 登録
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/bank.html"
-                            className="close"
-                          >
-                            銀行 入金
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/bank_withdraw.html"
-                            className="close"
-                          >
-                            銀行 出金
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>プリペイドカード</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/credit.html"
-                            className="close"
-                          >
-                            カード発行申請
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/card_charge.html"
-                            className="close"
-                          >
-                            カードチャージ
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/card_balance.html"
-                            className="close"
-                          >
-                            カード残高照会
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>仮想通貨</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/cc.html"
-                            className="close"
-                          >
-                            仮想通貨 入金
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/cc_withdraw.html"
-                            className="close"
-                          >
-                            仮想通貨 出金
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>その他</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/payeasy.html"
-                            className="close"
-                          >
-                            ペイジー決済
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>両替</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/transfer.html"
-                            className="close"
-                          >
-                            両替方法
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="parent">
-                      {" "}
-                      <a href="#" className="close">
-                        <span>本人確認</span>
-                      </a>
-                      <ul className="submenu close">
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/kyc.html"
-                            className="close"
-                          >
-                            手順
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://tiger-pay.com/jp/kyc_personal.html"
-                            className="close"
-                          >
-                            書類詳細
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/jp/fee.html">
-                    手数料・処理時間
-                  </a>
-                </li>
-                <li>
-                  <a href="https://tiger-pay.com/jp/card.html">提携カード</a>
-                </li>
-                <li>
-                  <a href="https://support.tiger-pay.com/ja/" target="_blank">
-                    よくある質問
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <Header />
+
             <div id="main_v">
               <div id="main_wrap">
                 <div id="main_v_inner">
@@ -603,7 +134,9 @@ It is the definitive edition of We handle legal tender such as yen, US dollar, e
                     さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもS-WALLETの導入」が可能です！東アジアを中心とした今後の展開から、新たなアセット管理・決済手段となる最新Eウォレットとして今後の期待が高まっています！
                   </p>
                   <p className="more_btn">
-                    <a href="https://tiger-pay.com/jp/tiger.html">READ MORE</a>
+                    <Link href="/swallet">
+                      <a>READ MORE</a>
+                    </Link>
                   </p>
                 </div>
                 <figure>
@@ -1097,95 +630,6 @@ It is the definitive edition of We handle legal tender such as yen, US dollar, e
         }}
       />
       <Script type="text/javascript" src="./js/jquery.min(2).js"></Script>
-
-      {/* <Header />
-
-      <main>
-
-        <ul id="banners_grid" className="clearfix">
-          <li>
-            <a href="menu-1.html" className="img_container">
-              <img src="/img/banners_cat_placeholder.jpg" data-src="/img/banner_1.jpg" alt="" className="lazy" />
-              <div className="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                <h3>Our Menu</h3>
-                <p>View Our Specialites</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="order-food.html" className="img_container">
-              <img src="/img/banners_cat_placeholder.jpg" data-src="/img/banner_2.jpg" alt="" className="lazy" />
-              <div className="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                <h3>Delivery</h3>
-                <p>Home delivery or take away food</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="gallery.html" className="img_container">
-              <img src="/img/banners_cat_placeholder.jpg" data-src="/img/banner_3.jpg" alt="" className="lazy" />
-              <div className="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                <h3>Inside Foores</h3>
-                <p>View the Gallery</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-
-
-        <div className="pattern_2">
-          <div className="container margin_120_100 home_intro">
-            <div className="row justify-content-center d-flex align-items-center">
-              <div className="col-lg-5 text-lg-center d-none d-lg-block" data-cue="slideInUp">
-                <figure>
-                  <img src="/img/home_1_placeholder.png" data-src="/img/home_1.jpg" width="354" height="440"
-                    alt="" className="img-fluid lazy" />
-                  <a href="https://www.youtube.com/watch?v=MO7Hi_kBBBg" className="btn_play" data-cue="zoomIn"
-                    data-delay="500"><span className="pulse_bt"><i className="arrow_triangle-right"></i></span></a>
-                </figure>
-              </div>
-              <div className="col-lg-5 pt-lg-4" data-cue="slideInUp" data-delay="500">
-                <div className="main_title">
-                  <span><em></em></span>
-                  <h2>Some words about us</h2>
-                  <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-                </div>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p><img src="/img/signature.png" width="140" height="50" alt="" className="mt-3" /></p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <Menu />
-
-        <div className="call_section lazy" data-bg="url(/img/bg_call_section.jpg)">
-          <div className="container clearfix">
-            <div className="row justify-content-center">
-              <div className="col-lg-5 col-md-6 text-center">
-                <div className="box_1" data-cue="slideInUp">
-                  <h2>Celebrate<span>a Special Event with us!</span></h2>
-                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                  <a href="contacts.html" className="btn_1 mt-3">Contact us</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <Reversation />
-      </main>
-
-      <Footer />
-      <GoTop /> */}
     </>
   );
 };

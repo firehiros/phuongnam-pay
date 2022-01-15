@@ -2,44 +2,10 @@
 import React from "react";
 import Script from "next/script";
 import Link from "next/link";
+
 const Component = ({ ...props }) => {
   return (
     <footer>
-      <div id="footer">
-        <div id="footer_wrap">
-          <div id="footer_banner">
-            <div id="footer_banner_inner">
-              <div id="footer_text_box">
-                <p id="footer_banner_text">
-                  <span className="title_small">
-                    速くて簡単、便利！最も安全な決済
-                  </span>
-                  <br />
-                  グローバル
-                  <br />
-                  イーウォレットの決定版
-                  <br />
-                  <span className="title_color">S-WALLET</span>
-                </p>
-                <p id="footer_inner_btn">
-                  <a
-                    href="https://secure.tiger-pay.com/dashboard/register"
-                    target="_blank"
-                  >
-                    <span className="btn_color">S-WALLET</span>口座開設
-                  </a>
-                </p>
-                <p id="footer_inner_btn2">
-                  <a href="https://secure.tiger-pay.com/" target="_blank">
-                    S-WALLETログイン
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="footer_wrap">
         <div id="footer_banner">
           <div id="footer_banner_inner">
@@ -86,15 +52,19 @@ const Component = ({ ...props }) => {
             <div id="footer_box">
               <ul>
                 <li>
-                  <a href="https://tiger-pay.com/jp/">TOP</a>
+                  <Link href="/">
+                    <a>TOP</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/about.html">運営会社</a>
+                  <Link href="/about">
+                    <a>運営会社</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://tiger-pay.com/jp/tiger.html">
-                    S-WALLETとは？
-                  </a>
+                  <Link href="/swallet">
+                    <a>S-WALLETとは？</a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://tiger-pay.com/business/">
@@ -162,12 +132,7 @@ const Component = ({ ...props }) => {
                     />
                   </li>
                   <li>
-                    <img
-                      src="./img/ie.png"
-                      width="225"
-                      height="225"
-                      alt="ie"
-                    />
+                    <img src="./img/ie.png" width="225" height="225" alt="ie" />
                   </li>
                 </ul>
               </div>
