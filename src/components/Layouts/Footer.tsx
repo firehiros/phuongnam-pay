@@ -53,19 +53,19 @@ const Component = ({ ...props }) => {
                 <br />
                 イーウォレットの決定版
                 <br />
-                <span className="title_color">TIGER PAY</span>
+                <span className="title_color">S-WALLET</span>
               </p>
               <p id="footer_inner_btn">
                 <a
                   href="https://secure.tiger-pay.com/dashboard/register"
                   target="_blank"
                 >
-                  <span className="btn_color">TIGER PAY</span>口座開設
+                  <span className="btn_color">S-WALLET</span>口座開設
                 </a>
               </p>
               <p id="footer_inner_btn2">
                 <a href="https://secure.tiger-pay.com/" target="_blank">
-                  TIGER PAYログイン
+                  S-WALLETログイン
                 </a>
               </p>
             </div>
@@ -79,7 +79,7 @@ const Component = ({ ...props }) => {
                   src="./img/footer_logo.png"
                   width="2083"
                   height="994"
-                  alt="TIGER PAY"
+                  alt="S-WALLET"
                 />
               </a>
             </figure>
@@ -93,7 +93,7 @@ const Component = ({ ...props }) => {
                 </li>
                 <li>
                   <a href="https://tiger-pay.com/jp/tiger.html">
-                    TIGER PAYとは？
+                    S-WALLETとは？
                   </a>
                 </li>
                 <li>
