@@ -30,7 +30,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 
@@ -46,7 +46,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #card_balance #n_card_balance {
@@ -54,7 +54,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #card_balance #n_card_balance span {
@@ -70,7 +70,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #credit #n_credit_card span {
@@ -92,7 +92,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #transfer #n_transfer span {
@@ -104,7 +104,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #withdraw #n_withdraw span {
@@ -119,7 +119,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #bank_register #n_bank_register span {
@@ -131,7 +131,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #bank_withdraw #n_bank_withdraw span {
@@ -143,7 +143,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #vc_withdraw #n_vc_withdraw span {
@@ -155,7 +155,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #kyc_personal #n_kyc_personal {
@@ -163,7 +163,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #kyc #n_kyc span {
@@ -185,7 +185,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #vc #n_vc span {
@@ -197,7 +197,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-bottom: 5px;
-  background-image: url(../img/header_arrow_ac.png);
+  background-image: url(../image/header_arrow_ac.png);
   background-repeat: no-repeat;
 }
 #card_charge #n_card_charge span, #card_balance #n_card_balance span {
@@ -267,7 +267,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    background-image: url(../img/header_arrow.png);
+    background-image: url(../image/header_arrow.png);
     background-repeat: no-repeat;
     background-size: auto 15px;
     padding-top: 0px;
@@ -278,7 +278,7 @@
 }
 #dropmenu li ul li #pr {
     color: hsla(21,100%,43%,1.00);
-    background-image: url(../img/hot.png);
+    background-image: url(../image/hot.png);
     background-repeat: no-repeat;
     background-size: auto 20px;
     padding-left: 23px;

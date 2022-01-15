@@ -103,7 +103,7 @@ body {
     font-family: "Noto Sans JP","メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
     line-height: 1.4;
     width: 100%;
-    /*overflow-y: hidden;*/
+    overflow: hidden!important;
 }
 body p {
     font-size: 16px;

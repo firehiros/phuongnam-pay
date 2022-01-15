@@ -248,6 +248,7 @@ var utils = (function () {
 	me.tap = function (e, eventName) {
 		var ev = document.createEvent('Event');
 		ev.initEvent(eventName, true, true);
+		ev = new CustomEvent(eventName, {"bubbles": true, "cancelable": true});
 		ev.pageX = e.pageX;
 		ev.pageY = e.pageY;
 		e.target.dispatchEvent(ev);

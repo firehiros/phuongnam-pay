@@ -44,7 +44,7 @@
   width: 20px;
   height: 25px;
 	text-align: center;
-	margin-top:-5px;
+	margin-top: -5px;
 }
 .Bnr .Bnr__img p.close a span{
   display: block;
@@ -55,7 +55,7 @@
 .Bnr .Bnr__img p.close a i{
   font-size: 20px;
   z-index: 888;
-  color: #fff;
+  color: saddlebrown;
 }
 @media screen and (max-width: 640px) {
 	.Bnr{
