@@ -228,7 +228,7 @@ footer a:hover{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background: url("../../../images/new_design/images/select_drop_bg.png") no-repeat right center,#fff;
+    background: url("../img/select_drop_bg.png") no-repeat right center,#fff;
     background-size: 24px;
     border: 1px solid #e5e5e5;
     width: 400px;

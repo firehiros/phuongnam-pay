@@ -1,17 +1,2 @@
 {
-  "app": {
-    "name": "Newhome: Telecom",
-    "version": "Version"
-  },
-  "navbar": {
-    "home": "Trang chủ",
-    "sim": "Sim 4G LTE",
-    "plan": "Giá cước",
-    "pocket": "Thiết bị phát sóng",
-    "faqs": "Góc hỏi đáp",
-    "news": "Tin tức",
-    "contact": "Thông tin liên hệ",
-    "about": "Về công ty",
-    "login": "Đăng nhập"
-  }
 }

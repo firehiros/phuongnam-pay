@@ -1,0 +1,119 @@
+var {
+    font-style: inherit;
+}
+
+*[lz-editable] {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+*[lz-editable]:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+audio[lz-editable] {
+    padding: 5px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+}
+
+.input3 {
+    color: #414a5b;
+    font-weight: 400;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #434c61;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.headwrap {
+    margin: 0 !important;
+}
+
+.bgred2 {
+    border: 1px solid #f1d281;
+    background: #f1d281;
+    background-image: none;
+    /*background-image: linear-gradient(to right,#9fed66, #6ae875);*/
+    color: #555;
+    font-weight: 600;
+    padding: 10px 45px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.red3 {
+    color: red !important;
+    font-weight: 700;
+}
+
+.input-title {
+    font-size: 1.3rem;
+}
+
+#header {
+    height: 212px;
+    border-bottom: none !important;
+    z-index: 999;
+}
+
+.headercolor {
+    height: 145px;
+    background: #ffffff;
+}
+
+header {
+    background: transparent !important;
+}
+
+.loginbox {
+    margin: 20px auto !important;
+}
+
+.loginbg {
+    /* height: 100% !important; */
+    margin-bottom: 40px;
+    background: none;
+    padding-top: 0px !important;
+}
+
+#footer {
+    background: #ffffff;
+    color: #272927;
+    position: relative;
+}
+
+footer a {
+    color: #272927;
+}
+
+#header-xs,
+#footer-xs {
+    background: #ffffff !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    /* .loginbox{margin-top: 100px !important;} */
+}
+
+@media screen and (max-width: 420px) {
+    .loginbg {
+        padding-top: 40px !important;
+    }
+
+    #footer-xs {
+        position: relative;
+    }
+}

@@ -2,14 +2,18 @@
 import React from "react";
 
 // Thirdparty Import
-import Script from "next/script";
 import Head from "next/head";
-import Link from "next/link";
+import Reaptcha from "reaptcha";
 
 // App Import
 import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
+  const [captcha, setCaptcha] = React.useState("");
+
+  const captchaOnChange = (value) => {
+    setCaptcha(value);
+  };
   return (
     <>
       <Head>
@@ -29,10 +33,38 @@ const Component = () => {
         <link rel="stylesheet" type="text/css" href="./css/common.css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/custom.min.css" />
-        <link rel="stylesheet" type="text/css" href="./css/reboot.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/front.css" />
         <link rel="stylesheet" type="text/css" href="./css/change.css" />
-        <link rel="stylesheet" type="text/css" href="./css/colorpicker.css" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="../favicon/apple-touch-icon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-48x48.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="../favicon/icon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="../favicon/favicon.ico"
+        />
         <script src="./js/gtm.js"></script>
         <script src="./js/jquery.min.js"></script>
         <script type="text/javascript" src="./js/common.js"></script>
@@ -78,13 +110,16 @@ const Component = () => {
                         type="email"
                         name="email"
                         className="input2 mb10"
-                        value=""
                       />
                       <br />
                       <p className="mb30" data-locale="enteremail">
                         Enter your email address you often used to create your
                         account
                       </p>
+                      <Reaptcha
+                        sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
+                        onVerify={captchaOnChange}
+                      />
                       <input
                         type="button"
                         id="btnSend"

@@ -2002,11 +2002,6 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nprogress@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
-  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
-
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -2419,6 +2414,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+reaptcha@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/reaptcha/-/reaptcha-1.7.3.tgz#a773ce1fc5228de8a2bb28495dfc0be0bda7b30b"
+  integrity sha512-j2+JvHssw8FO43aDMrL+Ylb0nlDJDRZNK2olpIMO1SQBkZO2S9c3+oTTJJFPjHznkpfN9RahKBl8NIeL4VHrWA==
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"

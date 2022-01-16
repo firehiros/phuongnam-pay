@@ -5,11 +5,22 @@ import React from "react";
 import Script from "next/script";
 import Head from "next/head";
 import Link from "next/link";
+import Reaptcha from "reaptcha";
 
 // App Import
 import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
+  const [captcha, setCaptcha] = React.useState("");
+
+  // Method
+  const captchaOnChange = (value) => {
+    setCaptcha(value);
+  };
+  const onSubmit = () => {
+    // const recaptchaValue = recaptchaRef?.current?.getValue();
+  };
+
   return (
     <>
       <Head>
@@ -29,10 +40,39 @@ const Component = () => {
         <link rel="stylesheet" type="text/css" href="./css/common.css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/custom.min.css" />
-        <link rel="stylesheet" type="text/css" href="./css/reboot.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/front.css" />
         <link rel="stylesheet" type="text/css" href="./css/change.css" />
-        <link rel="stylesheet" type="text/css" href="./css/colorpicker.css" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="../favicon/apple-touch-icon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-48x48.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="../favicon/icon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="../favicon/favicon.ico"
+        />
+
         <script src="./js/gtm.js"></script>
         <script src="./js/jquery.min.js"></script>
         <script type="text/javascript" src="./js/common.js"></script>
@@ -72,30 +112,28 @@ const Component = () => {
                 <p className=""></p>
 
                 <div className="input-item">
+                  <span data-locale="loginid">Login ID (Mail Address)</span>
                   <input
                     type="text"
                     className="input3"
                     name="user_id"
                     id="user_id"
-                    value=""
                   />
-                  <span className="input-title" data-locale="loginid">
-                    Login ID (Mail Address)
-                  </span>
                 </div>
 
                 <div className="input-item">
+                  <span data-locale="password">Password</span>
                   <input
                     type="password"
                     className="input3"
                     name="real_password"
                     id="real_password"
-                    value=""
                   />
-                  <span className="input-title" data-locale="password">
-                    Password
-                  </span>
                 </div>
+                <Reaptcha
+                  sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
+                  onVerify={captchaOnChange}
+                />
 
                 <p>
                   <input
@@ -106,7 +144,7 @@ const Component = () => {
                     data-locale="loginbutton"
                     className="btn btnbig bgred w100p"
                     value="Login"
-                  /> 
+                  />
                 </p>
                 <p className="mt30">
                   <Link href="/secure/forgot">
@@ -116,7 +154,6 @@ const Component = () => {
                     <a className="red rfloat">Sign-up</a>
                   </Link>
                 </p>
-                <div className="cb"></div>
               </form>
             </div>
           </div>

@@ -2,14 +2,18 @@
 import React from "react";
 
 // Thirdparty Import
-import Script from "next/script";
 import Head from "next/head";
-import Link from "next/link";
+import Reaptcha from "reaptcha";
 
 // App Import
 import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
+  const [captcha, setCaptcha] = React.useState("");
+
+  const captchaOnChange = (value) => {
+    setCaptcha(value);
+  };
   return (
     <>
       <Head>
@@ -20,11 +24,7 @@ const Component = () => {
         <meta name="format-detection" content="telephone=no" />
         <title>Create Fast Account | S-WALLET</title>
         <link rel="stylesheet" type="text/css" href="./css/c3.min.css" />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="./css/swiper.min.css"
-        />
+        <link rel="stylesheet" type="text/css" href="./css/swiper.min.css" />
         <link
           rel="stylesheet"
           type="text/css"
@@ -32,22 +32,38 @@ const Component = () => {
         />
         <link rel="stylesheet" type="text/css" href="./css/common.css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="./css/custom.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="./css/reboot.min.css"
-        />
+        <link rel="stylesheet" type="text/css" href="./css/custom.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/front.css" />
         <link rel="stylesheet" type="text/css" href="./css/change.css" />
+
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="./css/colorpicker.css"
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="../favicon/apple-touch-icon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-48x48.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../favicon/icon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="../favicon/icon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="48x48"
+          href="../favicon/favicon.ico"
         />
         <script src="./js/gtm.js"></script>
         <script src="./js/jquery.min.js"></script>
@@ -95,7 +111,8 @@ const Component = () => {
               ※In order to upgrade account, you need to upload KYC or KYB
               documents on the upgrade account page after login.
               <br />
-              ※Each individual or corporate is only allowed to open one S-WALLET account.
+              ※Each individual or corporate is only allowed to open one S-WALLET
+              account.
               <br />
               ※Account name cannot be changed. Account upgrade will be based on
               the Quick Account level.
@@ -122,68 +139,16 @@ const Component = () => {
                     <span data-locale="emailaddress">Email Address</span>
                   </div>
                   <div className="col-12 col-md-9">
-                    <input
-                      type="email"
-                      name="email"
-                      className="input2 mb10"
-                      value=""
-                    />
+                    <input type="email" name="email" className="input2 mb10" />
                     <br />
                     <p className="mb30" data-locale="suremail">
                       Please make sure that provided email address is valid and
                       functional
                     </p>
-                    <input type="hidden" id="type" name="type" value="" />
-                    <input
-                      type="hidden"
-                      id="browe_language"
-                      name="browe_language"
-                      value="en"
+                    <Reaptcha
+                      sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
+                      onVerify={captchaOnChange}
                     />
-                    <input
-                      type="hidden"
-                      id="agent_code"
-                      name="agent_code"
-                      value=""
-                    />
-                    <div
-                      className="g-recaptcha"
-                      data-sitekey=" 6Ldaw-4UAAAAAI6Qsm9LlDjniNkf7BAhEiMwNevC "
-                    >
-                      <div style={{ width: "304px", height: "78px" }}>
-                        <div>
-                          <iframe
-                            title="reCAPTCHA"
-                            src="./sss/anchor.html"
-                            width="304"
-                            height="78"
-                            role="presentation"
-                            name="a-4xho64aznzqi"
-                            frameBorder="0"
-                            scrolling="no"
-                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                          ></iframe>
-                        </div>
-                        <textarea
-                          id="g-recaptcha-response"
-                          name="g-recaptcha-response"
-                          className="g-recaptcha-response"
-                          style={{
-                            width: "250px",
-                            height: "40px",
-                            border: "1px solid rgb(193, 193, 193)",
-                            margin: "10px 25px",
-                            padding: "0px",
-                            resize: "none",
-                            display: "none",
-                          }}
-                        ></textarea>
-                      </div>
-                      <iframe
-                        style={{ display: "none" }}
-                        src="./fsdf/saved_resource.html"
-                      ></iframe>
-                    </div>
                     <input
                       type="button"
                       id="btnInput"
