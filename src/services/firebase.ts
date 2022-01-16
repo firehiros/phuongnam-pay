@@ -8,18 +8,10 @@ export const registerWithEmail = async (email: string) => {
   const actionCodeSettings = {
     // URL you want to redirect back to. The domain (www.example.com) for this
     // URL must be in the authorized domains list in the Firebase Console.
-    url: "https://www.example.com/finishSignUp?cartId=1234",
+    url: "https://9f44-2001-f70-a280-d00-25f-00-1003.ngrok.io/",
     // This must be true.
     handleCodeInApp: true,
-    iOS: {
-      bundleId: "com.example.ios",
-    },
-    android: {
-      packageName: "com.example.android",
-      installApp: true,
-      minimumVersion: "12",
-    },
-    dynamicLinkDomain: "example.page.link",
+    // dynamicLinkDomain: "9f44-2001-f70-a280-d00-25f-00-1003.ngrok.io",
   };
 
   sendSignInLinkToEmail(auth, email, actionCodeSettings)

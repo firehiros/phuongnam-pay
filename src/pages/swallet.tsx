@@ -286,7 +286,7 @@ const Component = () => {
                           <th>銀行振込（日本）</th>
                           <td>
                             <img
-                              src="./img/bank_logo.png"
+                              src="./img/bank_logo.svg"
                               width="250"
                               height="auto"
                               alt="住信SBIネット銀行"
@@ -295,7 +295,7 @@ const Component = () => {
                         </tr>
                         <tr>
                           <th>銀行振込（国際）</th>
-                          <td>※フィリピンにおける銀行（通貨によって異なる）</td>
+                          <td>※準備中</td>
                         </tr>
                         <tr>
                           <th>暗号通貨</th>
@@ -347,7 +347,7 @@ const Component = () => {
                           <th>銀行振込（日本）</th>
                           <td>
                             <img
-                              src="./img/bank_logo.png"
+                              src="./img/bank_logo.svg"
                               width="250"
                               height="auto"
                               alt="住信SBIネット銀行"
@@ -356,7 +356,7 @@ const Component = () => {
                         </tr>
                         <tr>
                           <th>銀行振込（国際）</th>
-                          <td>※フィリピンにおける銀行（通貨によって異なる）</td>
+                          <td>※準備中</td>
                         </tr>
                         <tr>
                           <th>暗号通貨</th>

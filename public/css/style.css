@@ -125,7 +125,7 @@ body {
   padding-bottom: 5px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #ffcb00;
+  background-color: #008080;
   color: #231f20;
   margin-right: 0px;
   font-size: 13px;
@@ -144,7 +144,7 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   width: auto;
-  border: 3px solid #FFCB01;
+  border: 3px solid #008080;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -180,7 +180,7 @@ body {
   text-decoration: underline;
 }
 #not_header {
-  border-top: 5px solid #FFCB01;
+  border-top: 5px solid #008080;
   margin-top: 5px;
 }
 #coming_soon {
@@ -206,7 +206,7 @@ body {
 #coming_soon #coming_soon_inner h3 {
   font-size: 18px;
   text-align: center;
-  color: #FFCB01;
+  color: #008080;
   margin-top: 20px;
 }
 #coming_soon #coming_soon_inner p {
@@ -334,7 +334,7 @@ body {
   background-color: #FFFFFF;
 }
 #register_flow {
-  border-top: 5px solid #ffcb00;
+  border-top: 5px solid #008080;
   margin-top: 5px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -421,7 +421,7 @@ body {
 }
 #about_inner .about1 h4 {
     font-size: 18px;
-    color: #d17e12;
+    color: #ffffff;
     margin-bottom: 4%;
 }
 #about .about1 dl dt {
@@ -490,7 +490,7 @@ body {
   background-image: url(../img/tiger_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #terms_title {
   float: none;
@@ -499,7 +499,7 @@ body {
   background-image: url(../img/terms_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #privacy_title {
   float: none;
@@ -508,7 +508,7 @@ body {
   background-image: url(../img/privacy_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #about_title {
   float: none;
@@ -517,7 +517,7 @@ body {
   background-image: url(../img/about_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #partner_title {
   float: none;
@@ -526,7 +526,7 @@ body {
   background-image: url(../img/partner_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #card_title {
   float: none;
@@ -535,7 +535,7 @@ body {
   background-image: url(../img/debit_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #news_title {
   float: none;
@@ -544,7 +544,7 @@ body {
   background-image: url(../img/news_titlebg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #faq_title {
   float: none;
@@ -553,7 +553,7 @@ body {
   background-image: url(../img/faq_titlebg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #fee_title {
   float: none;
@@ -562,7 +562,7 @@ body {
   background-image: url(../img/fee_title_bg.png);
   background-size: cover;
   background-position: center center;
-  border-top: 5px solid #FFCB00;
+  border-top: 5px solid #008080;
 }
 #fee_inner {
     width: 100%;
@@ -672,7 +672,7 @@ body {
   background-color: #f5f5f5;
 }
 .q_title, .p_title, .b_title {
-  color: #d17e12;
+  color: #ffffff;
   font-size: 120%;
   font-weight: 900;
   letter-spacing: 1px;
@@ -990,7 +990,7 @@ body {
 #tiger_about_inner .about_box h4 {
   text-align: center;
   font-size: 16px;
-  color: #d17e12;
+  color: #ffffff;
   line-height: 1.7em;
   margin-bottom: 20px;
 }
@@ -1140,7 +1140,7 @@ body {
 }
 #tiger_about6 #tiger_about_inner6 h4 {
   font-size: 18px;
-  color: #d17e12;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 #tiger_about_inner6 dl dt {
@@ -1166,7 +1166,7 @@ body {
 #tiger_about_inner5 #card_text h4 {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #d17e12;
+  color: #ffffff;
 }
 #tiger_about_inner5 #card_text p {
   font-size: 14px;
@@ -1208,7 +1208,7 @@ body {
 }
 .partner_first p a {
   color: #000;
-  border-bottom: 2px solid #ffcb00;
+  border-bottom: 2px solid #008080;
 }
 #about_inner .about1 .prh3 {
   clear: both;
@@ -1241,7 +1241,7 @@ body {
   box-shadow: none;
 }
 .partner_flow .pr_box h4 {
-  background-color: #ffcc00;
+  background-color: #008080;
   padding: 6% 10%;
   font-weight: bold;
 }
@@ -1249,7 +1249,7 @@ body {
   color: #fff;
 }
 #about_inner .partner_flow .pr_box p {
- background-color: #f3e3a6;
+ background-color: #20B2AA;
   padding: 6% 10%;
   height: auto;
   margin-bottom: 0;
@@ -1262,7 +1262,7 @@ body {
 .app_btn a {
   padding: 2.7% 15%;
   text-align: center;
-  background-color: #ffcb00;
+  background-color: #008080;
   border: 1px solid #333;
   color: #231f20;
   font-size: 13px;
@@ -1326,13 +1326,13 @@ body {
 #card_flow_box .card_flow_inner h5 {
   text-align: center;
   font-size: 16px;
-  color: #d17e12;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 #card_flow_box .card_flow_inner p {
   font-size: 14px;
   text-align: center;
-  color: #d17e12;
+  color: #ffffff;
   margin-top: 10px;
 }
 #card_flow_box #card_flow_arrow {
@@ -1390,7 +1390,7 @@ body {
 }
 #about_inner2 .about_inner2_box h3 {
   font-size: 16px;
-  color: #d17e12;
+  color: #ffffff;
   margin-left: 20%;
   text-align: center;
 }
@@ -1454,7 +1454,7 @@ body {
     box-sizing: border-box;
     background-position: center center;
     clear: both;
-    border-top: 5px solid #FFCB00;
+    border-top: 5px solid #008080;
     background-image: url(../img/tigerpay_mainbg.png);
     background-color: #555246;
 }
@@ -1551,7 +1551,7 @@ body {
   background-size: 20px auto;
 }
 #support #support_btn a:hover {
-  color: #FFCB02;
+  color: #008080;
   text-align: center;
   background-image: url(../img/support_arrow.png);
 }
@@ -1564,7 +1564,7 @@ body {
   font-size: 18px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #FFCB01;
+  background-color: #008080;
 }
 #faq_wrap .faq_box {
   width: 1100px;
@@ -1574,10 +1574,10 @@ body {
   margin-bottom: 50px;
 }
 .title_color {
-  color: #FFCC01;
+  color: #008080;
 }
 a .btn_color {
-  color: #FFCC01;
+  color: #008080;
 }
 a:hover .btn_color {
   color: hsla(0, 0%, 100%, 1.00);
@@ -1602,7 +1602,7 @@ a:hover .btn_color {
   box-shadow: 0px 0px;
   font-size: 16px;
   font-weight: bold;
-  border: 2px solid #FFCB00;
+  border: 2px solid #008080;
   margin-top: 30px;
   letter-spacing: 1px;
 }
@@ -1769,7 +1769,7 @@ a:hover .btn_color {
   margin-top: 30px;
   -webkit-box-shadow: 0px 0px;
   box-shadow: 0px 0px;
-  background-color: #ffcb00;
+  background-color: #008080;
 }
 #kyc_box #kyc_btn a:hover {
   display: block;
@@ -1838,7 +1838,7 @@ a:hover .btn_color {
 }
 
 .store_card_box:hover{
-  border: 2px solid #FFCC01;
+  border: 2px solid #008080;
   box-shadow: 2px 2px 10px 0 rgba(255,204,1,0.35);
 }
 
@@ -1890,7 +1890,7 @@ a:hover .btn_color {
   box-shadow: 0px 0px;
   margin-top: 10px;
   text-align: center;
-  border: 2px solid hsla(48, 100%, 50%, 1.00);
+  border: 2px solid hsla(180, 100%, 25%, 1.00);
   letter-spacing: 1px;
 }
 #footer_inner_btn2 a {
@@ -1906,9 +1906,9 @@ a:hover .btn_color {
   box-shadow: 0px 0px;
   margin-top: 20px;
   text-align: center;
-  border: 2px solid hsla(48, 100%, 50%, 1.00);
+  border: 2px solid hsla(180, 100%, 25%, 1.00);
   letter-spacing: 1px;
-  background-color: #FFCC01;
+  background-color: #008080;
 }
 #footer_inner_btn2 a:hover {
   display: inline-block;
@@ -2241,7 +2241,7 @@ div .flow_img img {
 div .flow_text h3 {
   font-size: 32px;
   font-weight: bold;
-  color: #ffcb00;
+  color: #008080;
 }
 div .flow_text p {
   font-size: 16px;
@@ -2363,7 +2363,7 @@ div .flow_text p {
 #flow_inner #flow_left h2 {
   width: 90%;
   font-size: 24px;
-  color: #d17e12;
+  color: #ffffff;
   margin-bottom: 30px;
   position: relative;
   line-height: 1.7em;
@@ -2948,7 +2948,7 @@ h2:after {
   padding-bottom: 30px;
 }
 .yellow {
-  color: #FFCB02;
+  color: #008080;
 }
 #register_flow #flow_boxinner .flow_arrow {
   width: 12.5%;
@@ -3135,7 +3135,7 @@ h2:after {
   height: 120px;
 }
 .scene_box h3 {
-  background-color: hsla(46, 99%, 49%, 0.82);
+  background-color: hsla(180, 100%, 25%, 0.82);
 	-webkit-box-shadow: 0px 0px 5px #D6D6D6;
 	padding: 12px 1%;
 	box-shadow: 0px 0px 5px #D6D6D6;
@@ -3536,7 +3536,7 @@ h2:after {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #d17e12;
+  color: #ffffff;
 }
 .n_about3_box dl dd {
   line-height: 1.7em;
@@ -3604,7 +3604,7 @@ h2:after {
 }
 #n_tiger_about_inner6 p a {
   text-decoration: underline;
-  color: #DD7701;
+  color: #20B2AA;
 }
 #personal1 {
   background-image: url(../img/tiger_list5.png);
@@ -3625,7 +3625,7 @@ h2:after {
 }
 .n_about3_box2 h5 {
   font-size: 18px;
-  color: #d17e12;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .n_about3_box2 table {
@@ -3665,7 +3665,7 @@ h2:after {
   width: 25%;
   font-size: 16px;
   font-weight: bold;
-  color: #DD7701;
+  color: #20B2AA;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -3694,7 +3694,7 @@ h2:after {
 }
 .about6_box dl dt {
   font-size: 16px;
-  color: #DD7701;
+  color: #20B2AA;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -4204,7 +4204,7 @@ h2:after {
   }
   #contents #contents_inner #main_v_sp {
     display: block;
-    border-top: 5px solid #FFCB01;
+    border-top: 5px solid #008080;
   }
   #contents_inner #main_v_sp img {
     width: 100%;
