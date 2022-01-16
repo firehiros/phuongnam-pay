@@ -10,7 +10,7 @@ const Component = ({ ...props }) => {
   return (
     <header>
       <div id="header">
-        <h1 className="pc_main">
+        {/* <h1 className="pc_main">
           <a href="/">
             <img
               src="./img/tigerpay.png"
@@ -19,7 +19,7 @@ const Component = ({ ...props }) => {
               alt="S-WALLET"
             />
           </a>
-        </h1>
+        </h1> */}
         <div id="header_menu">
           <div id="sub_menu">
             <p className="to_business">

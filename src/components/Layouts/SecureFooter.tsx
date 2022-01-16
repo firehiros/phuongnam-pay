@@ -37,13 +37,13 @@ const Component = ({ ...props }) => {
               </li>
             </ul>
           </nav>
-          <p className="text-center">
+          {/* <p className="text-center">
             <Link href="/secure/login">
               <a>
                 <img src="./img/logo-alpha.png" alt="" width="100px;" />
               </a>
             </Link>
-          </p>
+          </p> */}
           <p className="copyright">
             {" "}
             Copyright © S-WALLET All Rights Reserved.{" "}
@@ -82,13 +82,13 @@ const Component = ({ ...props }) => {
             </ul>
           </nav>
 
-          <p className="text-center">
+          {/* <p className="text-center">
             <Link href="/secure/login">
               <a>
                 <img src="./img/logo-alpha.png" alt=""/>
               </a>
             </Link>
-          </p>
+          </p> */}
           <p className="copyright">
             {" "}
             Copyright © S-WALLET All Rights Reserved.{" "}

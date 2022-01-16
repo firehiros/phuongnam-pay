@@ -92,14 +92,14 @@ const Component = () => {
                     </a>
                   </p>
                 </div>
-                <figure>
+                {/* <figure>
                   <img
                     src="./img/main_v.png"
                     width="1383"
                     height="1202"
                     alt="S-WALLET"
                   />
-                </figure>
+                </figure> */}
               </div>
             </div>
             <div id="main_v_sp">

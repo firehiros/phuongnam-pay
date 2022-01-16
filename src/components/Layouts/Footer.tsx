@@ -38,7 +38,7 @@ const Component = ({ ...props }) => {
         </div>
         <div id="footer">
           <div id={props.inner2 == 1 ? "footer_inner2" : "footer_inner"}>
-            <figure>
+            {/* <figure>
               <a href="/">
                 <img
                   src="./img/footer_logo.png"
@@ -47,7 +47,7 @@ const Component = ({ ...props }) => {
                   alt="S-WALLET"
                 />
               </a>
-            </figure>
+            </figure> */}
             <div id="footer_box">
               <ul>
                 <li>

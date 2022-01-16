@@ -79,13 +79,13 @@ const Component = () => {
               <div className="headwrap">
                 <div className="hdL">
                   <h1>
-                    <a href="/secure/login">
+                    {/* <a href="/secure/login">
                       <img
                         src="./img/yourlogo.png"
                         alt="your logo"
                         className="img-responsive"
                       />
-                    </a>
+                    </a> */}
                   </h1>
                 </div>
               </div>

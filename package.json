@@ -11,6 +11,7 @@
     "@types/nprogress": "^0.2.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "firebase": "^9.6.3",
     "graphql": "^15.6.1",
     "i18next": "^21.3.2",
     "i18next-browser-languagedetector": "^6.1.2",

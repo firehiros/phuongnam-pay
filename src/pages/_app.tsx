@@ -9,6 +9,7 @@ import { useRouter } from 'next/router';
 
 // App import
 import '../i18n'
+import "../services/firebase"
 
 // Style Import
 

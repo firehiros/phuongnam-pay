@@ -6,14 +6,26 @@ import Head from "next/head";
 import Reaptcha from "reaptcha";
 
 // App Import
+import { registerWithEmail } from '../../services/firebase'
 import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
   const [captcha, setCaptcha] = React.useState("");
+  const [email, setEmail] = React.useState<string>("")
 
   const captchaOnChange = (value) => {
     setCaptcha(value);
   };
+
+  const emailOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(event.target.value)
+    setEmail(event.target.value)
+  }
+
+  const onSubmit = (event) => {
+    event.preventDefault()
+    if(email != "") registerWithEmail(email)
+  }
   return (
     <>
       <Head>
@@ -79,13 +91,13 @@ const Component = () => {
               <div className="headwrap">
                 <div className="hdL">
                   <h1>
-                    <a href="/secure/login">
+                    {/* <a href="/secure/login">
                       <img
                         src="./img/yourlogo.png"
                         alt="your logo"
                         className="img-responsive"
                       />
-                    </a>
+                    </a> */}
                   </h1>
                 </div>
               </div>
@@ -118,7 +130,7 @@ const Component = () => {
               the Quick Account level.
             </p>
             <div className="bgwhite mt30">
-              <form>
+              <form onSubmit={onSubmit}>
                 <div className="row">
                   <div className="col-12 col-md-3">
                     <span data-locale="accounttype">Applicant Type</span>
@@ -139,7 +151,7 @@ const Component = () => {
                     <span data-locale="emailaddress">Email Address</span>
                   </div>
                   <div className="col-12 col-md-9">
-                    <input type="email" name="email" className="input2 mb10" />
+                    <input type="email" name="email" className="input2 mb10" value={email} onChange={emailOnChange}/>
                     <br />
                     <p className="mb30" data-locale="suremail">
                       Please make sure that provided email address is valid and
@@ -150,7 +162,7 @@ const Component = () => {
                       onVerify={captchaOnChange}
                     />
                     <input
-                      type="button"
+                      type="submit"
                       id="btnInput"
                       className="btn bgred btnbig mb20"
                       data-locale="next"
