@@ -32,35 +32,6 @@ const Component = () => {
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>

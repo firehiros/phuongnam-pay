@@ -31,35 +31,6 @@ const Component = () => {
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>
@@ -80,7 +51,7 @@ const Component = () => {
                   <div className="card_about1 card_first">
                     <h3 id="card_head">プリペイド式デビットカード</h3>
                     <p>
-                      タイガーペイでは、タイガーペイアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。
+                      S-WALLETでは、S-WALLETアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。
                       <br />
                       なお、プリペイドカードへのチャージは [USD/JPY]
                       口座からご利用頂けます。(プリペイドカードのご利用にはお手続きが別途必要となります。)
@@ -139,7 +110,7 @@ const Component = () => {
                 <div id="about_inner2">
                   <h2>プリペイドカードを利用して決済</h2>
                   <p>
-                    タイガーペイのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
+                  S-WALLETのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
                   </p>
                   <div className="about_inner2_box card_icon1">
                     <h3>ATM出金</h3>

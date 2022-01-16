@@ -37,35 +37,6 @@ const Component = () => {
         />
         <link href="./css/business/css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>
         <script src="./js/iscroll.js"></script>
@@ -73,7 +44,7 @@ const Component = () => {
 
       <main id="business">
         <div id="header">
-          <p id="logo">
+          {/* <p id="logo">
             <a href="/">
               <img
                 src="./img/tiger_pay_logo.png"
@@ -82,7 +53,7 @@ const Component = () => {
                 alt="S-WALLET"
               />
             </a>
-          </p>
+          </p> */}
           <h1>S-WALLETのBusiness口座</h1>
           <ul>
             <li className="ofiice_link">
@@ -152,9 +123,9 @@ const Component = () => {
         </div>
         <div id="section3">
           <h2>S-WALLETの導入メリット</h2>
-          <h3>ビジネスを加速させるタイガーペイウォレット</h3>
+          <h3>ビジネスを加速させるS-WALLET</h3>
           <p className="merit_main">
-            オフラインのビジネスではキャッシュレス決済として、オンラインのビジネスでは「豊富な決済手段」をタイガーペイで一括導入が可能です。「クレジットカード」、「国内銀行振込」、「暗号通貨」決済をタイガーペイで導入してユーザビリティの向上を狙うことができます。
+            オフラインのビジネスではキャッシュレス決済として、オンラインのビジネスでは「豊富な決済手段」をS-WALLETで一括導入が可能です。「クレジットカード」、「国内銀行振込」、「暗号通貨」決済をS-WALLETで導入してユーザビリティの向上を狙うことができます。
             <br />
             また、「国際銀行送金」及び「通貨両替（エクスチェンジ）」もウォレット内で行うことができるので、国境を超えたビジネスでも幅広い国で1つのソリューションでグローバル決済まで可能になります。
           </p>
@@ -162,10 +133,10 @@ const Component = () => {
             <li>
               <figure>
                 <span>
-                  <img src="./img/bw01.png" alt="タイガーペイ導入" />
+                  <img src="./img/bw01.png" alt="S-WALLET導入" />
                 </span>
               </figure>
-              <h4>タイガーペイ導入</h4>
+              <h4>S-WALLET導入</h4>
               <p>
                 事業主様のビジネス形態に合わせて導入を行います。APIでのシステム統合も可能です。
               </p>
@@ -184,7 +155,7 @@ const Component = () => {
               </figure>
               <h4>顧客様が決済</h4>
               <p>
-                顧客様がタイガーペイを利用して、事業主様指定の通貨で決済を行います。
+                顧客様がS-WALLETを利用して、事業主様指定の通貨で決済を行います。
               </p>
             </li>
             <li className="no_arrow">

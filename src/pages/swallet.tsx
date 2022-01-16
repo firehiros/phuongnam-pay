@@ -29,35 +29,7 @@ const Component = () => {
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
+        
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>
@@ -76,7 +48,7 @@ const Component = () => {
               <div id="tiger_about_inner">
                 <h3>S-WALLETとは？</h3>
                 <p className="tiger_about_p">
-                  タイガーペイは、国際間のスムーズな送金や決済ソリューションをお求めの企業
+                  S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業
                   / 個人様の為の、通貨、仮想通貨をご利用いただけるE
                   ウォレットです。今までの複雑な国際銀行送金・決済手続きや履歴管理などに代わる、シンプルで迅速に行えるデジタルアセットプラットフォームを提供いたします。
                 </p>
@@ -276,7 +248,7 @@ const Component = () => {
             </div>
             <div id="tiger_about3">
               <div id="tiger_about_inner3">
-                <h3>タイガーペイのウォレット</h3>
+                <h3>S-WALLET</h3>
                 <h4>用途にあわせて選べる口座タイプ</h4>
                 <div className="about3_wrap">
                   <div className="n_about3_box" id="quicl1">
@@ -291,7 +263,7 @@ const Component = () => {
                     <dl>
                       <dt>Personal - パーソナル</dt>
                       <dd>
-                        本人確認手続きが完了するとタイガーペイのフル機能をご利用頂けます。
+                        本人確認手続きが完了するとS-WALLETのフル機能をご利用頂けます。
                       </dd>
                     </dl>
                   </div>
@@ -531,7 +503,7 @@ const Component = () => {
               <div id="tiger_about_inner5">
                 <h3>プリペイド式デビットカード</h3>
                 <p>
-                  タイガーペイでは、タイガーペイアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。なお、プリペイドカードへのチャージは
+                S-WALLETでは、S-WALLETアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。なお、プリペイドカードへのチャージは
                   [USD/JPY]
                   口座からご利用頂けます。（プリペイドカードのご利用にはお手続きが別途必要となります。）
                 </p>
@@ -553,7 +525,7 @@ const Component = () => {
                 </p>
                 <h4>プリペイドカードを利用して決済</h4>
                 <p>
-                  タイガーペイのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
+                S-WALLETのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
                 </p>
                 <ul className="about5_wrap">
                   <li id="atm_icon">
@@ -610,8 +582,7 @@ const Component = () => {
                     <dl>
                       <dt>送金API機能</dt>
                       <dd>
-                        ビジネスアカウントからタイガーペイユー
-                        ザー様へ送金を自動化できるAPIとなります。顧客様への送金などにご利用頂けます。
+                        ビジネスアカウントからS-WALLETユーザー様へ送金を自動化できるAPIとなります。顧客様への送金などにご利用頂けます。
                       </dd>
                     </dl>
                   </div>
@@ -630,7 +601,7 @@ const Component = () => {
                     <dl>
                       <dt>口座開設API</dt>
                       <dd>
-                        事業主様のビジネスの会員様に決済時にタイガーペイのアカウント開設を決済と同時に行う「API」となります。
+                        事業主様のビジネスの会員様に決済時にS-WALLETのアカウント開設を決済と同時に行う「API」となります。
                       </dd>
                     </dl>
                   </div>

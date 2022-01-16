@@ -29,35 +29,6 @@ const Component = () => {
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>
@@ -79,10 +50,7 @@ const Component = () => {
                   <div className="about1">
                     <h3>運営会社</h3>
                     <p>
-                      タイガーペイは、フィリピン法人のURBAN SQUARE
-                      PLUS社によって立ち上げられた新たなEウォレットブランドです。ジョージアに拠点を置くアンデックス社と提携し、2021年よりオープンしました。信頼できるパートナーであるPeso
-                      Forward
-                      社による送金サービスを連携し、資金のデジタル決済プラットフォームが実現しました。世界の基軸通貨に対応し、それぞれの地域におけるローカライズされたウォレットを目指していきます。さらにスピーディなアカウント開設に入出金、お支払い（決済）及び、国境の壁を超えた送金に対応いたします。「手数料が安く・スピーディな決済」をモットーにグローバルな範囲でご利用頂けるサービスをご提供いたします。
+                    S-Walletは、〇〇社によって立ち上げられた新たなEウォレットブランドです。世界の基軸通貨に対応し、それぞれの地域におけるローカライズされたウォレットを目指していきます。さらにスピーディなアカウント開設に入出金、お支払い（決済）及び、国境の壁を超えた送金に対応いたします。「手数料が安く・スピーディな決済」をモットーにグローバルな範囲でご利用頂けるサービスをご提供いたします。
                     </p>
                   </div>
 
@@ -108,11 +76,11 @@ const Component = () => {
                           <tbody>
                             <tr>
                               <th>ライセンス名</th>
-                              <td>HUALING KUTAISI LICENSE</td>
+                              <td></td>
                             </tr>
                             <tr>
                               <th>ライセンス番号</th>
-                              <td>0110295</td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -123,13 +91,11 @@ const Component = () => {
                           <tbody>
                             <tr>
                               <th>会社名</th>
-                              <td>株式会社アンノーン(Unoun, Inc.)</td>
+                              <td></td>
                             </tr>
                             <tr>
                               <th>住所</th>
-                              <td>
-                              〒103-0014 東京都中央区日本橋蛎殻町1-17-11 カナメビル5F新館,{" "}
-                              </td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
@@ -146,7 +112,7 @@ const Component = () => {
                           <tbody>
                             <tr>
                               <th>送金ライセンス</th>
-                              <td>MSB 6000522000000</td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>

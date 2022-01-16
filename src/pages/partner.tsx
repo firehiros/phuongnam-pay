@@ -31,35 +31,6 @@ const Component = () => {
         <link href="./css/default.css" rel="stylesheet" type="text/css" />
         <link href="./css/nav.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./css/font-awesome.min.css" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="./favicon/apple-touch-icon-180x180.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-48x48.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./favicon/icon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="./favicon/icon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="48x48"
-          href="./favicon/favicon.ico"
-        />
         <link href="./css/css" rel="stylesheet" />
         <script src="./js/jquery.min.js"></script>
         <script src="./js/menu.js"></script>
@@ -80,7 +51,7 @@ const Component = () => {
                   <div className="about1 partner_first">
                     <h3>パートナーズ</h3>
                     <p>
-                      タイガーペイでは、提携パートナーを募集しております。パートナー企業及び個人様向けのパートナープログラムをご用意しております。タイガーペイを決済導入いただける企業様ご紹介で報酬を得られるプランとなります。パートナーズ登録をご希望の企業及び個人様は「タイガーペイアカウント」を開設後、申請フォームをご記入頂き、お申し込みとなります。
+                    S-WALLETでは、提携パートナーを募集しております。パートナー企業及び個人様向けのパートナープログラムをご用意しております。S-WALLETを決済導入いただける企業様ご紹介で報酬を得られるプランとなります。パートナーズ登録をご希望の企業及び個人様は「S-WALLETアカウント」を開設後、申請フォームをご記入頂き、お申し込みとなります。
                       なお、提携パートナーへのご登録・ご相談は下記メールアドレスまでメールにてお問い合わせください。
                       <br />
                       <br />
@@ -95,7 +66,7 @@ const Component = () => {
                     <ul className="partner_flow">
                       <li className="pr_box">
                         <h4 className="prh4">パーソナル講座開設</h4>
-                        <p>まずはタイガーペイでの口座開設</p>
+                        <p>まずはS-WALLETでの口座開設</p>
                       </li>
                       <li className="pr_arrow"></li>
                       <li className="pr_box">
