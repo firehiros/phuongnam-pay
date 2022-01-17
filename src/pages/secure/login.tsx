@@ -2,19 +2,29 @@
 import React from "react";
 
 // Thirdparty Import
+import { useRouter } from 'next/router';
 import Script from "next/script";
 import Head from "next/head";
 import Link from "next/link";
 import Reaptcha from "reaptcha";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Modal, Button } from "react-bootstrap";
+import { login } from "../../services/firebase";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // App Import
-import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
+  const router = useRouter();
   const [captcha, setCaptcha] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [email, setEmail] = React.useState("");
+  const [show, setShow] = React.useState(false);
+  const [error, setError] = React.useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleOk= () => {
+    router.push("/")
+  }
 
   // Method
   const captchaOnChange = (value) => {
@@ -31,8 +41,15 @@ const Component = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    // const recaptchaValue = recaptchaRef?.current?.getValue();
-    console.log("FDSFDS", password, email);
+    setError(false)
+    login(email, password)
+      .then((userCredential) => {
+        setShow(true);
+      })
+      .catch(() => {
+        setShow(true);
+        setError(true)
+      });
   };
 
   return (
@@ -52,7 +69,6 @@ const Component = () => {
           href="./css/font-awesome.min.css"
         />
         <link rel="stylesheet" type="text/css" href="./css/common.css" />
-        <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/custom.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/front.css" />
         <link rel="stylesheet" type="text/css" href="./css/change.css" />
@@ -130,7 +146,7 @@ const Component = () => {
                     id="btnComplete"
                     data-i18n-value="Login"
                     data-locale="loginbutton"
-                    className="btn btnbig bgred w100p"
+                    className="btn btn-primary w100p mt-3"
                     value="Login"
                   />
                 </p>
@@ -146,45 +162,109 @@ const Component = () => {
             </div>
           </div>
         </div>
-        <div
-          className="modal fade bd-example-modal-sm"
-          role="dialog"
-          aria-labelledby="mySmallModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog modal-sm">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">Modal title</h5>
-                <button
-                  type="button"
-                  className="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                <p>Modal body text goes here.</p>
-              </div>
-              <div className="modal-footer">
-                <button type="button" className="btn btn-primary">
-                  Save changes
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-              </div>
-            </div>
+
+        <footer id="footer" className="d-xs-none">
+          <div className="container">
+            <nav>
+              <ul>
+                <li>
+                  <Link href="/about">
+                    <a>About Us</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms">
+                    <a>Terms and Conditions</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/fee">
+                    <a>Fee List</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tokushouhou">
+                    <a>Contact</a>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+            <p className="copyright">
+              {" "}
+              Copyright © S-WALLET All Rights Reserved.{" "}
+            </p>
           </div>
-        </div>
-        <Footer />
+        </footer>
+        <footer id="footer-xs" className="d-md-none">
+          <div className="container">
+            <nav>
+              <ul>
+                <li>
+                  <Link href="/about">
+                    <a>About Us</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms">
+                    <a>Terms and Conditions</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/fee">
+                    <a>Fee List</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tokushouhou">
+                    <a>Contact</a>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+
+            {/* <p className="text-center">
+            <Link href="/secure/login">
+              <a>
+                <img src="./img/logo-alpha.png" alt=""/>
+              </a>
+            </Link>
+          </p> */}
+            <p className="copyright">
+              {" "}
+              Copyright © S-WALLET All Rights Reserved.{" "}
+            </p>
+          </div>
+        </footer>
       </main>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header>
+          <Modal.Title>{error ? "ログイン失敗" :"ログインし成功"}</Modal.Title>
+        </Modal.Header>
+        {error ? (<Modal.Body>
+          <p>ログインに失敗しました</p>
+          <p>ログインID（メルアドレス）またはパスワードが間違いっているか、アカウント準備中などの理由によりログインできません。</p>
+        </Modal.Body>)
+        : (<Modal.Body>
+          <p>ログインしました</p>
+          <p>TOPページへ自動的に移動します</p>
+        </Modal.Body>)}
+
+        <Modal.Footer>
+          <Button variant={error ? "danger" : "primary"} onClick={error ? handleClose : handleOk}>
+            {error ? "キャンセル" : "OK"}
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 };

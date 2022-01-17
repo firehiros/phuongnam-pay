@@ -1,7 +1,11 @@
 import * as firebase from "firebase/app";
-import { getAuth, sendSignInLinkToEmail } from "firebase/auth";
+import { getAuth, sendSignInLinkToEmail, signInWithEmailAndPassword } from "firebase/auth";
 
 // App imports
+export const login = async (email: string, password: string) => {
+  const auth = getAuth();
+  return signInWithEmailAndPassword(auth, email, password)
+}
 
 export const registerWithEmail = async (email: string) => {
   const auth = getAuth();
