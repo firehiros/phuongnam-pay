@@ -1,0 +1,24 @@
+FROM nginx:alpine
+RUN apk --no-cache add curl
+RUN curl -L https://github.com/a8m/envsubst/releases/download/v1.1.0/envsubst-`uname -s`-`uname -m` -o envsubst && \
+    chmod +x envsubst && \
+    mv envsubst /usr/local/bin
+
+ADD ./heroku-exec.sh /app/.profile.d/heroku-exec.sh
+
+COPY ./nginx.config /etc/nginx/nginx.template
+
+RUN apk add --no-cache --repository http://nl.alpinelinux.org/alpine/edge/main libuv \
+    && apk add --no-cache --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main nodejs=16.13.2-r0 npm=8.3.0-r0 \
+    && apk add --no-cache --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community yarn=1.22.17-r0 \
+    && echo "NodeJS Version:" "$(node -v)" \
+    && echo "NPM Version:" "$(npm -v)" \
+    && echo "Yarn Version:" "$(yarn -v)"
+
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
+WORKDIR /var/www/
+COPY . ./
+CMD bash heroku-exec.sh && nginx -g 'daemon off;'
+# CMD  "heroku-exec.sh && envsubst < /etc/nginx/nginx.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+# CMD ["/bin/sh", "-c", "envsubst < /etc/nginx/nginx.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]

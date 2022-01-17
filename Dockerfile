@@ -1,25 +1,15 @@
-FROM nginx:alpine
-COPY ./nginx.config /etc/nginx/conf.d/default.conf
+FROM node:16
 
-# CMD ["/bin/sh", "-c", "envsubst < /etc/nginx/nginx.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
-# COPY --from=builder /opt/web/build /usr/share/nginx/html
+# Create app directory
+WORKDIR /usr/src/app
 
-RUN apk add --no-cache --repository http://nl.alpinelinux.org/alpine/edge/main libuv \
-    && apk add --no-cache --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main nodejs=16.13.2-r0 npm=8.3.0-r0 \
-    && apk add --no-cache --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community yarn=1.22.17-r0 \
-    && echo "NodeJS Version:" "$(node -v)" \
-    && echo "NPM Version:" "$(npm -v)" \
-    && echo "Yarn Version:" "$(yarn -v)"
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
 
-WORKDIR /var/www/
-COPY . ./
-RUN yarn
-RUN yarn build
-# RUN yarn dev
-# ENTRYPOINT "/docker-entrypoint.sh"
-# ADD ./start.sh /
-# RUN chmod +x /start.sh
-# ENTRYPOINT ["/start.sh"]
-# CMD ["nginx", "-g", "daemon off;"]
-# CMD nginx
-# ENV PATH="./node_modules/.bin:$PATH"
+RUN npm install
+RUN npm run build
+
+# Bundle app source
+COPY . .
