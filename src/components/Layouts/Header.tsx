@@ -105,14 +105,14 @@ const Component = ({ ...props }) => {
         </div>
       </div>
       <nav className="Nav" role="navigation" aria-label="メインメニュー">
-        <h1 className="nav_taxt">
+        {/* <h1 className="nav_taxt">
           <img
             src="./img/tigerpay.png"
             width="2083"
             height="994"
             alt="S-WALLET"
           />
-        </h1>
+        </h1> */}
         <p className="navbtn">
           <a href="#" className="close">
             <span>メニューを開く</span>

@@ -6,19 +6,33 @@ import Script from "next/script";
 import Head from "next/head";
 import Link from "next/link";
 import Reaptcha from "reaptcha";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // App Import
 import Footer from "../../components/Layouts/SecureFooter";
 
 const Component = () => {
   const [captcha, setCaptcha] = React.useState("");
+  const [password, setPassword] = React.useState("");
+  const [email, setEmail] = React.useState("");
 
   // Method
   const captchaOnChange = (value) => {
     setCaptcha(value);
   };
-  const onSubmit = () => {
+
+  const passOnChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const emailOnChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
     // const recaptchaValue = recaptchaRef?.current?.getValue();
+    console.log("FDSFDS", password, email);
   };
 
   return (
@@ -78,7 +92,7 @@ const Component = () => {
               <div className="logos"></div>
 
               <h4 data-locale="login">User Login</h4>
-              <form method="post" id="acForm">
+              <form method="post" id="acForm" onSubmit={onSubmit}>
                 <p className=""></p>
 
                 <div className="input-item">
@@ -88,6 +102,8 @@ const Component = () => {
                     className="input3"
                     name="user_id"
                     id="user_id"
+                    value={email}
+                    onChange={emailOnChange}
                   />
                 </div>
 
@@ -98,6 +114,8 @@ const Component = () => {
                     className="input3"
                     name="real_password"
                     id="real_password"
+                    value={password}
+                    onChange={passOnChange}
                   />
                 </div>
                 <Reaptcha
@@ -107,7 +125,7 @@ const Component = () => {
 
                 <p>
                   <input
-                    type="button"
+                    type="submit"
                     name=""
                     id="btnComplete"
                     data-i18n-value="Login"
@@ -125,6 +143,43 @@ const Component = () => {
                   </Link>
                 </p>
               </form>
+            </div>
+          </div>
+        </div>
+        <div
+          className="modal fade bd-example-modal-sm"
+          role="dialog"
+          aria-labelledby="mySmallModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-sm">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title">Modal title</h5>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-primary">
+                  Save changes
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
             </div>
           </div>
         </div>
