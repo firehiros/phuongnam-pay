@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット | 手数料・処理時間
+        Rays Wallet グローバル対応の最新Eウォレット | 手数料・処理時間
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -24,7 +24,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -386,7 +386,7 @@ const Component = () => {
                         <td>1-3営業日</td>
                       </tr>
                       <tr>
-                        <th>S-WALLET間送金・エクスチェンジ</th>
+                        <th>Rays Wallet間送金・エクスチェンジ</th>
                         <td>即時</td>
                         <td>即時</td>
                         <td>即時</td>

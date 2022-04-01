@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET｜グローバル対応のEウォレット</title>
+        <title>Rays Wallet｜グローバル対応のEウォレット</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -52,14 +52,14 @@ const Component = () => {
                     <br />
                     イーウォレットの決定版
                     <br />
-                    <span className="title_color">S-WALLET</span>
+                    <span className="title_color">Rays Wallet</span>
                   </h1>
                   <p id="main_btn">
                     <a
-                      href="/secure/register"
+                      href="https://mypage.rays-wallet.com/register"
                       target="_blank"
                     >
-                      <span className="btn_color">S-WALLET</span>口座開設
+                      <span className="btn_color">Rays Wallet</span>口座開設
                     </a>
                   </p>
                 </div>
@@ -68,7 +68,7 @@ const Component = () => {
                     src="./img/main_v.png"
                     width="1383"
                     height="1202"
-                    alt="S-WALLET"
+                    alt="Rays Wallet"
                   />
                 </figure> */}
               </div>
@@ -85,23 +85,23 @@ const Component = () => {
             <div id="about_wrap">
               <div id="about">
                 <div id="about_box">
-                  <h2>S-WALLETグローバルペイメントソリューション</h2>
+                  <h2>Rays Walletグローバルペイメントソリューション</h2>
                   <p>
-                    S-WALLETはグローバルでご利用いただけるEウォレットです。
+                  Rays Walletはグローバルでご利用いただけるEウォレットです。
                     <br />
                     <br />
                     国際通貨である【USD / EUR / JPY】から暗号通貨【BTC / ETH /
                     XRP / USDT / USDC】がお使い頂けます。
                     <br />
-                    ユーザー間でのS-WALLETウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。
+                    ユーザー間でのRays Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。
                     <br />
                     また。対応通貨全ての両替（手数料：無料）など、アセットの管理に優れたウォレットです。{" "}
                     <br />
                     <br />
-                    S-WALLETでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                    Rays Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
                     <br />
                     <br />
-                    さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもS-WALLETの導入」が可能です！東アジアを中心とした今後の展開から、新たなアセット管理・決済手段となる最新Eウォレットとして今後の期待が高まっています！
+                    さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays Walletの導入」が可能です！東アジアを中心とした今後の展開から、新たなアセット管理・決済手段となる最新Eウォレットとして今後の期待が高まっています！
                   </p>
                   <p className="more_btn">
                     <Link href="/swallet">
@@ -114,7 +114,7 @@ const Component = () => {
                     src="./img/about_img.png"
                     width="1124"
                     height="914"
-                    alt="S-WALLETとは？"
+                    alt="Rays Walletとは？"
                   />
                 </figure>
               </div>
@@ -123,21 +123,21 @@ const Component = () => {
               <div id="content_inner">
                 <div id="card_box">
                   <p>
-                    S-WALLETでは、UnionPayの提携カードを発行し、使用することができます。
+                  Rays Walletでは、UnionPayの提携カードを発行し、使用することができます。
                   </p>
                   <figure>
                     <img
                       src="./img/card_img.png"
                       width="993"
                       height="565"
-                      alt="S-WALLET"
+                      alt="Rays Wallet"
                     />{" "}
                   </figure>
                 </div>
                 <div id="content_1">
                   <div id="content_1_inner">
                     <p style={{ width: "auto" }}>
-                      S-WALLETのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
+                    Rays Walletのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
                     </p>
                     <h4>取り扱い通貨：</h4>
                     <div id="content_1_list">
@@ -289,7 +289,7 @@ const Component = () => {
                       />
                     </p>
                     <ul>
-                      <li>S-WALLETで両替</li>
+                      <li>Rays Walletで両替</li>
                       <li>↓</li>
                       <li>銀行口座に送金</li>
                       <li>↓</li>
@@ -311,7 +311,7 @@ const Component = () => {
                       />
                     </p>
                     <ul>
-                      <li>S-WALLETで両替</li>
+                      <li>Rays Walletで両替</li>
                       <li>↓</li>
                       <li>カードにチャージ</li>
                       <li>↓</li>
@@ -357,8 +357,8 @@ const Component = () => {
             </div>
             <div id="store_wrap">
               <section id="store_box">
-                <h2>S-WALLETが使えるお店</h2>
-                <h4>S-WALLETは様々なサービスでご利用いただけます!</h4>
+                <h2>Rays Walletが使えるお店</h2>
+                <h4>Rays Walletは様々なサービスでご利用いただけます!</h4>
                 <div className="store_card">
                   <a
                     href="/"
@@ -426,7 +426,7 @@ const Component = () => {
                   </a>
                 </div>
                 <h4>
-                  *オンラインサービスの支払いはS-WALLETの残高のみ利用可能です。
+                  *オンラインサービスの支払いはRays Walletの残高のみ利用可能です。
                 </h4>
               </section>
             </div>
@@ -442,15 +442,15 @@ const Component = () => {
                           <span></span>
                           <span></span>
                         </p>
-                        <h5>S-WALLETアカウントを開設すると何ができますか？</h5>
+                        <h5>Rays Walletアカウントを開設すると何ができますか？</h5>
                       </a>
                       <p>
-                        S-WALLETはグローバルでご利用いただけるEウォレットです。
+                        Rays Walletはグローバルでご利用いただけるEウォレットです。
                         国際通貨である【USD / EUR /
                         JPY】から仮装通貨（暗号通貨）【BTC / ETH / XRP / USDT /
-                        USDC】に対応しています。ユーザー間でのS-WALLETウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
-                        S-WALLETでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
-                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもS-WALLETの導入」が可能です。
+                        USDC】に対応しています。ユーザー間でのRays Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
+                        Rays Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays Walletの導入」が可能です。
                       </p>
                     </li>
                     <li>
@@ -461,13 +461,13 @@ const Component = () => {
                           <span></span>
                         </p>
                         <h5>
-                          S-WALLETの口座開設には、年齢や国籍の制限はありますか？
+                          Rays Walletの口座開設には、年齢や国籍の制限はありますか？
                         </h5>
                       </a>
                       <p>
-                        はい、S-WALLETアカウントの開設は、18歳以上のお客様に限ります。
+                        はい、Rays Walletアカウントの開設は、18歳以上のお客様に限ります。
                         <br />
-                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、S-WALLETの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
+                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、Rays Walletの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
                         <br />
                         <a
                           href="https://www.fatf-gafi.org/countries/#high-risk"
@@ -518,10 +518,10 @@ const Component = () => {
                           <span></span>
                           <span></span>
                         </p>
-                        <h5>S-WALLET口座への入金方法を教えてください</h5>
+                        <h5>Rays Wallet口座への入金方法を教えてください</h5>
                       </a>
                       <p>
-                        S-WALLET口座への入金は、以下の方法で行うことができます。
+                        Rays Wallet口座への入金は、以下の方法で行うことができます。
                         <br />
                         - 銀行送金（日本）
                         <br />
@@ -542,7 +542,7 @@ const Component = () => {
                           <span></span>
                         </p>
                         <h5>
-                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がS-WALLETのアカウントに反映されていない場合はどうすればいいですか？
+                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がRays Walletのアカウントに反映されていない場合はどうすればいいですか？
                         </h5>
                       </a>
                       <p>

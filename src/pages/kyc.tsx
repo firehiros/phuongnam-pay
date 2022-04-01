@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット |
+        Rays Wallet グローバル対応の最新Eウォレット |
           口座アップグレード/KYC申請方法
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -25,7 +25,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -120,7 +120,7 @@ const Component = () => {
             </div>
             <div id="title_area">
               <div id="title_inner">
-                <h1>S-WALLET 口座アップグレード / 本人確認申請手順</h1>
+                <h1>Rays Wallet口座アップグレード / 本人確認申請手順</h1>
               </div>
             </div>
             <div id="card_group">
@@ -141,13 +141,13 @@ const Component = () => {
                   <figure className="flow_img">
                     <img
                       src="./img/kyc_img1.png"
-                      alt="当サイト トップページの【S-WALLET口座開設】ボタンをクリック。"
+                      alt="当サイト トップページの【Rays Wallet口座開設】ボタンをクリック。"
                     />
                   </figure>
                   <div className="flow_text">
                     <h3>01</h3>
                     <p>
-                      S-WALLETにログイン後、右上の【My
+                    Rays Walletにログイン後、右上の【My
                       Account】から【口座アップグレード】を選択します。
                     </p>
                   </div>

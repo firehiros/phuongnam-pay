@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット | S-WALLET提携カード
+          Rays Wallet グローバル対応の最新Eウォレット | Rays Wallet提携カード
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -24,7 +24,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -51,7 +51,7 @@ const Component = () => {
                   <div className="card_about1 card_first">
                     <h3 id="card_head">プリペイド式デビットカード</h3>
                     <p>
-                      S-WALLETでは、S-WALLETアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。
+                    Rays Walletでは、Rays Walletアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。
                       <br />
                       なお、プリペイドカードへのチャージは [USD/JPY]
                       口座からご利用頂けます。(プリペイドカードのご利用にはお手続きが別途必要となります。)
@@ -66,7 +66,7 @@ const Component = () => {
                             alt="プリペイド式デビットカード"
                           />
                         </figure>
-                        <h4>S-WALLETお客様アカウント</h4>
+                        <h4>Rays Walletお客様アカウント</h4>
                       </div>
                       <div className="card_flow_inner" id="card_flow_pc">
                         <div id="card_flow_arrow_box">
@@ -110,7 +110,7 @@ const Component = () => {
                 <div id="about_inner2">
                   <h2>プリペイドカードを利用して決済</h2>
                   <p>
-                  S-WALLETのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
+                  Rays Walletのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
                   </p>
                   <div className="about_inner2_box card_icon1">
                     <h3>ATM出金</h3>

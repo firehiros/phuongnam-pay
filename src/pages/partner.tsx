@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット |S-WALLET パートナー
+        Rays Wallet グローバル対応の最新Eウォレット |Rays Wallet パートナー
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -24,7 +24,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -51,13 +51,13 @@ const Component = () => {
                   <div className="about1 partner_first">
                     <h3>パートナーズ</h3>
                     <p>
-                    S-WALLETでは、提携パートナーを募集しております。パートナー企業及び個人様向けのパートナープログラムをご用意しております。S-WALLETを決済導入いただける企業様ご紹介で報酬を得られるプランとなります。パートナーズ登録をご希望の企業及び個人様は「S-WALLETアカウント」を開設後、申請フォームをご記入頂き、お申し込みとなります。
+                    Rays Walletでは、提携パートナーを募集しております。パートナー企業及び個人様向けのパートナープログラムをご用意しております。Rays Walletを決済導入いただける企業様ご紹介で報酬を得られるプランとなります。パートナーズ登録をご希望の企業及び個人様は「Rays Walletアカウント」を開設後、申請フォームをご記入頂き、お申し込みとなります。
                       なお、提携パートナーへのご登録・ご相談は下記メールアドレスまでメールにてお問い合わせください。
                       <br />
                       <br />
                       お問い合わせ窓口：
-                      <a href="mailto:partners@s-wallet.com" target="new">
-                        partners@s-wallet.com
+                      <a href="mailto:support@srays-wallet.com" target="new">
+                        support@rays-wallet.com
                       </a>
                     </p>
                   </div>
@@ -66,7 +66,7 @@ const Component = () => {
                     <ul className="partner_flow">
                       <li className="pr_box">
                         <h4 className="prh4">パーソナル講座開設</h4>
-                        <p>まずはS-WALLETでの口座開設</p>
+                        <p>まずはRays Walletでの口座開設</p>
                       </li>
                       <li className="pr_arrow"></li>
                       <li className="pr_box">

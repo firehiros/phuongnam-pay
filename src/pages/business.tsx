@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET｜事業者の方へ</title>
+        <title>Rays Wallet｜事業者の方へ</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link
@@ -50,11 +50,11 @@ const Component = () => {
                 src="./img/tiger_pay_logo.png"
                 width="498"
                 height="178"
-                alt="S-WALLET"
+                alt="Rays Wallet"
               />
             </a>
           </p> */}
-          <h1>S-WALLETのBusiness口座</h1>
+          <h1>Rays WalletのBusiness口座</h1>
           <ul>
             <li className="ofiice_link">
               <Link href="/about">
@@ -75,7 +75,7 @@ const Component = () => {
           <div id="section2">
             <div id="main_btn">
               <p id="main_v_btn">
-                <Link href="/secure/register">
+                <Link href="https://mypage.rays-wallet.com/register">
                   <a target="_blank">
                     <img
                       src="./img/business_btn1.png"
@@ -87,7 +87,7 @@ const Component = () => {
                 </Link>
               </p>
               <p id="main_v_btn2">
-                <Link href="/secure/register">
+                <Link href="https://mypage.rays-wallet.com/register">
                   <a target="_blank">
                     <img
                       src="./img/business_btn1_sp.png"
@@ -114,7 +114,7 @@ const Component = () => {
                 </ul>
               </div>
               <p>
-                S-WALLETのBusiness口座は、そういった問題を解決できる
+              Rays WalletのBusiness口座は、そういった問題を解決できる
                 <br className="pc" />
                 決済手段として誕生しました。
               </p>
@@ -122,10 +122,10 @@ const Component = () => {
           </div>
         </div>
         <div id="section3">
-          <h2>S-WALLETの導入メリット</h2>
-          <h3>ビジネスを加速させるS-WALLET</h3>
+          <h2>Rays Walletの導入メリット</h2>
+          <h3>ビジネスを加速させるRays Wallet</h3>
           <p className="merit_main">
-            オフラインのビジネスではキャッシュレス決済として、オンラインのビジネスでは「豊富な決済手段」をS-WALLETで一括導入が可能です。「クレジットカード」、「国内銀行振込」、「暗号通貨」決済をS-WALLETで導入してユーザビリティの向上を狙うことができます。
+            オフラインのビジネスではキャッシュレス決済として、オンラインのビジネスでは「豊富な決済手段」をRays Walletで一括導入が可能です。「クレジットカード」、「国内銀行振込」、「暗号通貨」決済をRays Walletで導入してユーザビリティの向上を狙うことができます。
             <br />
             また、「国際銀行送金」及び「通貨両替（エクスチェンジ）」もウォレット内で行うことができるので、国境を超えたビジネスでも幅広い国で1つのソリューションでグローバル決済まで可能になります。
           </p>
@@ -133,10 +133,10 @@ const Component = () => {
             <li>
               <figure>
                 <span>
-                  <img src="./img/bw01.png" alt="S-WALLET導入" />
+                  <img src="./img/bw01.png" alt="Rays Wallet導入" />
                 </span>
               </figure>
-              <h4>S-WALLET導入</h4>
+              <h4>Rays Wallet導入</h4>
               <p>
                 事業主様のビジネス形態に合わせて導入を行います。APIでのシステム統合も可能です。
               </p>
@@ -155,7 +155,7 @@ const Component = () => {
               </figure>
               <h4>顧客様が決済</h4>
               <p>
-                顧客様がS-WALLETを利用して、事業主様指定の通貨で決済を行います。
+                顧客様がRays Walletを利用して、事業主様指定の通貨で決済を行います。
               </p>
             </li>
             <li className="no_arrow">
@@ -195,7 +195,7 @@ const Component = () => {
           </ul>
         </div>
         <div id="section4">
-          <h2>S-WALLET口座の基本的な特徴</h2>
+          <h2>Rays Wallet口座の基本的な特徴</h2>
           <div className="sec4_inner">
             <div className="sec4_box" id="box1">
               <h3>仮想通貨を含めた様々な通貨の取り扱い</h3>
@@ -220,7 +220,7 @@ const Component = () => {
             <div className="sec4_box" id="box3">
               <h3>スムーズな海外送金</h3>
               <p>
-                送金先が海外であっても、S-WALLET口座間なら即座に送金できます。取引先様口座に着金するまでのタイムラグを考慮する必要はありません。
+                送金先が海外であっても、Rays Wallet口座間なら即座に送金できます。取引先様口座に着金するまでのタイムラグを考慮する必要はありません。
               </p>
             </div>
             <div className="sec4_box" id="box4">
@@ -239,7 +239,7 @@ const Component = () => {
             <div className="sec4_box" id="box5">
               <h3>API決済機能</h3>
               <p>
-                エンドユーザーが、加盟店様のWEBサイトで商品・サービスの代金を支払っていただく際に、エンドユーザーのS-WALLET口座から加盟店様のS-WALLET口座から加盟店様のS-WALLET口座への即時に支払い頂けるAPIです。
+                エンドユーザーが、加盟店様のWEBサイトで商品・サービスの代金を支払っていただく際に、エンドユーザーのRays Wallet口座から加盟店様のRays Wallet口座から加盟店様のRays Wallet口座への即時に支払い頂けるAPIです。
               </p>
             </div>
             <div className="sec4_box" id="box6">
@@ -253,13 +253,13 @@ const Component = () => {
             <div className="sec4_box" id="box7">
               <h3>CSV一括バッチ送金機能</h3>
               <p>
-                Business口座から、複数のS-WALLET口座へ、指定日付、指定通貨・指定金額での送金ができます。
+                Business口座から、複数のRays Wallet口座へ、指定日付、指定通貨・指定金額での送金ができます。
               </p>
             </div>
             <div className="sec4_box" id="box8">
               <h3>口座開設　一括口座開設機能</h3>
               <p>
-                加盟店様のWebサイトにご登録するエンドユーザーをS-WALLET口座に同時登録が可能になります。また、過去の会員様をまとめて口座開設することもできます。（認証メールを送信し、ログインパスワードを登録してもらう機能）
+                加盟店様のWebサイトにご登録するエンドユーザーをRays Wallet口座に同時登録が可能になります。また、過去の会員様をまとめて口座開設することもできます。（認証メールを送信し、ログインパスワードを登録してもらう機能）
               </p>
             </div>
           </div>
@@ -278,7 +278,7 @@ const Component = () => {
         </div>
         <div id="footer_area">
           <p id="footer_btn">
-            <Link href="/secure/register">
+            <Link href="https://mypage.rays-wallet.com/register">
               <a target="_blank">
                 <img
                   src="./img/businessf_footer_btn.png"
@@ -290,7 +290,7 @@ const Component = () => {
             </Link>
           </p>
           <p id="footer_btn2">
-            <Link href="/secure/register">
+            <Link href="https://mypage.rays-wallet.com/registerr">
               <a target="_blank">
                 <img
                   src="./img/business_footer_btnsp.png"
@@ -322,8 +322,8 @@ const Component = () => {
                     <a>手数料・処理時間</a>
                   </Link>
                   をご覧ください。または
-                  <a href="mailto:support@s-wallet.com" target="new">
-                    support@s-wallet.com
+                  <a href="mailto:support@rays-wallet.com" target="new">
+                    support@rays-wallet.com
                   </a>
                   までお気軽にご相談ください。
                 </dd>

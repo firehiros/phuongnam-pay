@@ -60,7 +60,7 @@ const Component = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="format-detection" content="telephone=no" />
-        <title>Login | S-WALLET</title>
+        <title>Login | Rays Wallet</title>
         <link rel="stylesheet" type="text/css" href="./css/c3.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/swiper.min.css" />
         <link
@@ -154,7 +154,7 @@ const Component = () => {
                   <Link href="/secure/forgot">
                     <a className="lfloat blue">Forgot Your Password?</a>
                   </Link>
-                  <Link href="/secure/register">
+                  <Link href="https://mypage.rays-wallet.com/register">
                     <a className="red rfloat">Sign-up</a>
                   </Link>
                 </p>
@@ -196,7 +196,7 @@ const Component = () => {
             </nav>
             <p className="copyright">
               {" "}
-              Copyright © S-WALLET All Rights Reserved.{" "}
+              Copyright © Rays Wallet All Rights Reserved.{" "}
             </p>
           </div>
         </footer>
@@ -241,7 +241,7 @@ const Component = () => {
           </p> */}
             <p className="copyright">
               {" "}
-              Copyright © S-WALLET All Rights Reserved.{" "}
+              Copyright © Rays Wallet All Rights Reserved.{" "}
             </p>
           </div>
         </footer>

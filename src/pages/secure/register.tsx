@@ -34,7 +34,7 @@ const Component = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="format-detection" content="telephone=no" />
-        <title>Create Fast Account | S-WALLET</title>
+        <title>Create Fast Account</title>
         <link rel="stylesheet" type="text/css" href="./css/c3.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/swiper.min.css" />
         <link
@@ -76,7 +76,7 @@ const Component = () => {
           <div className="container">
             <h3 data-locale="createaccount">Create Fast Account</h3>
             <p data-locale="accountinfo">
-              All S-WALLET users need to create a Fast account first
+              All Rays Wallet users need to create a Fast account first
               (transaction limit of 1,000 USD in total).Accounts can be quickly
               created and activated via email, no matter whether you are an
               individual or a corporate user.
@@ -93,7 +93,7 @@ const Component = () => {
               ※In order to upgrade account, you need to upload KYC or KYB
               documents on the upgrade account page after login.
               <br />
-              ※Each individual or corporate is only allowed to open one S-WALLET
+              ※Each individual or corporate is only allowed to open one Rays Wallet
               account.
               <br />
               ※Account name cannot be changed. Account upgrade will be based on

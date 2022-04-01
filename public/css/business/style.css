@@ -49,7 +49,7 @@
   text-decoration: underline;
 }
 #header ul .ofiice_link a {
-	color: #008080;
+	color: #0BD3CE;
 }
 #business #main_v {
   background-image: url(../../img/businessf_mainv.png);
@@ -344,7 +344,7 @@
   margin-bottom: 60px;
 }
 #section3 h3 {
-  background-color: #008080;
+  background-color: #0BD3CE;
   font-size: 21px;
   font-weight: bold;
   padding: 1% 2%;
@@ -381,7 +381,7 @@
   display: inline-block;
   width: 190px;
   height: 190px;
-  border: 4px solid #008080;
+  border: 4px solid #0BD3CE;
   border-radius: 50%;
   background: #f5f5f5;
   margin: 0 0 10px;
@@ -416,7 +416,7 @@
   box-shadow: 0px 0px;
   margin-top: 10px;
   text-align: center;
-  border: 2px solid hsla(180, 100%, 25%, 1.00);
+  border: 2px solid #0BD3CE;
   letter-spacing: 1px;
 }
 #footer_inner_btn2 a {
@@ -432,9 +432,9 @@
   box-shadow: 0px 0px;
   margin-top: 20px;
   text-align: center;
-  border: 2px solid hsla(180, 100%, 25%, 1.00);
+  border: 2px solid #0BD3CE;
   letter-spacing: 1px;
-  background-color: #008080;
+  background-color: #0BD3CE;
 }
 #footer_inner_btn2 a:hover {
   display: inline-block;
@@ -448,9 +448,9 @@
   -webkit-box-shadow: 0px 0px;
   box-shadow: 0px 0px;
   text-align: center;
-  border: 2px solid #DF9D23;
+  border: 2px solid #3594DD;
   letter-spacing: 1px;
-  background-color: #DF9D23;
+  background-color: #3594DD;
 }
 #footer_inner_btn a:hover {
   display: inline-block;
@@ -458,8 +458,8 @@
   font-weight: bold;
   -webkit-box-shadow: 0px 0px;
   box-shadow: 0px 0px;
-  background-color: #DF9D23;
-  border-color: #DF9D23;
+  background-color: #3594DD;
+  border-color: #3594DD;
 }
 #footer_banner_text {
   font-size: 30px;

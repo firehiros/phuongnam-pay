@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET グローバル対応の最新Eウォレット | 特定商取引法</title>
+        <title>Rays Walletグローバル対応の最新Eウォレット | 特定商取引法</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/tokushouhou.css" rel="stylesheet" type="text/css" />
@@ -75,7 +75,7 @@ const Component = () => {
                           メールアドレス
                         </div>
                         <div className="tbl-cell">
-                          support@s-wallet.com
+                          support@rays-wallet.com
                           <br />
                           ※お問い合わせは
                           <Link href="/contact-us">

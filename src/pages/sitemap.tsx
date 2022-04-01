@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット | S-WALLETサイトマップ
+        Rays Wallet グローバル対応の最新Eウォレット | Rays Walletサイトマップ
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -24,7 +24,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -66,7 +66,7 @@ const Component = () => {
                       </li>
                       <li>
                         <Link href="/swallet">
-                          <a>S-WALLETとは？</a>
+                          <a>Rays Walletとは？</a>
                         </Link>
                       </li>
                       <li>

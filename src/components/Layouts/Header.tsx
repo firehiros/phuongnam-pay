@@ -10,16 +10,16 @@ const Component = ({ ...props }) => {
   return (
     <header>
       <div id="header">
-        {/* <h1 className="pc_main">
+        <h1 className="pc_main">
           <a href="/">
             <img
               src="./img/tigerpay.png"
               width="2083"
               height="994"
-              alt="S-WALLET"
+              alt="Rays Wallet"
             />
           </a>
-        </h1> */}
+        </h1>
         <div id="header_menu">
           <div id="sub_menu">
             <p className="to_business">
@@ -28,17 +28,17 @@ const Component = ({ ...props }) => {
               </Link>
             </p>
             <p className="open_btn">
-              <Link href="/secure/register">
+              <Link href="https://mypage.rays-wallet.com/register">
                 <a target="_blank">口座開設</a>
               </Link>
             </p>
             <p className="login_btn">
-              <Link href="/secure/login">
+              <Link href="https://mypage.rays-wallet.com/login">
                 <a target="_blank">ログイン</a>
               </Link>
             </p>
             <p className="open_btn_sp">
-              <Link href="/secure/register">
+              <Link href="https://mypage.rays-wallet.com/register">
                 <a target="_blank">
                   <img
                     src="./img/header_news_icon.png"
@@ -50,7 +50,7 @@ const Component = ({ ...props }) => {
               </Link>
             </p>
             <p className="login_btn_sp">
-              <Link href="/secure/login">
+              <Link href="https://mypage.rays-wallet.com/login">
                 <a target="_blank">
                   <img
                     src="./img/header_login_icon.png"
@@ -76,7 +76,7 @@ const Component = ({ ...props }) => {
               </li>
               <li id="n_tiger">
                 <Link href="/swallet">
-                  <a>S-WALLETとは？</a>
+                  <a>Rays Walletとは？</a>
                 </Link>
               </li>
               <li id="n_partner">
@@ -105,14 +105,14 @@ const Component = ({ ...props }) => {
         </div>
       </div>
       <nav className="Nav" role="navigation" aria-label="メインメニュー">
-        {/* <h1 className="nav_taxt">
+        <h1 className="nav_taxt">
           <img
             src="./img/tigerpay.png"
             width="2083"
             height="994"
-            alt="S-WALLET"
+            alt="Rays Wallet"
           />
-        </h1> */}
+        </h1>
         <p className="navbtn">
           <a href="#" className="close">
             <span>メニューを開く</span>
@@ -129,7 +129,7 @@ const Component = ({ ...props }) => {
           </li>
           <li>
             <Link href="/swallet">
-              <a>S-WALLETとは？</a>
+              <a>Rays Walletとは？</a>
             </Link>
           </li>
           <li>

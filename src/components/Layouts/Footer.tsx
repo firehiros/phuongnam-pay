@@ -19,18 +19,18 @@ const Component = ({ ...props }) => {
                 <br />
                 イーウォレットの決定版
                 <br />
-                <span className="title_color">S-WALLET</span>
+                <span className="title_color">Rays Wallet</span>
               </p>
               <p id="footer_inner_btn">
-                <Link href="/secure/register">
+                <Link href="https://mypage.rays-wallet.com/register">
                   <a target="_blank">
-                    <span className="btn_color">S-WALLET</span>口座開設
+                    <span className="btn_color">Rays Wallet</span>口座開設
                   </a>
                 </Link>
               </p>
               <p id="footer_inner_btn2">
                 <Link href="/secure/login">
-                  <a target="_blank">S-WALLETログイン</a>
+                  <a target="_blank">Rays Walletログイン</a>
                 </Link>
               </p>
             </div>
@@ -44,7 +44,7 @@ const Component = ({ ...props }) => {
                   src="./img/footer_logo.png"
                   width="2083"
                   height="994"
-                  alt="S-WALLET"
+                  alt="Rays Wallet"
                 />
               </a>
             </figure> */}
@@ -62,7 +62,7 @@ const Component = ({ ...props }) => {
                 </li>
                 <li>
                   <Link href="/swallet">
-                    <a>S-WALLETとは？</a>
+                    <a>Rays Walletとは？</a>
                   </Link>
                 </li>
                 <li>
@@ -189,7 +189,7 @@ const Component = ({ ...props }) => {
           <a></a>
         </Link>
       </div>
-      <p id="copy">©S-WALLET.All rights reserved.</p>
+      <p id="copy">©Rays Wallet.All rights reserved.</p>
 
       <Script
         strategy="afterInteractive"

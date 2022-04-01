@@ -21,11 +21,12 @@ const MyApp = ({ Component, pageProps }: any) => {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
       {/* <NextSeo
-        title="S-Wallet - The new wallet"
+        title="Rays Wallet - The new wallet"
         description="UNOUN is a company to leading the internet in the world"
         openGraph={{
           type: 'website',

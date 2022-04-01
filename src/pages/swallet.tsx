@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET グローバル対応の最新Eウォレット |S-WALLETとは？</title>
+        <title>Rays Wallet グローバル対応の最新Eウォレット |Rays Walletとは？</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -42,13 +42,13 @@ const Component = () => {
             <Header />
 
             <div id="main_title">
-              <h2>S-WALLETとは？</h2>
+              <h2>Rays Walletとは？</h2>
             </div>
             <div id="tiger_about">
               <div id="tiger_about_inner">
-                <h3>S-WALLETとは？</h3>
+                <h3>Rays Walletとは？</h3>
                 <p className="tiger_about_p">
-                  S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業
+                  Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業
                   / 個人様の為の、通貨、仮想通貨をご利用いただけるE
                   ウォレットです。今までの複雑な国際銀行送金・決済手続きや履歴管理などに代わる、シンプルで迅速に行えるデジタルアセットプラットフォームを提供いたします。
                 </p>
@@ -222,9 +222,9 @@ const Component = () => {
             </div>
             <div id="tiger_about2">
               <div id="tiger_about_inner2">
-                <h3>S-WALLETの機能一覧</h3>
+                <h3>Rays Walletの機能一覧</h3>
                 <p>
-                  S-WALLETは、クレジットカードからの入金や国内銀行や仮想通貨での入出金など様々なシーンで入出金することができます。
+                  Rays Walletは、クレジットカードからの入金や国内銀行や仮想通貨での入出金など様々なシーンで入出金することができます。
                   <br />
                   また仮想通貨を含む両替は手数料無料で行うことができます。
                 </p>
@@ -233,7 +233,7 @@ const Component = () => {
                     src="./img/tiger_about_img.png"
                     width="1779"
                     height="1172"
-                    alt="S-WALLETの機能一覧"
+                    alt="Rays Walletの機能一覧"
                   />
                 </figure>
                 <figure className="about_img_sp">
@@ -248,7 +248,7 @@ const Component = () => {
             </div>
             <div id="tiger_about3">
               <div id="tiger_about_inner3">
-                <h3>S-WALLET</h3>
+                <h3>Rays Wallet</h3>
                 <h4>用途にあわせて選べる口座タイプ</h4>
                 <div className="about3_wrap">
                   <div className="n_about3_box" id="quicl1">
@@ -263,7 +263,7 @@ const Component = () => {
                     <dl>
                       <dt>Personal - パーソナル</dt>
                       <dd>
-                        本人確認手続きが完了するとS-WALLETのフル機能をご利用頂けます。
+                        本人確認手続きが完了するとRays Walletのフル機能をご利用頂けます。
                       </dd>
                     </dl>
                   </div>
@@ -410,7 +410,7 @@ const Component = () => {
                   <p>
                     ご自身のアカウント内から口座のアップグレードを行う事で、よりおおくの通貨・より高い金額の取引が可能になります。
                     <br />
-                    またS-WALLETのサービスの一つである”プリペイド式デビットカード”もお申し込みいただけます。
+                    またRays Walletのサービスの一つである”プリペイド式デビットカード”もお申し込みいただけます。
                     <br className="pc" />
                     （＊アップグレードには「本人確認 /
                     事業者確認」が必要になります）
@@ -434,8 +434,8 @@ const Component = () => {
                         <td>
                           お客様のビジネスをご支援する事を目的とし、Personal口座よりも利用上限がアップされ
                           ます。また、決済ソリューションとしての提供を行う為にAPIでの接続も可能です。
-                          顧客様にS-WALLETを使用した入出金ソリューションをご提供可能になります。
-                          なお、S-WALLETでは、ビジネスでの利用を幅広く行えるよう、今後様々なソリューションや
+                          顧客様にRays Walletを使用した入出金ソリューションをご提供可能になります。
+                          なお、Rays Walletでは、ビジネスでの利用を幅広く行えるよう、今後様々なソリューションや
                           機能の提供を計画しています。
                         </td>
                       </tr>
@@ -503,7 +503,7 @@ const Component = () => {
               <div id="tiger_about_inner5">
                 <h3>プリペイド式デビットカード</h3>
                 <p>
-                S-WALLETでは、S-WALLETアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。なお、プリペイドカードへのチャージは
+                Rays Walletでは、Rays Walletアカウントからチャージすることのできるプリペイド式デビッドカードを用意しております。必要なタイミングで必要な金額をカードにチャージしてプリペイドカードをご利用頂けます。なお、プリペイドカードへのチャージは
                   [USD/JPY]
                   口座からご利用頂けます。（プリペイドカードのご利用にはお手続きが別途必要となります。）
                 </p>
@@ -525,7 +525,7 @@ const Component = () => {
                 </p>
                 <h4>プリペイドカードを利用して決済</h4>
                 <p>
-                S-WALLETのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
+                Rays Walletのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
                 </p>
                 <ul className="about5_wrap">
                   <li id="atm_icon">
@@ -563,8 +563,8 @@ const Component = () => {
                 </p>
                 <p>
                   導入ご相談窓口:
-                  <a href="mailto:business@s-wallet.com">
-                    business@s-wallet.com
+                  <a href="mailto:support@rays-wallet.com">
+                    business@rays-wallet.com
                   </a>
                 </p>
                 <h4>導入するとご利用頂けるプレミアム 機能</h4>
@@ -582,7 +582,7 @@ const Component = () => {
                     <dl>
                       <dt>送金API機能</dt>
                       <dd>
-                        ビジネスアカウントからS-WALLETユーザー様へ送金を自動化できるAPIとなります。顧客様への送金などにご利用頂けます。
+                        ビジネスアカウントからRays Walletユーザー様へ送金を自動化できるAPIとなります。顧客様への送金などにご利用頂けます。
                       </dd>
                     </dl>
                   </div>
@@ -601,7 +601,7 @@ const Component = () => {
                     <dl>
                       <dt>口座開設API</dt>
                       <dd>
-                        事業主様のビジネスの会員様に決済時にS-WALLETのアカウント開設を決済と同時に行う「API」となります。
+                        事業主様のビジネスの会員様に決済時にRays Walletのアカウント開設を決済と同時に行う「API」となります。
                       </dd>
                     </dl>
                   </div>

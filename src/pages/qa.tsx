@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET グローバル対応の最新Eウォレット | よくあるご質問</title>
+        <title>Rays Walletグローバル対応の最新Eウォレット | よくあるご質問</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -56,15 +56,15 @@ const Component = () => {
                           <span></span>
                           <span></span>
                         </p>
-                        <h5>S-WALLETアカウントを開設すると何ができますか？</h5>
+                        <h5>Rays Walletアカウントを開設すると何ができますか？</h5>
                       </a>
                       <p>
-                        S-WALLETはグローバルでご利用いただけるEウォレットです。
+                        Rays Walletはグローバルでご利用いただけるEウォレットです。
                         国際通貨である【USD / EUR /
                         JPY】から仮装通貨（暗号通貨）【BTC / ETH / XRP / USDT /
-                        USDC】に対応しています。ユーザー間でのS-WALLETウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
-                        S-WALLETでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
-                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもS-WALLETの導入」が可能です。
+                        USDC】に対応しています。ユーザー間でのRays Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
+                        Rays Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays Walletの導入」が可能です。
                       </p>
                     </li>
                     <li>
@@ -75,13 +75,13 @@ const Component = () => {
                           <span></span>
                         </p>
                         <h5>
-                          S-WALLETの口座開設には、年齢や国籍の制限はありますか？
+                          Rays Walletの口座開設には、年齢や国籍の制限はありますか？
                         </h5>
                       </a>
                       <p>
-                        はい、S-WALLETアカウントの開設は、18歳以上のお客様に限ります。
+                        はい、Rays Walletアカウントの開設は、18歳以上のお客様に限ります。
                         <br />
-                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、S-WALLETの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
+                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、Rays Walletの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
                         <br />
                         <a
                           href="https://www.fatf-gafi.org/countries/#high-risk"
@@ -132,10 +132,10 @@ const Component = () => {
                           <span></span>
                           <span></span>
                         </p>
-                        <h5>S-WALLET口座への入金方法を教えてください</h5>
+                        <h5>Rays Wallet口座への入金方法を教えてください</h5>
                       </a>
                       <p>
-                        S-WALLET口座への入金は、以下の方法で行うことができます。
+                        Rays Wallet口座への入金は、以下の方法で行うことができます。
                         <br />
                         - 銀行送金（日本）
                         <br />

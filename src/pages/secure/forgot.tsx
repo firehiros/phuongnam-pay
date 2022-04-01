@@ -22,7 +22,7 @@ const Component = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="format-detection" content="telephone=no" />
-        <title>Login | S-WALLET</title>
+        <title>Login | Rays Wallet</title>
         <link rel="stylesheet" type="text/css" href="./css/c3.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/swiper.min.css" />
         <link

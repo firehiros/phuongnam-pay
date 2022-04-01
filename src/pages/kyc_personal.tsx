@@ -15,7 +15,7 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット |
+        Rays Wallet グローバル対応の最新Eウォレット |
           口座アップグレード/KYC本人確認書類
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -25,7 +25,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -165,7 +165,7 @@ const Component = () => {
                   <div className="flow_text">
                     <h3>01</h3>
                     <p>
-                      S-WALLETでは「パーソナルアカウント」におけるご本人確認は2つの書類が必要となります。
+                      Rays Walletでは「パーソナルアカウント」におけるご本人確認は2つの書類が必要となります。
                     </p>
                     <h4>1.本人確認の証明 </h4>
                     <p>

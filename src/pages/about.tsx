@@ -14,7 +14,7 @@ const Component = () => {
   return (
     <>
       <Head>
-        <title>S-WALLET グローバル対応の最新Eウォレット | S-WALLET 運営会社</title>
+        <title>Rays Wallet グローバル対応の最新Eウォレット | Rays Wallet 運営会社</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
           name="viewport"
@@ -22,7 +22,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays WalletTは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -50,7 +50,7 @@ const Component = () => {
                   <div className="about1">
                     <h3>運営会社</h3>
                     <p>
-                    S-Walletは、〇〇社によって立ち上げられた新たなEウォレットブランドです。世界の基軸通貨に対応し、それぞれの地域におけるローカライズされたウォレットを目指していきます。さらにスピーディなアカウント開設に入出金、お支払い（決済）及び、国境の壁を超えた送金に対応いたします。「手数料が安く・スピーディな決済」をモットーにグローバルな範囲でご利用頂けるサービスをご提供いたします。
+                    Rays Walletは、〇〇社によって立ち上げられた新たなEウォレットブランドです。世界の基軸通貨に対応し、それぞれの地域におけるローカライズされたウォレットを目指していきます。さらにスピーディなアカウント開設に入出金、お支払い（決済）及び、国境の壁を超えた送金に対応いたします。「手数料が安く・スピーディな決済」をモットーにグローバルな範囲でご利用頂けるサービスをご提供いたします。
                     </p>
                   </div>
 

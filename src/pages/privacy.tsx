@@ -15,8 +15,8 @@ const Component = () => {
     <>
       <Head>
         <title>
-          S-WALLET グローバル対応の最新Eウォレット |
-          S-WALLETプライバシーポリシー
+          Rays Wallet グローバル対応の最新Eウォレット |
+          Rays Walletプライバシーポリシー
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -25,7 +25,7 @@ const Component = () => {
         />
         <meta
           name="description"
-          content="S-WALLETは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
+          content="Rays Walletは、国際間のスムーズな送金や決済ソリューションをお求めの企業／個人様の為の、通貨、仮想通貨が使用できるE-walletです。"
         />
         <meta name="keywords" content="" />
         <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -51,7 +51,7 @@ const Component = () => {
                 <div id="flow_left">
                   <div className="terms_box">
                     <p>
-                      個人データの安全性およびプライバシーを保護することは、S-WALLET (以後「弊社」とします) にとって重要です。
+                      個人データの安全性およびプライバシーを保護することは、Rays Wallet (以後「弊社」とします) にとって重要です。
                       従って弊社は、データプライバシー保護およびデータセキュリティに関して適用される法律を遵守しながら、事業を行っています。本プライバシーポリシーは、弊社が提供する全ての商品およびサービスに適用され、弊社が当該データをいかに利用・保護し、誰とこれを共有するかについて規定するものです。
                     </p>
                     <h3>A. 個人情報収集目的</h3>

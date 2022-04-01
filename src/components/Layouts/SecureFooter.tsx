@@ -46,7 +46,7 @@ const Component = ({ ...props }) => {
           </p> */}
           <p className="copyright">
             {" "}
-            Copyright © S-WALLET All Rights Reserved.{" "}
+            Copyright © Rays Wallet All Rights Reserved.{" "}
           </p>
         </div>
       </footer>
@@ -91,7 +91,7 @@ const Component = ({ ...props }) => {
           </p> */}
           <p className="copyright">
             {" "}
-            Copyright © S-WALLET All Rights Reserved.{" "}
+            Copyright © Rays Wallet All Rights Reserved.{" "}
           </p>
         </div>
       </footer>
