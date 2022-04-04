@@ -1650,11 +1650,11 @@ a:hover .btn_color {
   border: 2px solid hsla(0, 8%, 13%, 1.00);
 }
 #content_wap {
-    background-image: url(../img/card_bg.png);
+    /* background-image: url(../img/card_bg.png); */
     background-size: cover;
     clear: both;
     background-position: center center;
-    background-color: #E3B001;
+    background-color: #3594DD;
 }
 #contents_inner #about_wrap {
   padding-top: 100px;
@@ -1803,7 +1803,7 @@ a:hover .btn_color {
   overflow-y: hidden;
 }
 #store_wrap{
-  background:  #f5f5f5;
+  background:  #3594DD;
   padding: 50px 0;
 }
 #store_box h2{
