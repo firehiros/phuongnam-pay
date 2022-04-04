@@ -29,7 +29,7 @@ const Component = ({ ...props }) => {
                 </Link>
               </p>
               <p id="footer_inner_btn2">
-                <Link href="/secure/login">
+                <Link href="https://mypage.rays-wallet.com/login">
                   <a target="_blank">Rays Walletログイン</a>
                 </Link>
               </p>
