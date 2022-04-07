@@ -445,13 +445,10 @@ body {
 	float: left;
     padding-bottom: 8%;
 }
-#license01 img  , #license02 img {
-	/* width: 100%; */
-}
 #partner {
     width: 60%;
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
 }
 #partner img {
     width: 201px;
