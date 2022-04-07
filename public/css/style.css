@@ -97,12 +97,12 @@ body {
   margin-left: 0px;
 }
 #sub_menu .to_business a, #sub_menu .sponsor a {
-  color: #231f20;
+  color: #172B4D;
   font-size: 13px;
   font-weight: bold;
   display: inline-block;
   padding-left: 25px;
-  background-image: url(../img/header_arrow.png);
+  background-image: url(../img/r-circle-arrow.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: auto 15px;
@@ -1575,10 +1575,11 @@ body {
   margin-bottom: 50px;
 }
 .title_color {
-  color: #3A68DE;
+  color: #FFFFFF;
+  font-size: 40px;
 }
 a .btn_color {
-  color: #3A68DE;
+  color: #FFFFFF;
 }
 a:hover .btn_color {
   color: hsla(0, 0%, 100%, 1.00);
@@ -1626,7 +1627,7 @@ a:hover .btn_color {
   padding-bottom: 8px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #241F20;
+  background-color: #172B4D;
   color: #FFFFFF;
   font-size: 12px;
   margin-top: 30px;
@@ -1654,10 +1655,10 @@ a:hover .btn_color {
     background-size: cover;
     clear: both;
     background-position: center center;
-    background-color: #3594DD;
+    background-image: linear-gradient(to right, #3060DD, #23D3CE);
 }
 #contents_inner #about_wrap {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 130px;
   background-image: url(../img/about_bg.png);
   background-repeat: no-repeat;
@@ -1692,8 +1693,7 @@ a:hover .btn_color {
   margin-left: auto;
   margin-right: auto;
   overflow-y: hidden;
-  padding-top: 130px;
-  padding-bottom: 100px;
+  padding-top: 60px;
 }
 #content_inner #card_box {
   width: 40%;
@@ -1701,10 +1701,10 @@ a:hover .btn_color {
 }
 #content_inner #card_box figure {}
 #content_inner #card_box p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.7em;
   font-weight: bold;
-  color: #333;
+  color: #FFFFFF;
   letter-spacing: 3px;
   margin-bottom: 30px;
   width: auto;
@@ -1791,10 +1791,9 @@ a:hover .btn_color {
 #feature_inner {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(../img/scene_bg.png);
     background-size: cover;
     background-position: center bottom;
-    background-color: #DFDFDF;
+    background-color: #F7FAFF;
 }
 #feature_box, #store_box {
   width: 1100px;
@@ -1803,7 +1802,7 @@ a:hover .btn_color {
   overflow-y: hidden;
 }
 #store_wrap{
-  background:  #3594DD;
+  background:  #3A68DE;
   padding: 50px 0;
 }
 #store_box h2{
@@ -1815,7 +1814,7 @@ a:hover .btn_color {
 #store_box h4{
   font-size: 14px;
   margin: 0;
-  color: #333333;
+  color: #FFFFFF;
   letter-spacing: 0.34px;
   text-align: center;
   font-weight: 400;
@@ -1826,7 +1825,7 @@ a:hover .btn_color {
   margin:  30px 0;
 }
 .store_card_box{
-  background:  #fff;
+  background:  rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 10px rgba(0,0,0,0.06);
   border-radius: 8px;
   padding: 35px 10px;
@@ -1849,6 +1848,8 @@ a:hover .btn_color {
 }
 .store_card_box h3{
   text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 16px;
   margin: 0;
 }
 .store_view_all{
@@ -1891,8 +1892,9 @@ a:hover .btn_color {
   box-shadow: 0px 0px;
   margin-top: 10px;
   text-align: center;
-  border: 2px solid #3060DD;
+  border: 2px solid #FFFFFF;
   letter-spacing: 1px;
+  background-color: rgba(11, 211, 206);
 }
 #footer_inner_btn2 a {
   display: inline-block;
@@ -1900,7 +1902,7 @@ a:hover .btn_color {
   padding-right: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #fff;
+  color: #3A68DE;
   font-size: 16px;
   font-weight: bold;
   -webkit-box-shadow: 0px 0px;
@@ -1909,7 +1911,7 @@ a:hover .btn_color {
   text-align: center;
   border: 2px solid #3060DD;
   letter-spacing: 1px;
-  background-color: #3A68DE;
+  background-color: #FFFFFF;
 }
 #footer_inner_btn2 a:hover {
   display: inline-block;
@@ -2485,8 +2487,8 @@ h2:after {
   font-weight: normal;
 }
 #feature_inner h2 {
-  font-size: 24px;
-  color: #030303;
+  font-size: 40px;
+  color: #172B4D;
   line-height: 50px;
   clear: both;
   text-align: center;
@@ -2496,7 +2498,7 @@ h2:after {
   letter-spacing: 3px;
 }
 #faq_inner h2 {
-  font-size: 24px;
+  font-size: 40px;
   line-height: 50px;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -2506,6 +2508,7 @@ h2:after {
   font-weight: bold;
   width: auto;
   letter-spacing: 3px;
+  color: #172B4D;
 }
 #contents_inner #about {
   width: 1050px;
@@ -2514,8 +2517,8 @@ h2:after {
   border-radius: 10px;
 }
 #contents_inner #about h2 {
-  color: #000000;
-  font-size: 24px;
+  color: #172B4D;
+  font-size: 28px;
   margin-bottom: 20px;
   font-weight: bold;
   margin-top: 30px;
@@ -2523,8 +2526,8 @@ h2:after {
   letter-spacing: 3px;
 }
 #contents_inner #about p {
-    color: #333;
-    font-size: 13px;
+    color: #172B4D;
+    font-size: 14px;
     line-height: 1.7em;
     letter-spacing: 3px;
     font-weight: bold;
@@ -2589,8 +2592,8 @@ h2:after {
   padding-bottom: 20px;
 }
 #content_1_inner p {
-  color: #333333;
-  font-size: 16px;
+  color: #FFFFFF;
+  font-size: 20px;
   line-height: 1.7em;
   margin-bottom: 30px;
   font-weight: bold;
@@ -2604,8 +2607,8 @@ h2:after {
   margin-bottom: 20px;
 }
 #content_1_inner h4 {
-  color: #333333;
-  font-size: 16px;
+  color: #FFFFFF;
+  font-size: 18px;
   padding-bottom: 20px;
 }
 #content_1_list {
@@ -2737,11 +2740,11 @@ h2:after {
   width: auto;
 }
 #footer_banner_text {
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 3px;
   margin-bottom: 10px;
   margin-top: 100px;
-  text-align: left;
+  text-align: center;
   color: hsla(0, 0%, 100%, 1.00);
   font-weight: bold;
   line-height: 1.5em;
@@ -2770,10 +2773,10 @@ h2:after {
   padding-bottom: 1.3em;
   position: relative;
   background-color: #fff;
-  color: #333;
+  color: #172B4D;
   font-size: 16px;
   line-height: 1.435em;
-  border-bottom: 1px solid #A6A6A6;
+  border-bottom: 2px solid #172B4D;
   background-image: url(../img/faq_icon.png);
   background-repeat: no-repeat;
   background-size: 1.8em auto;
@@ -2816,7 +2819,7 @@ h2:after {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #241F20;
+  background-color: #172B4D;
 }
 .accordion li .accordion_icon span:nth-of-type(1) {
   transform: rotate(0deg);
@@ -2860,6 +2863,9 @@ h2:after {
   width: 100%;
   clear: both;
   overflow-y: hidden;
+  background-image: linear-gradient( to right, rgba(48,96,221,.6), rgba(35,211,206, .6)), url(../img/footer_bg.png);
+  background-repeat: repeat-x;
+  height: 500px;
 }
 #flow_right ul li {
   color: #FFFFFF;
@@ -3035,7 +3041,7 @@ h2:after {
   display: block;
 }
 #faq_inner .accordion ul {
-  border-top: 1px solid #A6A6A6;
+  border-top: 2px solid #172B4D;
 }
 #contents_inner #footer {
   margin-top: 0px;
@@ -3043,9 +3049,9 @@ h2:after {
   clear: both;
   padding-bottom: 20px;
   border-top: 2px solid hsla(0, 0%, 74%, 1.00);
+  background-color: #172B4D;
 }
 #footer_wrap {
-    background-image: url(../img/footer_bg.png);
     background-size: cover;
     background-position: center top;
     clear: both;
@@ -3053,14 +3059,16 @@ h2:after {
 }
 #footer #footer_inner {
   width: 1050px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   overflow-y: hidden;
+  display: flex;
+  justify-content: center;
 }
 #footer_banner_inner #footer_text_box {
   float: right;
   width: 400px;
   margin-bottom: 100px;
+  text-align: center;
 }
 #footer #footer_inner ul {}
 #footer #copy {
@@ -3072,7 +3080,7 @@ h2:after {
   padding-bottom: 20px;
 }
 #footer_inner ul li {
-    display: inline-block;
+    /* display: inline-block; */
 }
 #footer_inner ul li a {
     color: #FFFFFF;
@@ -3093,12 +3101,23 @@ h2:after {
 }
 #contents_inner #copy {
     text-align: center;
-    background-color: hsla(348, 8%, 13%, 1.00);
+    background-color: #172B4D;
     color: hsla(0, 0%, 100%, 1.00);
     font-size: 12px;
     clear: both;
     height: 80px;
     line-height: 80px;
+    border-top: solid 1px #FFFFFF;
+}
+#footer_inner .footer-block{
+  width: 25%;
+  display: inline-block;
+}
+#footer_inner .footer-block.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 #feature_box h1 {
   font-size: 24px;
@@ -3138,9 +3157,15 @@ h2:after {
 .scene_box h3 {
   background-color: #3A68DE;
 	-webkit-box-shadow: 0px 0px 5px #D6D6D6;
-	padding: 12px 1%;
+	padding: 17px 1%;
 	box-shadow: 0px 0px 5px #D6D6D6;
-  color: #fff;
+  color: #FFFFFF;
+  height: 60px;
+  width: 240px;
+  font-size: 16px;
+  line-height: 24px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .scene_box2 {
   margin-bottom: 20px;
@@ -3149,19 +3174,21 @@ h2:after {
   margin-top: 10px;
 }
 .scene_tab ul li {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 3px;
   padding-top: 3px;
 }
 .scene_tab {
-  background-image: -webkit-linear-gradient(270deg, rgba(233, 233, 233, 0.93) 0%, rgba(255, 255, 255, 0.90) 100%);
-  background-image: linear-gradient(180deg, rgba(233, 233, 233, 0.93) 0%, rgba(255, 255, 255, 0.90) 100%);
+  background-color: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px;
   -webkit-box-shadow: 0px 0px 5px #D6D6D6;
   box-shadow: 0px 0px 5px #D6D6D6;
+  width: 240px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .scene_tab p img {
   width: 60px;
@@ -3192,9 +3219,8 @@ h2:after {
   float: left;
 }
 #footer #footer_inner figure {
-  width: 25%;
-  float: right;
-  text-align: right;
+  /* width: 25%;
+  text-align: right; */
 }
 #footer_inner figure img {
   width: 75%;
@@ -3217,13 +3243,11 @@ h2:after {
   margin-bottom: 100px;
 }
 #footer #footer_inner #browser_box {
-    clear: both;
-    float: left;
-    width: 50%;
+  margin-bottom: 10px;
 }
 #footer #footer_inner #sns_box {
-    float: right;
-    width: 50%;
+    /* float: right;
+    width: 50%; */
 }
 #footer_inner #browser_box h2 {
     padding-left: 20px;
@@ -3237,19 +3261,14 @@ h2:after {
     margin-bottom: 10px;
     width: auto;
 }
-#browser_box ul li {
-    padding-right: 15px;
-    padding-left: 15px;
-}
+#browser_box ul li,
 #sns_box ul li {
-    padding-right: 0px;
+    display: inline-block;
+    padding: 0 10px;
 }
-#browser_box ul li img {
-    width: 30px;
-    height: auto;
-}
+#browser_box ul li img,
 #sns_box ul li img {
-    width: 30px;
+    width: 20px;
     height: auto;
 }
 #footer_inner #browser_box ul {
@@ -5079,8 +5098,7 @@ h2:after {
 #footer_inner #footer_box #sns_box {
     width: 100%;
 }
-#footer_box #browser_box ul {
-}
+
   #main_v #main_wrap figure {
     width: 90%;
   }

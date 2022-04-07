@@ -85,7 +85,7 @@ const Component = () => {
             <div id="about_wrap">
               <div id="about">
                 <div id="about_box">
-                  <h2>Rays Walletグローバルペイメントソリューション</h2>
+                  <h2>Rays Wallet<br/>グローバルペイメントソリューション</h2>
                   <p>
                   Rays Walletはグローバルでご利用いただけるEウォレットです。
                     <br />
