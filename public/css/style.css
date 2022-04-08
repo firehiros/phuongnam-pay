@@ -1421,8 +1421,7 @@ body {
     background-position: center center;
     clear: both;
     border-top: 5px solid #3A68DE;
-    background-image: url(../img/tigerpay_mainbg.png);
-    background-color: #555246;
+    background-image: linear-gradient( to right, rgba(48,96,221,.6), rgba(35,211,206, .6)), url(../img/index_banner.png);
 }
 #main_v #main_wrap figure {
   display: block;
@@ -1569,9 +1568,10 @@ a:hover .btn_color {
   box-shadow: 0px 0px;
   font-size: 16px;
   font-weight: bold;
-  border: 2px solid #3A68DE;
+  border: 2px solid #FFFFFF;
   margin-top: 30px;
   letter-spacing: 1px;
+  background-color: rgba(11, 211, 206, .8);
 }
 #about_wrap #about figure {
     width: 400px;
@@ -4024,10 +4024,10 @@ h2:after {
 @media screen and (max-width: 860px) {
   /* Nav
 -----------------------------------------*/
-  #contents_inner #main_v {
+  /* #contents_inner #main_v {
     padding-bottom: 60px;
     display: none;
-  }
+  } */
   #contents_inner #header .pc_main {
     display: none;
   }
@@ -4212,10 +4212,10 @@ h2:after {
   #sub_menu .sponsor a:hover {
     background-color: #F1F1F1;
   }
-  #contents #contents_inner #main_v_sp {
+  /* #contents #contents_inner #main_v_sp {
     display: block;
     border-top: 5px solid #3A68DE;
-  }
+  } */
   #contents_inner #main_v_sp img {
     width: 100%;
     height: auto;
@@ -4233,9 +4233,9 @@ h2:after {
     float: none;
     margin-top: 20px;
   }
-  #contents_inner #main_v #main_wrap {
+  /* #contents_inner #main_v #main_wrap {
     display: none;
-  }
+  } */
   #main_v #main_wrap #main_v_inner {
     width: 80%;
     margin-left: auto;
