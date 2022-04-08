@@ -716,7 +716,7 @@ body {
 #contents_inner #terms_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
@@ -727,7 +727,7 @@ body {
 #contents_inner #privacy_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
@@ -768,7 +768,7 @@ body {
 #contents_inner #news_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
@@ -778,23 +778,11 @@ body {
 #contents_inner #faq_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
   height: auto;
-}
-#terms_title h2:before {
-  content: '';
-  position: absolute;
-  bottom: -15px;
-  display: inline-block;
-  width: 60px;
-  height: 5px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #fff;
 }
 #news_title h2:before {
   content: '';
