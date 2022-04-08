@@ -493,16 +493,14 @@ body {
   float: none;
   clear: both;
   height: 300px;
-  background-image: url(../img/terms_title_bg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #privacy_title {
   float: none;
   clear: both;
   height: 300px;
-  background-image: ;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #about_title {
@@ -523,36 +521,28 @@ body {
   float: none;
   clear: both;
   height: 300px;
-  background-image: url(../img/debit_title_bg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #news_title {
   float: none;
   clear: both;
   height: 300px;
-  background-image: url(../img/news_titlebg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #faq_title {
   float: none;
   clear: both;
   height: 300px;
-  background-image: url(../img/faq_titlebg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #fee_title {
   float: none;
   clear: both;
   height: 300px;
-  background-image: url(../img/fee_title_bg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient( to right, #3060DD, #23D3CE);
   border-top: 5px solid #3A68DE;
 }
 #fee_inner {
@@ -591,10 +581,11 @@ body {
   padding: 2%;
   text-align: center;
   background-color: #fff;
+  color: #172B4D;
   border-right: 1px solid #adadad;
 }
 .fee_table table tbody tr:nth-child(even) td {
-  background: #eee;
+  background: #F7FAFF;
 }
 .fee_table table tbody tr:first-child td {
   border-top: 1px solid #adadad;
@@ -604,6 +595,7 @@ body {
   height: 40px;
   padding: 2% 2.4%;
   background: #fff;
+  color: #172B4D;
   border-right: 1px solid #adadad;
   border-left: 1px solid #adadad;
 }
@@ -611,7 +603,7 @@ body {
   border-left: none;
 }
 .fee_table table tbody tr:nth-child(even) th {
-  background: #eee;
+  background: #F7FAFF;
 }
 .fee_logo img {
   width: 70%;
@@ -620,7 +612,7 @@ body {
 #contents_inner #fee_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
@@ -629,8 +621,8 @@ body {
   text-shadow: 1px 2px 3px #808080;
 }
 #fee_inner h3 {
-  font-size: 24px;
-  color: #030303;
+  font-size: 28px;
+  color: #172B4D;
   text-align: center;
   letter-spacing: 3px;
   margin-bottom: 30px;
@@ -659,8 +651,12 @@ body {
   padding: 8% 1.5% 2%;
   text-align: center;
 }
-.fee02_wrap {
-  background-color: #f5f5f5;
+.fee_table ul{
+  color: #172B4D;
+  font-size: 14px;
+}
+.fee02_wrap { 
+  background-color: #F7FAFF;
 }
 .q_title, .p_title, .b_title {
   color: #ffffff;
