@@ -293,51 +293,51 @@ body {
 #main_inner #flow_1 {
   width: 100%;
   background-color: #FFFFFF;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: 0px;
   overflow-y: hidden;
 }
 #main_inner #flow_2 {
-  background-color: #f5f5f5;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background-color: #F7FAFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #main_inner #flow_3 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #FFFFFF;
 }
 #main_inner #flow_4 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F7FAFF;
 }
 #main_inner #flow_5 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #ffffff;
 }
 #main_inner #flow_6 {
-  background-color: #f5f5f5;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background-color: #F7FAFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #main_inner #flow_8 {
-  background-color: #f5f5f5;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background-color: #F7FAFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #main_inner #flow_7 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #FFFFFF;
 }
 #register_flow {
   border-top: 5px solid #3A68DE;
   margin-top: 5px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .flow_box {
   width: 1100px;
@@ -347,15 +347,50 @@ body {
 }
 #kyc_box p {}
 #about_inner {
-  width: 860px;
+  width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
 #about_inner2 {
-  width: 860px;
+  width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
+#about_inner2 h4{
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 1.4em;
+  line-height: 1.4;
+  color: #172B4D;
+  clear: both;
+}
+#about_inner2 h4::before{
+  font-family: "Font Awesome 5 Free";
+  content: "■";
+  font-weight: 900;
+  position: absolute;
+  font-size: 1em;
+  left: 0;
+  color: #172B4D;
+}
+#about_inner2 ul.about5_wrap{
+  margin-top: 30px;
+  display: flex;
+}
+#about_inner2 ul.about5_wrap li{
+  width: 25%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0BD3CE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#about_inner2 ul.about5_wrap li span{
+  padding-left: 90px;
+  display: block;
+}
+
 #new_inner {
   width: 860px;
   margin-left: auto;
@@ -722,7 +757,7 @@ body {
 #contents_inner #card_title h2 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 40px;
   position: relative;
   display: block;
   padding-top: 110px;
@@ -748,18 +783,6 @@ body {
   display: block;
   padding-top: 110px;
   height: auto;
-}
-#card_title h2:before {
-  content: '';
-  position: absolute;
-  bottom: -15px;
-  display: inline-block;
-  width: 60px;
-  height: 5px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: #fff;
 }
 #terms_title h2:before {
   content: '';
@@ -1232,9 +1255,7 @@ body {
   background-color: #F4A91F;
 }
 #card_flow_box .card_flow_img {
-  background-color: hsla(0, 0%, 100%, 1.00);
   display: block;
-  border: 2px solid #DDDDDD;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1254,6 +1275,7 @@ body {
 }
 .card_about1.card_first p {
   font-size: 14px;
+  color: #172B4D;
 }
 #card_flow_box {
   display: -webkit-flex;
@@ -1331,6 +1353,7 @@ body {
 }
 #flow_1 #about_inner2 p {
   font-size: 14px;
+  color: #172B4D;
   margin-bottom: 20px;
 }
 #about_inner2 .about_inner2_box {
@@ -3717,7 +3740,7 @@ h2:after {
   background-image: url(../img/debit_icon4.png);
   background-repeat: no-repeat;
   background-size: 70px auto;
-  background-position: 0% 30px;
+  background-position: 0% 20px;
 }
 #api1 {
   background-image: url(../img/sistem_icon1.png);
