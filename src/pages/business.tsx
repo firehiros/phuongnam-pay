@@ -26,10 +26,16 @@ const Component = () => {
         />
         <meta name="keywords" content="" />
         <link
+          href="./css/style.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link
           href="./css/business/style.css"
           rel="stylesheet"
           type="text/css"
         />
+        
         <link
           href="./css/business/default.css"
           rel="stylesheet"
@@ -44,17 +50,17 @@ const Component = () => {
 
       <main id="business">
         <div id="header">
-          {/* <p id="logo">
+          <p id="logo">
             <a href="/">
               <img
-                src="./img/tiger_pay_logo.png"
+                src="./img/rayswallet_logo_white.png"
                 width="498"
                 height="178"
                 alt="Rays Wallet"
               />
             </a>
-          </p> */}
-          <h1>Rays WalletのBusiness口座</h1>
+          </p>
+          {/* <h1>Rays WalletのBusiness口座</h1> */}
           <ul>
             <li className="ofiice_link">
               <Link href="/about">
@@ -66,11 +72,12 @@ const Component = () => {
         <div id="main_wrap">
           <div id="main_v">
             <div id="main_text">
+            <h1>Rays WalletのBusiness口座</h1>
               <p>
                 全世界的にキャッシュレス化が進む中、今後は国内取引のみならず事業の大小を問わずグローバルでスピーディな決済手段が必要とされるのは間違いありません。また、日本円だけではなく、他国の通貨や暗号通貨をシームレスに扱える決済手段も重要になるでしょう。
               </p>
             </div>
-            <div id="main_bg_w"> </div>
+            {/* <div id="main_bg_w"> </div> */}
           </div>
           <div id="section2">
             <div id="main_btn">
@@ -332,7 +339,7 @@ const Component = () => {
           </div>
         </div>
 
-        <Footer inner2={true} />
+        <Footer />
       </main>
 
       <Script src="./js/jquery.min(1).js"></Script>
