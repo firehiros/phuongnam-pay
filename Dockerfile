@@ -1,15 +1,16 @@
-FROM node:15
+FROM node:14-alpine3.14
 
-# Create app directory
+# Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
-
-# Bundle app source
+# Copying source files
 COPY . .
 
+# Installing dependencies
+RUN npm install -g pm2
 RUN npm install
 RUN npm run build
+
+EXPOSE 3000
+# Running the app
+ENTRYPOINT [ "pm2-runtime", "start", "ecosystem.json" ]

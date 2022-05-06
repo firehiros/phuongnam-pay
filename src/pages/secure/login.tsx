@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 import Script from "next/script";
 import Head from "next/head";
 import Link from "next/link";
-import Reaptcha from "reaptcha";
 import { Modal, Button } from "react-bootstrap";
 import { login } from "../../services/firebase";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -134,10 +133,6 @@ const Component = () => {
                     onChange={passOnChange}
                   />
                 </div>
-                <Reaptcha
-                  sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
-                  onVerify={captchaOnChange}
-                />
 
                 <p>
                   <input

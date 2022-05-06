@@ -3,7 +3,6 @@ import React from "react";
 
 // Thirdparty Import
 import Head from "next/head";
-import Reaptcha from "reaptcha";
 
 // App Import
 import { registerWithEmail } from '../../services/firebase'
@@ -127,10 +126,6 @@ const Component = () => {
                       Please make sure that provided email address is valid and
                       functional
                     </p>
-                    <Reaptcha
-                      sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
-                      onVerify={captchaOnChange}
-                    />
                     <input
                       type="submit"
                       id="btnInput"

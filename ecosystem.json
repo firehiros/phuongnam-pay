@@ -1,0 +1,10 @@
+{
+    "apps": [
+      {
+        "name": "UNO",
+        "script": "npm run start",
+        "merge_logs": true
+      }
+    ]
+  }
+  

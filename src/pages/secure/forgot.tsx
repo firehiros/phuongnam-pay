@@ -3,7 +3,6 @@ import React from "react";
 
 // Thirdparty Import
 import Head from "next/head";
-import Reaptcha from "reaptcha";
 
 // App Import
 import Footer from "../../components/Layouts/SecureFooter";
@@ -87,10 +86,6 @@ const Component = () => {
                         Enter your email address you often used to create your
                         account
                       </p>
-                      <Reaptcha
-                        sitekey="6LdOthYeAAAAAKpPmr-ynr-CCnQAjpB4Ul_S_4Tj"
-                        onVerify={captchaOnChange}
-                      />
                       <input
                         type="button"
                         id="btnSend"
