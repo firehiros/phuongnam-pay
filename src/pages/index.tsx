@@ -43,7 +43,7 @@ const Component = () => {
             <div id="main_v">
               <div id="main_wrap">
                 <div id="main_v_inner">
-                  {/* <h1>
+                  <h1>
                     <span className="title_small">
                       早くて簡単、便利！最も安全な決済
                     </span>
@@ -61,7 +61,7 @@ const Component = () => {
                     >
                       <span className="btn_color">Rays Wallet</span>口座開設
                     </a>
-                  </p> */}
+                  </p>
                 </div>
                 {/* <figure>
                   <img
@@ -73,7 +73,7 @@ const Component = () => {
                 </figure> */}
               </div>
             </div>
-            <div id="main_v_sp">
+            {/* <div id="main_v_sp">
               {" "}
               <img
                 src="./img/tiger_main_sp.png"
@@ -81,11 +81,11 @@ const Component = () => {
                 height="1579"
                 alt="グローバルいーウォレットの決定版"
               />{" "}
-            </div>
+            </div> */}
             <div id="about_wrap">
               <div id="about">
                 <div id="about_box">
-                  <h2>Rays Walletグローバルペイメントソリューション</h2>
+                  <h2>Rays Wallet<br/>グローバルペイメントソリューション</h2>
                   <p>
                   Rays Walletはグローバルでご利用いただけるEウォレットです。
                     <br />

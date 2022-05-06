@@ -38,17 +38,19 @@ const Component = ({ ...props }) => {
         </div>
         <div id="footer">
           <div id={props.inner2 == 1 ? "footer_inner2" : "footer_inner"}>
-            {/* <figure>
-              <a href="/">
-                <img
-                  src="./img/footer_logo.png"
-                  width="2083"
-                  height="994"
-                  alt="Rays Wallet"
-                />
-              </a>
-            </figure> */}
-            <div id="footer_box">
+            <div className="footer-block footer-logo">
+              <figure>
+                <a href="/">
+                  <img
+                    src="./img/rayswallet_logo_white.png"
+                    width="2083"
+                    height="994"
+                    alt="Rays Wallet"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div className="footer-block">
               <ul>
                 <li>
                   <Link href="/">
@@ -66,23 +68,32 @@ const Component = ({ ...props }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/business">
-                    <a>事業者の方はこちら</a>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/partner">
                     <a>パートナー</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/kyc">
-                    <a>本人確認手順</a>
+                  <Link href="/fee">
+                    <a>手数料・処理時間</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/fee">
-                    <a>手数料・処理時間</a>
+                  <Link href="/card">
+                    <a>提携カード</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/qa">
+                    <a>よくある質問</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-block">
+              <ul>
+                <li>
+                  <Link href="/kyc">
+                    <a>本人確認手順</a>
                   </Link>
                 </li>
                 <li>
@@ -100,86 +111,73 @@ const Component = ({ ...props }) => {
                     <a>特定商取引法に基づく表示</a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/qa">
-                    <a>よくある質問</a>
-                  </Link>
-                </li>
+              </ul>
+            </div>
+            <div className="footer-block">
+              <ul>
                 <li>
                   <Link href="/sitemap">
                     <a>サイトマップ</a>
                   </Link>
                 </li>
-              </ul>
-              {props.inner2 == 1 ? null : (
-                <div id="browser_box">
-                  <h2>推奨ブラウザ</h2>
-                  <ul>
-                    <li>
-                      <img
-                        src="./img/chrome.png"
-                        width="225"
-                        height="225"
-                        alt="chrome"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="./img/firefox.png"
-                        width="225"
-                        height="225"
-                        alt="firefox"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="./img/ie.png"
-                        width="225"
-                        height="225"
-                        alt="ie"
-                      />
-                    </li>
-                  </ul>
-                </div>
-              )}
-              {props.inner2 == 1 ? null : (
-                <div id="sns_box">
-                  <h2>公式SNSアカウント</h2>
-                  <ul>
-                    <li>
-                      <a href="https://twitter.com/TigerpayEwallet">
+                <li>
+                  <div id="browser_box">
+                    <h2>推奨ブラウザ</h2>
+                    <ul>
+                      <li>
+                        <img
+                          src="./img/chrome.png"
+                          width="225"
+                          height="225"
+                          alt="chrome"
+                        />
+                      </li>
+                      <li>
+                        <img
+                          src="./img/firefox.png"
+                          width="225"
+                          height="225"
+                          alt="firefox"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div id="sns_box">
+                    <h2>公式SNSアカウント</h2>
+                    <ul>
+                      <li>
                         <img
                           src="./img/twitter.png"
                           width="225"
                           height="225"
                           alt="twitter"
                         />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://line.me/R/ti/p/@tigerpay">
+                      </li>
+                      <li>
                         <img
                           src="./img/line.png"
                           width="225"
                           height="225"
                           alt="line"
                         />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/TigerpayEwallet">
+                      </li>
+                      <li>
                         <img
                           src="./img/facebook.png"
                           width="225"
                           height="225"
                           alt="facebook"
                         />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              )}
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
             </div>
+            
+            
           </div>
         </div>
       </div>

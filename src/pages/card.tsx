@@ -57,73 +57,49 @@ const Component = () => {
                       口座からご利用頂けます。(プリペイドカードのご利用にはお手続きが別途必要となります。)
                     </p>
                     <div id="card_flow_box">
-                      <div className="card_flow_inner">
-                        <figure className="card_flow_img">
-                          <img
-                            src="./img/debit_phone.png"
-                            width="auto"
-                            height="250"
-                            alt="プリペイド式デビットカード"
-                          />
-                        </figure>
-                        <h4>Rays Walletお客様アカウント</h4>
-                      </div>
-                      <div className="card_flow_inner" id="card_flow_pc">
-                        <div id="card_flow_arrow_box">
-                          <h5>プリペイドカードへチャージ</h5>
-                          <figure id="card_flow_arrow">
-                            <img
-                              src="./img/card_arrow.png"
-                              width="372"
-                              height="28"
-                              alt=""
-                            />
-                          </figure>
-                          <p>チャージ金額+手数料※</p>
-                        </div>
-                      </div>
-                      <div className="card_flow_inner" id="card_flow_sp">
-                        {" "}
+                      <figure className="card_flow_img">
                         <img
-                          src="./img/flow_sp.png"
-                          width="383"
-                          height="269"
-                          alt="プリペイドカードへ"
-                        />{" "}
-                      </div>
-                      <div className="card_flow_inner">
-                        <figure className="card_flow_img card_flow_lite">
-                          <img
-                            src="./img/debit_card.png"
-                            width="auto"
-                            height="150"
-                            alt="プリペイドカード"
-                          />
-                        </figure>
-                        <h4>プリペイドカード</h4>
-                      </div>
+                          src="./img/card_banner.png"
+                          width="100%"
+                          alt="プリペイド式デビットカード"
+                        />
+                      </figure>
                     </div>
                   </div>
                 </div>
               </div>
               <div id="flow_1">
                 <div id="about_inner2">
-                  <h2>プリペイドカードを利用して決済</h2>
-                  <p>
-                  Rays Walletのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
-                  </p>
-                  <div className="about_inner2_box card_icon1">
-                    <h3>ATM出金</h3>
-                  </div>
-                  <div className="about_inner2_box card_icon2">
-                    <h3>お買物やお食事のお支払いに</h3>
-                  </div>
-                  <div className="about_inner2_box card_icon3">
-                    <h3>ネットでのお買い物や決済に</h3>
-                  </div>
-                  <div className="about_inner2_box card_icon4">
-                    <h3>海外旅行や国外での決済に</h3>
-                  </div>
+                <h4>プリペイドカードを利用して決済</h4>
+                <p>
+                Rays Walletのプリペイド式デビッドカードは、郵送にてお届け致します。お手元に届いたカードがあればオンラインの決済のも、オフラインお決済にもご利用いただけます。また、ATMを利用した引き出しも可能です。
+                </p>
+                <ul className="about5_wrap">
+                  <li id="atm_icon">
+                    <span>ATM出金</span>
+                  </li>
+                  <li id="pay_icon">
+                    <span>
+                      お買い物やお食事
+                      <br />
+                      のお支払いに
+                    </span>
+                  </li>
+                  <li id="net_icon">
+                    <span>
+                      ネットでのお買物
+                      <br />
+                      や決済に
+                    </span>
+                  </li>
+                  <li id="travel_icon">
+                    <span>
+                      海外旅行や
+                      <br />
+                      国外での決済に
+                    </span>
+                  </li>
+                </ul>
                 </div>
               </div>
             </div>

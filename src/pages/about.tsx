@@ -103,8 +103,6 @@ const Component = () => {
                         <p id="partner">
                           <img
                             src="./img/pesoforward_logo.png"
-                            width="1011"
-                            height="233"
                             alt="pesoforward"
                           />{" "}
                         </p>
