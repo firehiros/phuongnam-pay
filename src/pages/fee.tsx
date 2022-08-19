@@ -1,21 +1,23 @@
 // React import
-import React from "react";
+import React from 'react'
 
 // Thirdparty Import
-import Script from "next/script";
-import Head from "next/head";
-import Link from "next/link";
+import Script from 'next/script'
+import Head from 'next/head'
+import Link from 'next/link'
 
 // App Import
-import Header from "../components/Layouts/Header";
-import Footer from "../components/Layouts/Footer";
+import Header from '../components/Layouts/Header'
+import Footer from '../components/Layouts/Footer'
+import FeeTable from 'src/components/Molecules/FeeTable'
+import FeeTableTime from 'src/components/Molecules/FeeTableTime'
 
 const Component = () => {
   return (
     <>
       <Head>
         <title>
-        Rays Wallet グローバル対応の最新Eウォレット | 手数料・処理時間
+          Rays Wallet グローバル対応の最新Eウォレット | 手数料・処理時間
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta
@@ -49,162 +51,10 @@ const Component = () => {
               <section className="fee01">
                 <h3>一般手数料</h3>
                 <div className="fee_table">
-                  <table>
-                    <tbody>
-                      <tr>
-                        <th></th>
-                        <td className="q_title">
-                          Fast
-                          <br />
-                          <span>ファストアカウント</span>
-                        </td>
-                        <td className="p_title">
-                          Personal
-                          <br />
-                          <span>パーソナルアカウント</span>
-                        </td>
-                        <td className="b_title">
-                          Business
-                          <br />
-                          <span>ビジネスアカウント</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>口座開設</th>
-                        <td>無料</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>口座維持費</th>
-                        <td>無料</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>インターナルトランスファー</th>
-                        <td>0.5%</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>エクスチェンジ</th>
-                        <td>無料</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 銀行振込（日本）</th>
-                        <td>5%</td>
-                        <td>5%</td>
-                        <td>5%</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 銀行振込（国際）</th>
-                        <td>ー</td>
-                        <td>2% (着金額から2%)</td>
-                        <td>2% (着金額から2%)</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 暗号通貨</th>
-                        <td>無料</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - ペイジー</th>
-                        <td>4%（決済手数料別）</td>
-                        <td>4%（決済手数料別）</td>
-                        <td>4%（決済手数料別）</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - クレジットカード</th>
-                        <td>ー</td>
-                        <td>準備中</td>
-                        <td>準備中</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - 銀行振込（日本）</th>
-                        <td>ー</td>
-                        <td>
-                          2%
-                          <br />
-                          (ミニマム:35 ドル / 3500 円)
-                        </td>
-                        <td>
-                          2%
-                          <br />
-                          (ミニマム:35 ドル / 3500 円)
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>出金 - 銀行振込（国際）</th>
-                        <td>ー</td>
-                        <td>
-                          2.5%
-                          <br />
-                          (ミニマム:60ドル / 60ユーロ)
-                        </td>
-                        <td>
-                          2.5%
-                          <br />
-                          (ミニマム:60ドル / 60ユーロ)
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>出金 - BTC</th>
-                        <td>1.5%（ミニマム：0.00005 BTC）</td>
-                        <td>1.2%（ミニマム：0.00005 BTC）</td>
-                        <td>1.2%（ミニマム：0.00005 BTC）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - ETH</th>
-                        <td>1.5%（ミニマム：0.005 ETH）</td>
-                        <td>1.2%（ミニマム：0.005 ETH）</td>
-                        <td>1.2%（ミニマム：0.005 ETH）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - XRP</th>
-                        <td>1.5%（ミニマム：0.005 XRP）</td>
-                        <td>1.2%（ミニマム：0.005 XRP）</td>
-                        <td>1.2%（ミニマム：0.005 XRP）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - USDT / USDC</th>
-                        <td>1.5%（ミニマム：20 USDT/USDC）</td>
-                        <td>1.2%（ミニマム：20 USDT/USDC）</td>
-                        <td>1.2%（ミニマム：20 USDT/USDC）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - プリペイドカードチャージ</th>
-                        <td>ー</td>
-                        <td>
-                          2%
-                          <br />
-                          (ミニマム:15ドル / 1700円)
-                        </td>
-                        <td>
-                          2%
-                          <br />
-                          (ミニマム:15ドル / 1700円)
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>口座間送金(送金者負担)</th>
-                        <td>0.50%</td>
-                        <td>無料</td>
-                        <td>無料</td>
-                      </tr>
-                      <tr>
-                        <th>非アクティブアカウント管理費（12ヶ月以降）</th>
-                        <td>月額:1.82 ドル</td>
-                        <td>月額:1.82 ドル</td>
-                        <td>月額:1.82 ドル</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <FeeTable />
                 </div>
               </section>
+
               <div className="fee02_wrap">
                 <section className="fee02">
                   <h3>入出金限度額</h3>
@@ -212,31 +62,31 @@ const Component = () => {
                     <table id="card_table01">
                       <tbody>
                         <tr>
-                          <th>国内銀行（日本）- 入金 / 出金</th>
+                          <td>国内銀行（日本）- 入金 / 出金</td>
                           <td>1 - 5,000,000 JPY</td>
                         </tr>
                         <tr>
-                          <th>国際銀行 - 入金 / 出金</th>
+                          <td>国際銀行 - 入金 / 出金</td>
                           <td>1 - 50,000 USD</td>
                         </tr>
                         <tr>
-                          <th>暗号通貨 - 入金 / 出金</th>
+                          <td>暗号通貨 - 入金 / 出金</td>
                           <td>全通貨の最小単位 0.001 - ∞</td>
                         </tr>
                         <tr>
-                          <th>ペイジー - 入金</th>
+                          <td>ペイジー - 入金</td>
                           <td>1,000 - 950,000 JPY</td>
                         </tr>
                         <tr>
-                          <th>クレジットカード - 入金</th>
+                          <td>クレジットカード - 入金</td>
                           <td>準備中</td>
                         </tr>
                         <tr>
-                          <th>プリペイドカードチャージ - 出金</th>
+                          <td>プリペイドカードチャージ - 出金</td>
                           <td>0.01 - 8,000 USD / 1 - 800,000 JPY</td>
                         </tr>
                         <tr>
-                          <th>エクスチェンジ</th>
+                          <td>エクスチェンジ</td>
                           <td>全通貨の最小単位 0.001 - ∞</td>
                         </tr>
                       </tbody>
@@ -244,63 +94,65 @@ const Component = () => {
                   </div>
                 </section>
               </div>
+
               <section className="fee02">
                 <h3>カード手数料</h3>
                 <div className="fee_table">
                   <table id="card_table">
                     <tbody>
                       <tr>
-                        <th>プリペイドカード発行</th>
+                        <td>プリペイドカード発行</td>
                         <td>150 ドル(25ドル キャッシュバック)</td>
                       </tr>
                       <tr>
-                        <th>カード紛失・故障（再発行）</th>
+                        <td>カード紛失・故障（再発行）</td>
                         <td>
                           85 ドル(残高移動:6.5ドル / 10ドル キャッシュバック)
                         </td>
                       </tr>
                       <tr>
-                        <th>カード更新</th>
+                        <td>カード更新</td>
                         <td>
                           85 ドル(残高移動:6.5ドル / 10ドル キャッシュバック)
                         </td>
                       </tr>
                       <tr>
-                        <th>ATM引き出し手数料</th>
+                        <td>ATM引き出し手数料</td>
                         <td>5ドル +ATM 手数料 (ATM よって異なる )</td>
                       </tr>
                       <tr>
-                        <th>POS/オンライン決済手数料</th>
+                        <td>POS/オンライン決済手数料</td>
                         <td>1.50 ドル</td>
                       </tr>
                       <tr>
-                        <th>FX為替レート</th>
+                        <td>FX為替レート</td>
                         <td>銀行・ATM 指定レート</td>
                       </tr>
                       <tr>
-                        <th>* アクティベート手数料</th>
+                        <td>* アクティベート手数料</td>
                         <td>2ドル </td>
                       </tr>
                       <tr>
-                        <th>* 月額手数料</th>
+                        <td>* 月額手数料</td>
                         <td>2ドル </td>
                       </tr>
                       <tr>
-                        <th>* 休止カード手数料（未使用 6 ヶ月）</th>
+                        <td>* 休止カード手数料（未使用 6 ヶ月）</td>
                         <td>月額 3ドル</td>
                       </tr>
                       <tr>
-                        <th>* 休眠カード手数料（未使用 12 ヶ月）</th>
+                        <td>* 休眠カード手数料（未使用 12 ヶ月）</td>
                         <td>月額 3ドル</td>
                       </tr>
                       <tr>
-                        <th>*PIN 再発行手数料</th>
+                        <td>*PIN 再発行手数料</td>
                         <td>1ドル</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </section>
+
               <div className="fee02_wrap">
                 <section className="fee02">
                   <h3>カードご利用限度額</h3>
@@ -308,27 +160,27 @@ const Component = () => {
                     <table id="card_table2">
                       <tbody>
                         <tr>
-                          <th>一回あたりの最大取引額</th>
+                          <td>一回あたりの最大取引額</td>
                           <td>3,000 ドル</td>
                         </tr>
                         <tr>
-                          <th>月額の最大取引額</th>
+                          <td>月額の最大取引額</td>
                           <td>10,000 ドル</td>
                         </tr>
                         <tr>
-                          <th>1時間あたりの最大利用回数</th>
+                          <td>1時間あたりの最大利用回数</td>
                           <td>5回</td>
                         </tr>
                         <tr>
-                          <th>1日あたりの最大利用回数</th>
+                          <td>1日あたりの最大利用回数</td>
                           <td>20回</td>
                         </tr>
                         <tr>
-                          <th>最大チャージ金額／１回あたり</th>
+                          <td>最大チャージ金額／１回あたり</td>
                           <td>8,000 ドル</td>
                         </tr>
                         <tr>
-                          <th>月額累計最大チャージ金額</th>
+                          <td>月額累計最大チャージ金額</td>
                           <td>10,000 ドル</td>
                         </tr>
                       </tbody>
@@ -350,111 +202,14 @@ const Component = () => {
                   </div>
                 </section>
               </div>
+
               <section className="fee03">
                 <h3>手続き処理時間</h3>
                 <div className="fee_table">
-                  <table>
-                    <tbody>
-                      <tr>
-                        <th></th>
-                        <td className="q_title">
-                          Fast
-                          <br />
-                          <span>ファストアカウント</span>
-                        </td>
-                        <td className="p_title">
-                          Personal
-                          <br />
-                          <span>パーソナルアカウント</span>
-                        </td>
-                        <td className="b_title">
-                          Business
-                          <br />
-                          <span>ビジネスアカウント</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>口座開設</th>
-                        <td>メール登録のみで完了</td>
-                        <td>本人確認手続き+最短5分〜</td>
-                        <td>事業者確認手続き+最短5分〜</td>
-                      </tr>
-                      <tr>
-                        <th>KYC・KYB・銀行口座認証</th>
-                        <td>１営業日</td>
-                        <td>１営業日</td>
-                        <td>1-3営業日</td>
-                      </tr>
-                      <tr>
-                        <th>Rays Wallet間送金・エクスチェンジ</th>
-                        <td>即時</td>
-                        <td>即時</td>
-                        <td>即時</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 銀行振込（日本）</th>
-                        <td>5分（目安）</td>
-                        <td>5分（目安）</td>
-                        <td>5分（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 銀行振込（国際）</th>
-                        <td>-</td>
-                        <td>3 - 5 営業日（目安）</td>
-                        <td>3 - 5 営業日（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - 暗号通貨</th>
-                        <td>即時（3承認）</td>
-                        <td>即時（3承認）</td>
-                        <td>即時（3承認）</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - ペイジー</th>
-                        <td>即時</td>
-                        <td>即時</td>
-                        <td>即時</td>
-                      </tr>
-                      <tr>
-                        <th>入金 - クレジットカード</th>
-                        <td>-</td>
-                        <td>即時</td>
-                        <td>即時</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - 銀行振込（日本）</th>
-                        <td>-</td>
-                        <td>1営業日（目安）</td>
-                        <td>1営業日（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - 銀行振込（国際）</th>
-                        <td>-</td>
-                        <td>3 - 5 営業日（目安）</td>
-                        <td>3 - 5 営業日（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - 暗号通貨</th>
-                        <td>１分（目安）</td>
-                        <td>１分（目安）</td>
-                        <td>１分（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>出金 - プリペイドカードチャージ</th>
-                        <td>-</td>
-                        <td>1 - 2 営業日（目安）</td>
-                        <td>1 - 2 営業日（目安）</td>
-                      </tr>
-                      <tr>
-                        <th>プリペイドカード発行</th>
-                        <td>-</td>
-                        <td>3 営業日~10営業日</td>
-                        <td>3 営業日~10営業日</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <FeeTableTime />
                 </div>
               </section>
+
               <div className="fee02_wrap">
                 <section className="fee02">
                   <h3>営業時間</h3>
@@ -463,39 +218,43 @@ const Component = () => {
                       <tbody>
                         <tr>
                           <th>カスタマーサポート</th>
+                        </tr>
+                        <tr>
                           <td>
-                            営業日:月曜日~金曜日(日本 の 休日・祝日は除く)
+                            営業日:月曜日~金曜日
+                            <br/>(日本 の 休日・祝日は除く)
                             <br />
                             受付時間:午前9時 ~ 午後5時
                           </td>
                         </tr>
                         <tr>
                           <th>本人確認(KYC)認証処理</th>
+                        </tr>
+                        <tr>
                           <td>
-                            営業日:月曜日~金曜日(日本 の 休日・祝日は除く){" "}
+                            営業日:月曜日~金曜日
+                            <br/>(日本 の 休日・祝日は除く){' '}
                             <br />
                             処理時間:午前10時 ~ 午後6時
                           </td>
                         </tr>
                         <tr>
                           <th>国際送金における入出金処理</th>
+                        </tr>
+                        <tr>
                           <td>
-                            営業日:月曜日~金曜日(休日・祝日は除く)
+                            営業日:月曜日~金曜日
+                            <br/>(休日・祝日は除く)
                             <br />
                             処理時間:午前10時 ~ 午後3時
                           </td>
                         </tr>
                         <tr>
                           <th>国内(日本)送金における入出金処理</th>
-                          <td>
-                            営業日:365 日(日本 の 祝日は除く) <br />
-                            処理時間: 24 時間
-                          </td>
                         </tr>
                         <tr>
-                          <th>暗号通貨における入出金処理</th>
                           <td>
-                            営業日:365 日 <br />
+                            営業日:365日(日本 の 祝日は除く) <br />
                             処理時間: 24 時間
                           </td>
                         </tr>
@@ -504,15 +263,16 @@ const Component = () => {
                             ビジネス、パートナーズサポート <br />
                             (メールサポートのみ)
                           </th>
+                        </tr>
+                        <tr>
                           <td>
-                            営業日:月曜日~金曜日(休日・祝日は除く)
-                            <br />
-                            受付時間:午前11 時 ~ 午前 0 時
+                            営業日:365日(日本 の 祝日は除く) <br />
+                            処理時間: 24 時間
                           </td>
                         </tr>
                       </tbody>
                     </table>
-                    <p style={{ color: "red" }}>
+                    <p style={{ color: 'red' }}>
                       ※銀行送金における着金時間は各銀行の営業日・時間によります
                     </p>
                   </div>
@@ -546,7 +306,7 @@ const Component = () => {
       />
       <Script type="text/javascript" src="./js/jquery.min(2).js"></Script>
     </>
-  );
-};
+  )
+}
 
-export default Component;
+export default Component

@@ -15,9 +15,11 @@ const Component = ({ ...props }) => {
                   速くて簡単、便利！最も安全な決済
                 </span>
                 <br />
+                <br />
                 グローバル
                 <br />
                 イーウォレットの決定版
+                <br />
                 <br />
                 <span className="title_color">Rays Wallet</span>
               </p>
@@ -37,8 +39,20 @@ const Component = ({ ...props }) => {
           </div>
         </div>
         <div id="footer">
+          <div className="footer-xs-logo">
+            <figure>
+              <a href="/">
+                <img
+                  src="./img/rayswallet_logo_white.png"
+                  width="240"
+                  height="40"
+                  alt="Rays Wallet"
+                />
+              </a>
+            </figure>
+          </div>
           <div id={props.inner2 == 1 ? "footer_inner2" : "footer_inner"}>
-            <div className="footer-block footer-logo">
+            <div className="footer-block footer-logo d-xs-none">
               <figure>
                 <a href="/">
                   <img

@@ -7,9 +7,9 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Installing dependencies
-RUN npm install -g pm2
-RUN npm install
-RUN npm run build
+RUN yarn global add pm2
+RUN yarn
+RUN yarn build
 
 EXPOSE 3000
 # Running the app

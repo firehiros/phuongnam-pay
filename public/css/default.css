@@ -178,3 +178,17 @@ a:visited {
 input[type="button"],input[type="submit"] {
     -webkit-appearance: none;
   }
+
+.footer-xs-logo {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .d-xs-none {
+        display: none !important;
+    }
+    .footer-xs-logo {
+        display: block !important;
+        margin: 20px;
+    }
+}

@@ -9,6 +9,7 @@ import Link from "next/link";
 // App Import
 import Header from "../components/Layouts/Header";
 import Footer from "../components/Layouts/Footer";
+import PriceTable from "src/components/Molecules/PriceTable";
 
 const Component = () => {
   return (
@@ -97,8 +98,8 @@ const Component = () => {
                     <figure>
                       <img
                         src="./img/tiger_list2.png"
-                        width="112"
-                        height="112"
+                        width="122"
+                        height="101"
                         alt="ウォレット内で両替が可能"
                       />
                     </figure>
@@ -121,86 +122,86 @@ const Component = () => {
                       <dt>
                         <img
                           src="./img/usd.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="ドル"
                         />
                       </dt>
-                      <dd>ドル</dd>
+                      <dd>USD</dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/jpy.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="日本円"
                         />
                       </dt>
-                      <dd>日本円</dd>
+                      <dd>JPY</dd>
                     </dl>
                     
                     <dl>
                       <dt>
                         <img
                           src="./img/eud.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="ユーロ"
                         />
                       </dt>
-                      <dd>ユーロ</dd>
+                      <dd>EUR</dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/php.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="ペソ"
                         />
                       </dt>
-                      <dd id="peso">ペソ (エクスチェンジのみ)</dd>
+                      <dd id="peso">PHP</dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/btc.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="ビットコイン"
                         />
                       </dt>
-                      <dd>ビットコイン </dd>
+                      <dd>BTC </dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/eth.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="イーサリアム"
                         />
                       </dt>
-                      <dd>イーサリアム</dd>
+                      <dd>ETH</dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/xrp.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="リップル"
                         />
                       </dt>
-                      <dd>リップル</dd>
+                      <dd>XRP</dd>
                     </dl>
                     <dl>
                       <dt>
                         <img
                           src="./img/usdt.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="USDt"
                         />
                       </dt>
@@ -210,8 +211,8 @@ const Component = () => {
                       <dt>
                         <img
                           src="./img/usdc.png"
-                          width="81"
-                          height="81"
+                          width="15"
+                          height="15"
                           alt="USDC"
                         />
                       </dt>
@@ -233,8 +234,8 @@ const Component = () => {
                 <figure className="about_img_sp">
                   <img
                     src="./img/tiger_about_imgsp.png"
-                    width="1312"
-                    height="1183"
+                    width="366"
+                    height="190"
                     alt=""
                   />
                 </figure>
@@ -432,58 +433,7 @@ const Component = () => {
                 </div>
                 <h3>口座タイプにおける機能比較</h3>
                 <div id="table_box">
-                  <table className="tayp_table">
-                    <tbody>
-                      <tr className="tayp_title">
-                        <th></th>
-                        <th>Fast口座</th>
-                        <th>Personal口座</th>
-                        <th className="non_line">Business口座</th>
-                      </tr>
-                      <tr>
-                        <td>口座開設</td>
-                        <td>メールで簡単開設</td>
-                        <td>
-                          本人確認完了にて
-                          <br />
-                          アップグレード
-                        </td>
-                        <td className="non_line">
-                          事業者確認完了にて
-                          <br />
-                          アップグレード
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>ご利用上限</td>
-                        <td>累計1,000ドルまで</td>
-                        <td>50,000ドル/1日</td>
-                        <td className="non_line">応相談</td>
-                      </tr>
-                      <tr>
-                        <td>第三者への出金</td>
-                        <td>×</td>
-                        <td>×</td>
-                        <td className="non_line">○</td>
-                      </tr>
-                      <tr>
-                        <td>ご利用可能な法定通貨</td>
-                        <td>
-                          JPY/USD/EUR/PHP
-                          <br />
-                          エクスチェンジのみ{" "}
-                        </td>
-                        <td>JPY/USD/EUR/PHP</td>
-                        <td className="non_line">JPY/USD/EUR/PHP</td>
-                      </tr>
-                      <tr>
-                        <td>ご利用可能な暗号通貨</td>
-                        <td>BTC/ETH/XRP/USDC/USDT</td>
-                        <td>BTC/ETH/XRP/USDC/USDT</td>
-                        <td className="non_line">BTC/ETH/XRP/USDC/USDT</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <PriceTable />
                 </div>
               </div>
             </div>
@@ -517,27 +467,43 @@ const Component = () => {
                 </p>
                 <ul className="about5_wrap">
                   <li id="atm_icon">
+                    <img
+                      src="./img/debit_icon1.png"
+                      alt=""
+                    />
                     <span>ATM出金</span>
                   </li>
                   <li id="pay_icon">
+                    <img
+                      src="./img/debit_icon2.png"
+                      alt=""
+                    />
                     <span>
                       お買い物やお食事
                       <br />
                       のお支払いに
                     </span>
                   </li>
-                  <li id="net_icon">
-                    <span>
-                      ネットでのお買物
-                      <br />
-                      や決済に
-                    </span>
-                  </li>
                   <li id="travel_icon">
+                    <img
+                      src="./img/debit_icon4.png"
+                      alt=""
+                    />
                     <span>
                       海外旅行や
                       <br />
                       国外での決済に
+                    </span>
+                  </li>
+                  <li id="net_icon">
+                    <img
+                      src="./img/debit_icon3.png"
+                      alt=""
+                    />
+                    <span>
+                      ネットでのお買物
+                      <br />
+                      や決済に
                     </span>
                   </li>
                 </ul>

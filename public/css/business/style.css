@@ -108,7 +108,10 @@
   color: hsla(0, 0%, 100%, 1.00);
   padding-bottom: 100px;
 }
-#business #section2 {}
+#business #section2 {
+  background-image: url(../../img/business_section2_bg.png);
+
+}
 #section2 #sec2_inner h2 {
   font-size: 27px;
   text-align: center;
@@ -149,8 +152,10 @@
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 70px;
+  background-color: #172B4D;
 }
 #business #section4 h2 {
+  color: #fff;
   text-align: center;
   font-size: 27px;
   margin-bottom: 60px;
@@ -159,10 +164,11 @@
 	font-size: 21px;
 	margin-bottom: 50px;
 	margin-top: 30px;
-	color: #626262;
+	color: #0BD3CE;
 	font-weight: normal;
 	padding-left: 3%;
 	padding-right: 3%;
+  text-align: center;
 }
 #section4 h4 span {
   font-weight: bold;
@@ -249,11 +255,16 @@
   margin-left: 3%;
   margin-right: 3%;
   border: 1px solid #626262;
+  border-radius: 4px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 120px;
   padding-right: 30px;
   margin-bottom: 30px;
+  background-color: #fff;
+}
+#business #section4 .sec4_box img {
+  display: none;
 }
 #section4 .sec4_box h3 {
   font-size: 16px;
@@ -307,6 +318,9 @@
   padding-left: 120px;
   color: #626262;
 }
+#footer_inner .footer_box img {
+  display: none;
+}
 .footer_box dl dt {
   font-size: 16px;
   font-weight: bold;
@@ -341,6 +355,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 #business #section3 h2 {
   text-align: center;
@@ -348,7 +363,7 @@
   margin-bottom: 60px;
 }
 #section3 h3 {
-  background-color: #0BD3CE;
+  /* background-color: #0BD3CE; */
   font-size: 21px;
   font-weight: bold;
   padding: 1% 2%;
@@ -406,6 +421,23 @@
   color: #ffffff;
   font-size: 120%;
   font-weight: bold;
+}
+.bus_wal .merit_child {
+  box-shadow: 0 3px 6px grey;
+  border-radius: 4px;
+  min-height: 170px;
+  margin-bottom: 10px;
+}
+.bus_wal .merit_child h4 {
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #172B4D;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+}
+.bus_wal .merit_child p {
+  margin: 10px;
 }
 /* #footer_inner_btn a {
   display: inline-block;
@@ -806,13 +838,20 @@
   }
 }
 @media screen and (max-width: 480px) {
+  #business #main_v #main_text h1 {
+    font-size: 25px;
+    margin: 40px 10px;
+  }
+  #business #main_v #main_text p {
+    font-size: 12px;
+  }
   #header ul li a {
     font-size: 80%;
   }
   #section2 #sec2_inner h2 {
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 25px;
     margin-bottom: 20px;
+    margin-top: 20px
   }
   #header {
     padding-top: 10px;
@@ -822,19 +861,23 @@
     font-size: 18px;
   }
   #list_inner ul li {
-    font-size: 14px;
+    font-size: 9px;
+    background-size: 10px auto;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   #section2 #sec2_inner p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   #main_wrap #section2 #sec2_inner {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
   #section2 #sec2_inner #list_inner {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   #section2 #main_btn #main_v_btn2 {
     position: relative;
@@ -856,8 +899,6 @@
   }
   #main_wrap #main_v #main_text {
     padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 300px;
   }
   #business #footer_area2 #footer_inner {
     padding-top: 60px;
@@ -907,6 +948,83 @@
   }
   #footer_banner #footer_banner_inner #footer_text_box {
     width: 94%;
+  }
+  #section3 .bus_wal li {
+    display: block;
+    text-align: center;
+  }
+
+  #section3 .bus_wal li figure {
+    float: unset;
+    width: 120px;
+    height: 120px;
+  }
+  #section3 .bus_wal li figure span {
+    width: 120px;
+    position: relative;
+    display: block;
+    top: 50%;
+  }
+  .bus_wal .merit_child {
+    min-height: 150px;
+  }
+  #business #section4 .sec4_box {
+    padding: 30px;
+    text-align: center;
+  }
+  #business #section4 .sec4_box img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+  #section4 #box1 {
+    background-image: unset;
+  }
+  #section4 #box2 {
+    background-image: unset;
+  }
+  #section4 #box3 {
+    background-image: unset;
+  }
+  #section4 #box4 {
+    background-image: unset;
+  }
+  #section4 #box5 {
+    background-image: unset;
+  }
+  #section4 #box6 {
+    background-image: unset;
+  }
+  #section4 #box7 {
+    background-image: unset;
+  }
+  #section4 #box8 {
+    background-image: unset;
+  }
+  #section4 #box9 {
+    background-image: unset;
+  }
+  #section4 #box10 {
+    background-image: unset;
+  }
+  #footer_inner .footer_box {
+    padding: 30px;
+    text-align: center;
+  }
+  #footer_inner .footer_box img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+  #footer_inner #box11 {
+    background-image: unset;
+  }
+  #footer_inner #box12 {
+    background-image: unset;
+  }
+  #business #section2 {
+    background-image: url(../../img/business_section2sp_bg.png);
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 320px) {

@@ -76,27 +76,43 @@ const Component = () => {
                 </p>
                 <ul className="about5_wrap">
                   <li id="atm_icon">
+                    <img
+                      src="./img/debit_icon1.png"
+                      alt=""
+                    />
                     <span>ATM出金</span>
                   </li>
                   <li id="pay_icon">
+                    <img
+                      src="./img/debit_icon2.png"
+                      alt=""
+                    />
                     <span>
                       お買い物やお食事
                       <br />
                       のお支払いに
                     </span>
                   </li>
-                  <li id="net_icon">
-                    <span>
-                      ネットでのお買物
-                      <br />
-                      や決済に
-                    </span>
-                  </li>
                   <li id="travel_icon">
+                    <img
+                      src="./img/debit_icon4.png"
+                      alt=""
+                    />
                     <span>
                       海外旅行や
                       <br />
                       国外での決済に
+                    </span>
+                  </li>
+                  <li id="net_icon">
+                    <img
+                      src="./img/debit_icon3.png"
+                      alt=""
+                    />
+                    <span>
+                      ネットでのお買物
+                      <br />
+                      や決済に
                     </span>
                   </li>
                 </ul>

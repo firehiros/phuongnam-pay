@@ -1,14 +1,14 @@
 // React import
-import React from "react";
+import React from 'react'
 
 // Thirdparty Import
-import Script from "next/script";
-import Head from "next/head";
-import Link from "next/link";
+import Script from 'next/script'
+import Head from 'next/head'
+import Link from 'next/link'
 
 // App Import
-import Header from "../components/Layouts/Header";
-import Footer from "../components/Layouts/Footer";
+import Header from '../components/Layouts/Header'
+import Footer from '../components/Layouts/Footer'
 
 const Component = () => {
   return (
@@ -48,9 +48,11 @@ const Component = () => {
                       早くて簡単、便利！最も安全な決済
                     </span>
                     <br />
+                    <br />
                     グローバル
                     <br />
                     イーウォレットの決定版
+                    <br />
                     <br />
                     <span className="title_color">Rays Wallet</span>
                   </h1>
@@ -85,23 +87,30 @@ const Component = () => {
             <div id="about_wrap">
               <div id="about">
                 <div id="about_box">
-                  <h2>Rays Wallet<br/>グローバルペイメントソリューション</h2>
+                  <h2>
+                    Rays Wallet
+                    <br />
+                    グローバルペイメントソリューション
+                  </h2>
                   <p>
-                  Rays Walletはグローバルでご利用いただけるEウォレットです。
+                    Rays Walletはグローバルでご利用いただけるEウォレットです。
                     <br />
                     <br />
                     国際通貨である【USD / EUR / JPY】から暗号通貨【BTC / ETH /
                     XRP / USDT / USDC】がお使い頂けます。
                     <br />
-                    ユーザー間でのRays Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。
+                    ユーザー間でのRays
+                    Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。
                     <br />
-                    また。対応通貨全ての両替（手数料：無料）など、アセットの管理に優れたウォレットです。{" "}
-                    <br />
-                    <br />
-                    Rays Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                    また。対応通貨全ての両替（手数料：無料）など、アセットの管理に優れたウォレットです。{' '}
                     <br />
                     <br />
-                    さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays Walletの導入」が可能です！東アジアを中心とした今後の展開から、新たなアセット管理・決済手段となる最新Eウォレットとして今後の期待が高まっています！
+                    Rays
+                    Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                    <br />
+                    <br />
+                    さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays
+                    Walletの導入」が可能です！東アジアを中心とした今後の展開から、新たなアセット管理・決済手段となる最新Eウォレットとして今後の期待が高まっています！
                   </p>
                   <p className="more_btn">
                     <Link href="/swallet">
@@ -123,7 +132,7 @@ const Component = () => {
               <div id="content_inner">
                 <div id="card_box">
                   <p>
-                  Rays Walletでは、UnionPayの提携カードを発行し、使用することができます。
+                    Rays Walletでは、<br/>UnionPayの提携カードを発行し、使用することができます。
                   </p>
                   <figure>
                     <img
@@ -131,13 +140,14 @@ const Component = () => {
                       width="993"
                       height="565"
                       alt="Rays Wallet"
-                    />{" "}
+                    />{' '}
                   </figure>
                 </div>
                 <div id="content_1">
                   <div id="content_1_inner">
-                    <p style={{ width: "auto" }}>
-                    Rays Walletのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
+                    <p style={{ width: 'auto' }}>
+                      Rays
+                      Walletのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
                     </p>
                     <h4>取り扱い通貨：</h4>
                     <div id="content_1_list">
@@ -265,16 +275,18 @@ const Component = () => {
                       </p>
                     </div>
                   </div>
-                  <h3>外貨に両替したい</h3>
-                  <div className="scene_tab scene_tab3">
-                    <p>
-                      <img
-                        src="./img/scene_icon2.png"
-                        width="157"
-                        height="157"
-                        alt="外貨に両替したい"
-                      />
-                    </p>
+                  <div className="scene_box2">
+                    <h3>外貨に両替したい</h3>
+                    <div className="scene_tab scene_tab3">
+                      <p>
+                        <img
+                          src="./img/scene_icon2.png"
+                          width="157"
+                          height="157"
+                          alt="外貨に両替したい"
+                        />
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="scene_box">
@@ -363,7 +375,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/shopping-icon@2x.png" />
                     <h3>総合通販</h3>
@@ -371,7 +383,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/electronic-icon@2x.png" />
                     <h3>家電/PC</h3>
@@ -379,7 +391,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/game-icon@2x.png" />
                     <h3>ゲーム</h3>
@@ -387,7 +399,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/entertainment-icon@2x.png" />
                     <h3>エンタメ</h3>
@@ -395,7 +407,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/delivery-icon@2x.png" />
                     <h3>配送</h3>
@@ -403,7 +415,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/food-icon@2x.png" />
                     <h3>飲食</h3>
@@ -411,7 +423,7 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/cosmetics-icon@2x.png" />
                     <h3>コスメ・ビューティー</h3>
@@ -419,14 +431,15 @@ const Component = () => {
                   <a
                     href="/"
                     className="store_card_box"
-                    style={{ pointerEvents: "none" }}
+                    style={{ pointerEvents: 'none' }}
                   >
                     <img src="./img/fashion-icon@2x.png" />
                     <h3>ファッション</h3>
                   </a>
                 </div>
                 <h4>
-                  *オンラインサービスの支払いはRays Walletの残高のみ利用可能です。
+                  *オンラインサービスの支払いはRays
+                  Walletの残高のみ利用可能です。
                 </h4>
               </section>
             </div>
@@ -436,38 +449,47 @@ const Component = () => {
                 <div className="accordion">
                   <ul>
                     <li>
-                      {" "}
-                      <a className="toggle">
-                        <p className="accordion_icon">
-                          <span></span>
-                          <span></span>
-                        </p>
-                        <h5>Rays Walletアカウントを開設すると何ができますか？</h5>
-                      </a>
-                      <p>
-                        Rays Walletはグローバルでご利用いただけるEウォレットです。
-                        国際通貨である【USD / EUR /
-                        JPY】から仮装通貨（暗号通貨）【BTC / ETH / XRP / USDT /
-                        USDC】に対応しています。ユーザー間でのRays Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
-                        Rays Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
-                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays Walletの導入」が可能です。
-                      </p>
-                    </li>
-                    <li>
-                      {" "}
+                      {' '}
                       <a className="toggle">
                         <p className="accordion_icon">
                           <span></span>
                           <span></span>
                         </p>
                         <h5>
-                          Rays Walletの口座開設には、年齢や国籍の制限はありますか？
+                          Rays Walletアカウントを開設すると何ができますか？
                         </h5>
                       </a>
                       <p>
-                        はい、Rays Walletアカウントの開設は、18歳以上のお客様に限ります。
+                        Rays
+                        Walletはグローバルでご利用いただけるEウォレットです。
+                        国際通貨である【USD / EUR /
+                        JPY】から仮装通貨（暗号通貨）【BTC / ETH / XRP / USDT /
+                        USDC】に対応しています。ユーザー間でのRays
+                        Walletウォレット送金を利用すればロケーションを気にせず瞬時に送金（手数料：無料）が可能です。また、それら対応通貨全ての両替（手数料：無料）に対応しアセットの管理に優れたウォレットです。
+                        Rays
+                        Walletでは提携企業が増えること及びスピード決済を目標に掲げ、今後さらなるご利用のシーンが広がりによってご利用ユーザー様にとって便利なウォレット、決済手段の一つとなることを目指しています。
+                        さらに、ビジネスアカウントを契約すると、「あなたのビジネスにもRays
+                        Walletの導入」が可能です。
+                      </p>
+                    </li>
+                    <li>
+                      {' '}
+                      <a className="toggle">
+                        <p className="accordion_icon">
+                          <span></span>
+                          <span></span>
+                        </p>
+                        <h5>
+                          Rays
+                          Walletの口座開設には、年齢や国籍の制限はありますか？
+                        </h5>
+                      </a>
+                      <p>
+                        はい、Rays
+                        Walletアカウントの開設は、18歳以上のお客様に限ります。
                         <br />
-                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、Rays Walletの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
+                        国籍制限については、FATFやOFACなどの禁止国の国籍の方は、Rays
+                        Walletの口座開設をお申込みいただくことはできません。参考までに以下のリンクを参照してください。
                         <br />
                         <a
                           href="https://www.fatf-gafi.org/countries/#high-risk"
@@ -485,7 +507,7 @@ const Component = () => {
                       </p>
                     </li>
                     <li>
-                      {" "}
+                      {' '}
                       <a className="toggle">
                         <p className="accordion_icon">
                           <span></span>
@@ -512,7 +534,7 @@ const Component = () => {
                       </p>
                     </li>
                     <li>
-                      {" "}
+                      {' '}
                       <a className="toggle">
                         <p className="accordion_icon">
                           <span></span>
@@ -521,7 +543,8 @@ const Component = () => {
                         <h5>Rays Wallet口座への入金方法を教えてください</h5>
                       </a>
                       <p>
-                        Rays Wallet口座への入金は、以下の方法で行うことができます。
+                        Rays
+                        Wallet口座への入金は、以下の方法で行うことができます。
                         <br />
                         - 銀行送金（日本）
                         <br />
@@ -535,14 +558,15 @@ const Component = () => {
                       </p>
                     </li>
                     <li>
-                      {" "}
+                      {' '}
                       <a className="toggle">
                         <p className="accordion_icon">
                           <span></span>
                           <span></span>
                         </p>
                         <h5>
-                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がRays Walletのアカウントに反映されていない場合はどうすればいいですか？
+                          入金が口座に反映されるまで、どのくらいの時間がかかりますか？また、入金がRays
+                          Walletのアカウントに反映されていない場合はどうすればいいですか？
                         </h5>
                       </a>
                       <p>
@@ -584,7 +608,7 @@ const Component = () => {
       />
       <Script type="text/javascript" src="./js/jquery.min(2).js"></Script>
     </>
-  );
-};
+  )
+}
 
-export default Component;
+export default Component
