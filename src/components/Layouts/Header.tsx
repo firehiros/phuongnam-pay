@@ -1,5 +1,5 @@
 // React Import
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 
 // 3rd Import
@@ -7,6 +7,10 @@ import Link from "next/link";
 // App Import
 
 const Component = ({ ...props }) => {
+
+  useEffect(() => {
+    window["init_menu"]()
+  })
   return (
     <header>
       <div id="header">
@@ -151,6 +155,24 @@ const Component = ({ ...props }) => {
             <Link href="/qa">
               <a>よくある質問</a>
             </Link>
+          </li>
+          <li>
+            <p className="to_business">
+              <Link href="/business">
+                <a>事業者の方はこちら</a>
+              </Link>
+            </p>
+            <p className="open_btn">
+              <Link href="https://mypage.rays-wallet.com/register">
+                <a target="_blank">口座開設</a>
+              </Link>
+            </p>
+            <p className="login_btn">
+              <Link href="https://mypage.rays-wallet.com/login">
+                <a target="_blank">ログイン</a>
+              </Link>
+            </p>
+
           </li>
         </ul>
       </nav>

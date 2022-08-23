@@ -3183,6 +3183,7 @@ h2:after {
 }
 .scene_box2 {
   margin-bottom: 20px;
+  min-height: 190px;
 }
 .scene_tab ul {
   margin-top: 10px;
@@ -3765,13 +3766,13 @@ h2:after {
   background-image: url(../img/debit_icon1.png);
   background-repeat: no-repeat;
   background-size: 70px auto;
-  background-position: 0% 10px;
+  background-position: 0% 25px;
 }
 #pay_icon {
   background-image: url(../img/debit_icon2.png);
   background-size: 70px auto;
   background-repeat: no-repeat;
-  background-position: 0% 10px;
+  background-position: 0% 30px;
 }
 #net_icon {
   background-image: url(../img/debit_icon3.png);
@@ -3891,6 +3892,7 @@ h2:after {
     width: 518px;
   }
 }
+
 @media screen and (max-width: 1100px) {
   #contents {
     width: 100%;
@@ -4091,6 +4093,31 @@ h2:after {
 }
 
 @media screen and (max-width: 860px) {
+  #pay_icon img{
+    display: none;
+  }
+  #atm_icon img{
+    display: none;
+  }
+  #travel_icon img{
+    display: none;
+  }
+  #net_icon img{
+    display: none;
+  }
+  #feature_box .scene_box_horizontal {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #feature_box .scene_box_horizontal h3 {
+    width: 350px;
+  }
+  #feature_box .scene_box_horizontal .scene_tab {
+    width: 350px;
+  }
+  
   /* Nav
 -----------------------------------------*/
   /* #contents_inner #main_v {
@@ -4198,7 +4225,6 @@ h2:after {
     background-image: none;
   }
   .about1 .partner_flow .pr_box {
-    width: 80%;
     margin: 0 auto;
     text-align: center;
   }
@@ -4212,13 +4238,17 @@ h2:after {
     float: none;
   }
   .about1 .partner_flow .pr_arrow {
+
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 12.1px 10px;
-    border-color: #000 transparent transparent transparent;
-    display: block;
-    margin: 30px auto 10px auto;
+    border-width: 7px 0 7px 12.1px;
+    border-color: transparent transparent transparent #0bd3ce;
+    margin-top: 7%;
+    margin-right: 2%;
+    margin-left: 1.5%;
+    box-shadow: none;
+    margin: 50px auto 10px auto;
   }
   .partner_flow .pr_box h4,
   #about_inner .partner_flow .pr_box p {
@@ -4401,7 +4431,7 @@ h2:after {
     margin-left: 3%;
   }
   #content_inner #content_1 #content_1_inner {
-    width: 45%;
+    width: 47%;
     float: right;
     margin-right: 3%;
   }
@@ -4451,9 +4481,6 @@ h2:after {
     overflow-x: scroll;
     margin-left: auto;
     margin-right: auto;
-  }
-  #tiger_about_inner4 #table_box .tayp_table {
-    width: 860px;
   }
   .pc {
     display: none;
@@ -4564,12 +4591,13 @@ h2:after {
   .Nav > ul {
     margin: 0 auto;
     border-bottom: 1px solid #ababab;
+    padding: 16px 0px;
+    background: #fff;
   }
   @media screen and (max-width: 3000px) {
     .Nav > ul {
       display: none;
       position: absolute;
-      top: 75px;
       left: 0;
       right: 0;
       z-index: 9;
@@ -4590,13 +4618,9 @@ h2:after {
     display: block;
     position: relative;
     text-decoration: none;
-    padding-top: 14px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 14px;
-    font-size: 13px;
-    color: #696969;
-    background-color: #efefef;
+    padding: 20px 15px;
+    font-size: 16px;
+    color: #172B4D;
     z-index: 2;
     font-weight: bold;
   }
@@ -4631,6 +4655,60 @@ h2:after {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
   }
+  .Nav > ul > li:last-child .to_business a {
+    color: #172b4d;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 25px;
+    background-image: url(../img/r-circle-arrow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 15px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Nav > ul > li:last-child {
+    text-align: center;
+    background: #fff;
+  }
+  .Nav > ul > li:last-child .open_btn {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  .Nav > ul > li:last-child .open_btn a{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 60px;
+    background-color: #3a68de;
+    border: 3px solid #3a68de;
+    color: #fff;
+    margin-right: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .Nav > ul > li:last-child .login_btn a{
+    display: inline-block;
+    padding: 2px 60px;
+    background-color: #ffffff;
+    color: #231f20;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: auto;
+    border: 3px solid #3a68de;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
   @media screen and (max-width: 1000px) {
     .Nav > ul > li.parent.open > a::before {
       -webkit-transform: rotate(-45deg);
@@ -5370,6 +5448,9 @@ h2:after {
   }
 }
 @media screen and (max-width: 480px) {
+  .scene_box_horizontal {
+    display: block;
+  }
   .scene_box h3 {
     width: 360px;
     height: unset;

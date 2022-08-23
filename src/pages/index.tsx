@@ -132,7 +132,7 @@ const Component = () => {
               <div id="content_inner">
                 <div id="card_box">
                   <p>
-                    Rays Walletでは、<br/>UnionPayの提携カードを発行し、使用することができます。
+                    Rays Walletでは、<br />UnionPayの提携カードを発行し、使用することができます。
                   </p>
                   <figure>
                     <img
@@ -335,7 +335,7 @@ const Component = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="scene_box">
+                <div className="scene_box scene_box_horizontal">
                   <div className="scene_box2">
                     <h3>国際送金をしたい</h3>
                     <div className="scene_tab">
@@ -349,20 +349,22 @@ const Component = () => {
                       </p>
                     </div>
                   </div>
-                  <h3>
-                    外貨で受けた入金を
-                    <br />
-                    日本円にしたい
-                  </h3>
-                  <div className="scene_tab">
-                    <p>
-                      <img
-                        src="./img/scene_icon6.png"
-                        width="157"
-                        height="157"
-                        alt="外貨で受けた入金を日本円にしたい"
-                      />
-                    </p>
+                  <div className="scene_box2">
+                    <h3>
+                      外貨で受けた入金を
+                      <br />
+                      日本円にしたい
+                    </h3>
+                    <div className="scene_tab">
+                      <p>
+                        <img
+                          src="./img/scene_icon6.png"
+                          width="157"
+                          height="157"
+                          alt="外貨で受けた入金を日本円にしたい"
+                        />
+                      </p>
+                    </div>
                   </div>
                 </div>
               </section>
