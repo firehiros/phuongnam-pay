@@ -279,7 +279,7 @@ body {
   padding-left: 20px;
 }
 .arrow::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   border: 0px;
@@ -370,8 +370,8 @@ body {
   clear: both;
 }
 #about_inner2 h4::before {
-  font-family: 'Font Awesome 5 Free';
-  content: '■';
+  font-family: "Font Awesome 5 Free";
+  content: "■";
   font-weight: 900;
   position: absolute;
   font-size: 1em;
@@ -539,6 +539,13 @@ body {
   border-top: 5px solid #3a68de;
 }
 #privacy_title {
+  float: none;
+  clear: both;
+  height: 300px;
+  background-image: linear-gradient(to right, #3060dd, #23d3ce);
+  border-top: 5px solid #3a68de;
+}
+#content_title {
   float: none;
   clear: both;
   height: 300px;
@@ -744,6 +751,16 @@ body {
   padding-top: 110px;
   height: auto;
 }
+#contents_inner #content_title h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  position: relative;
+  display: block;
+  padding-top: 110px;
+  height: auto;
+  letter-spacing: 3px;
+}
 #contents_inner #about_title h2 {
   text-align: center;
   color: #ffffff;
@@ -796,7 +813,7 @@ body {
   height: auto;
 }
 #news_title h2:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -808,7 +825,7 @@ body {
   background-color: #fff;
 }
 #privacy_title h2:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -820,7 +837,7 @@ body {
   background-color: #fff;
 }
 #faq_title h2:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -1662,7 +1679,7 @@ a:hover .btn_color {
   color: #333;
 }
 #content_inner h1:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -1734,7 +1751,7 @@ a:hover .btn_color {
 }
 #kyc_box h3:before {
   position: absolute;
-  content: '';
+  content: "";
   right: 0px;
   top: 0px;
   border-left: none;
@@ -2195,7 +2212,7 @@ a:hover .btn_color {
 }
 #faq #flow_inner h3:before {
   position: absolute;
-  content: '';
+  content: "";
   right: 0px;
   top: 0px;
   border: none;
@@ -2323,7 +2340,7 @@ div .flow_text p {
   padding-right: 10%;
 }
 .flow_text .kyc_btn a::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   border: 0px;
@@ -2898,7 +2915,7 @@ h2:after {
   padding-bottom: 2px;
 }
 #flow_right .sidebar_in li a:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 70%;
   display: inline-block;
@@ -3141,7 +3158,7 @@ h2:after {
   color: #333;
 }
 #feature_box h1:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -3217,7 +3234,7 @@ h2:after {
   color: #333;
 }
 #faq_inner h1:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -15px;
   display: inline-block;
@@ -3545,8 +3562,8 @@ h2:after {
   clear: both;
 }
 #tiger_about3 #tiger_about_inner3 h4:before {
-  font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-  content: '■'; /*アイコンのユニコード*/
+  font-family: "Font Awesome 5 Free"; /*忘れずに*/
+  content: "■"; /*アイコンのユニコード*/
   font-weight: 900;
   position: absolute; /*絶対位置*/
   font-size: 1em; /*サイズ*/
@@ -3603,8 +3620,8 @@ h2:after {
   clear: both;
 }
 #tiger_about5 #tiger_about_inner5 h4:before {
-  font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-  content: '■'; /*アイコンのユニコード*/
+  font-family: "Font Awesome 5 Free"; /*忘れずに*/
+  content: "■"; /*アイコンのユニコード*/
   font-weight: 900;
   position: absolute; /*絶対位置*/
   font-size: 1em; /*サイズ*/
@@ -3635,8 +3652,8 @@ h2:after {
   clear: both;
 }
 #tiger_about6 #n_tiger_about_inner6 h4:before {
-  font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-  content: '■'; /*アイコンのユニコード*/
+  font-family: "Font Awesome 5 Free"; /*忘れずに*/
+  content: "■"; /*アイコンのユニコード*/
   font-weight: 900;
   position: absolute; /*絶対位置*/
   font-size: 1em; /*サイズ*/
@@ -3829,7 +3846,7 @@ h2:after {
 }
 #page_top a::before {
   font-family: FontAwesome;
-  content: '';
+  content: "";
   font-size: 40px;
   color: #fff;
   position: absolute;
@@ -4093,16 +4110,16 @@ h2:after {
 }
 
 @media screen and (max-width: 860px) {
-  #pay_icon img{
+  #pay_icon img {
     display: none;
   }
-  #atm_icon img{
+  #atm_icon img {
     display: none;
   }
-  #travel_icon img{
+  #travel_icon img {
     display: none;
   }
-  #net_icon img{
+  #net_icon img {
     display: none;
   }
   #feature_box .scene_box_horizontal {
@@ -4117,7 +4134,7 @@ h2:after {
   #feature_box .scene_box_horizontal .scene_tab {
     width: 350px;
   }
-  
+
   /* Nav
 -----------------------------------------*/
   /* #contents_inner #main_v {
@@ -4238,7 +4255,6 @@ h2:after {
     float: none;
   }
   .about1 .partner_flow .pr_arrow {
-
     width: 0;
     height: 0;
     border-style: solid;
@@ -4531,7 +4547,7 @@ h2:after {
       position: absolute;
       top: 18px;
       left: 10px;
-      content: '';
+      content: "";
       width: 30px;
       height: 3px;
       background-color: #301709;
@@ -4547,7 +4563,7 @@ h2:after {
       position: absolute;
       bottom: 4px;
       left: 10px;
-      content: '';
+      content: "";
       width: 30px;
       height: 3px;
       background-color: #301709;
@@ -4575,7 +4591,7 @@ h2:after {
       position: absolute;
       top: 30px;
       left: 10px;
-      content: '';
+      content: "";
       width: 30px;
       height: 3px;
       background-color: #301709;
@@ -4620,7 +4636,7 @@ h2:after {
     text-decoration: none;
     padding: 20px 15px;
     font-size: 16px;
-    color: #172B4D;
+    color: #172b4d;
     z-index: 2;
     font-weight: bold;
   }
@@ -4629,7 +4645,7 @@ h2:after {
   }
   .Nav > ul > li.parent > a::before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     right: 28px;
@@ -4643,7 +4659,7 @@ h2:after {
   }
   .Nav > ul > li > ul li span::before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     right: 28px;
@@ -4679,8 +4695,8 @@ h2:after {
     -moz-box-sizing: border-box;
     border-radius: 4px;
   }
-  
-  .Nav > ul > li:last-child .open_btn a{
+
+  .Nav > ul > li:last-child .open_btn a {
     display: inline-block;
     box-sizing: border-box;
     padding: 5px 60px;
@@ -4692,8 +4708,8 @@ h2:after {
     font-weight: bold;
     letter-spacing: 2px;
   }
-  
-  .Nav > ul > li:last-child .login_btn a{
+
+  .Nav > ul > li:last-child .login_btn a {
     display: inline-block;
     padding: 2px 60px;
     background-color: #ffffff;
@@ -4740,7 +4756,7 @@ h2:after {
     position: absolute;
     z-index: -1;
     display: block;
-    content: '';
+    content: "";
   }
   .Nav > ul > li a,
   .Nav > ul > li a::after {
@@ -4795,7 +4811,7 @@ h2:after {
   }
   .Nav > ul > li > ul li a::before {
     display: block;
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 10px;
@@ -5059,6 +5075,10 @@ h2:after {
     font-size: 24px;
     padding-top: 70px;
   }
+  #contents_inner #content_title h2 {
+    font-size: 24px;
+    padding-top: 70px;
+  }
   #contents_inner #about_title h2 {
     font-size: 24px;
     padding-top: 70px;
@@ -5144,6 +5164,9 @@ h2:after {
   #terms_title {
     height: 200px;
     background-position: center center;
+  }
+  #content_title {
+    height: 200px;
   }
   #about_title {
     height: 200px;
@@ -5289,6 +5312,8 @@ h2:after {
   #main_v_inner #main_btn a {
     width: 100%;
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   #flow_inner #flow_left h3 {
     margin-left: 0px;
@@ -5414,8 +5439,8 @@ h2:after {
     font-size: 16px;
   }
   #tiger_about3 #tiger_about_inner3 h4:before {
-    font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-    content: '■'; /*アイコンのユニコード*/
+    font-family: "Font Awesome 5 Free"; /*忘れずに*/
+    content: "■"; /*アイコンのユニコード*/
     font-weight: 900;
     position: absolute; /*絶対位置*/
     font-size: 1em; /*サイズ*/
@@ -5424,8 +5449,8 @@ h2:after {
     color: #fff;
   }
   #tiger_about5 #tiger_about_inner5 h4:before {
-    font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-    content: '■'; /*アイコンのユニコード*/
+    font-family: "Font Awesome 5 Free"; /*忘れずに*/
+    content: "■"; /*アイコンのユニコード*/
     font-weight: 900;
     position: absolute; /*絶対位置*/
     font-size: 1em; /*サイズ*/
@@ -5434,8 +5459,8 @@ h2:after {
     color: #fff;
   }
   #tiger_about6 #n_tiger_about_inner6 h4:before {
-    font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-    content: '■'; /*アイコンのユニコード*/
+    font-family: "Font Awesome 5 Free"; /*忘れずに*/
+    content: "■"; /*アイコンのユニコード*/
     font-weight: 900;
     position: absolute; /*絶対位置*/
     font-size: 1em; /*サイズ*/
@@ -5448,6 +5473,27 @@ h2:after {
   }
 }
 @media screen and (max-width: 480px) {
+  #pay_icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #atm_icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #travel_icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #net_icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .scene_box_horizontal {
     display: block;
   }
@@ -5741,6 +5787,9 @@ h2:after {
   #terms_title {
     height: 150px;
   }
+  #content_title {
+    height: 150px;
+  }
   #about_title {
     height: 150px;
   }
@@ -5771,6 +5820,10 @@ h2:after {
     padding-top: 50px;
   }
   #contents_inner #terms_title h2 {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  #contents_inner #content_title h2 {
     font-size: 20px;
     padding-top: 50px;
   }
@@ -6075,7 +6128,7 @@ h2:after {
   }
   #page_top a::before {
     font-family: FontAwesome;
-    content: '';
+    content: "";
     font-size: 30px;
     color: #fff;
     position: absolute;
@@ -6211,6 +6264,7 @@ h2:after {
   }
   #tiger_about_inner5 ul li span {
     padding-left: 0px;
+    padding-top: 10px;
   }
   #license01 {
     float: unset;
@@ -6235,7 +6289,7 @@ h2:after {
   }
   .fee_table table tbody tr:first-child th {
     text-align: center;
-    padding: 20px 0px
+    padding: 20px 0px;
   }
   .fee_table table tbody tr:first-child th img {
     margin-left: calc(50% - 40px);
@@ -6355,8 +6409,8 @@ h2:after {
     font-size: 14px;
   }
   #tiger_about3 #tiger_about_inner3 h4:before {
-    font-family: 'Font Awesome 5 Free'; /*忘れずに*/
-    content: '■'; /*アイコンのユニコード*/
+    font-family: "Font Awesome 5 Free"; /*忘れずに*/
+    content: "■"; /*アイコンのユニコード*/
     font-weight: 900;
     position: absolute; /*絶対位置*/
     font-size: 1em; /*サイズ*/

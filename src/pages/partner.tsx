@@ -42,7 +42,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="partner_title">
+            <div id="content_title">
               <h2>パートナー</h2>
             </div>
             <div id="main_inner">

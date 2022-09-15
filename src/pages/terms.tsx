@@ -42,7 +42,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="terms_title">
+            <div id="content_title">
               <h2>利用規約</h2>
             </div>
             <div id="main_inner">

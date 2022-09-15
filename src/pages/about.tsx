@@ -40,7 +40,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="about_title">
+            <div id="content_title">
               <h2>運営会社</h2>
             </div>
 

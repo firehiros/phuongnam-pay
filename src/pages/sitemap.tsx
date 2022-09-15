@@ -42,11 +42,8 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="not_header"></div>
-            <div id="title_area">
-              <div id="title_inner">
-                <h1>サイトマップ</h1>
-              </div>
+            <div id="content_title">
+              <h2>サイトマップ</h2>
             </div>
             <div id="main_inner">
               <div id="flow_1">

@@ -271,7 +271,7 @@ const Component = () => {
                     </dl>
                   </div>
                 </div>
-                <h4>ウォレットへの入出金も豊富な決済方法で楽々</h4>
+                {/* <h4>ウォレットへの入出金も豊富な決済方法で楽々</h4>
                 <div className="about3_wrap">
                   <div className="n_about3_box2">
                     <div>
@@ -389,7 +389,7 @@ const Component = () => {
                       </table>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div id="tiger_about4">

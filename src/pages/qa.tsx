@@ -40,7 +40,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="terms_title">
+            <div id="content_title">
               <h2>よくあるご質問</h2>
             </div>
 

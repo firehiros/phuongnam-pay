@@ -42,7 +42,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="card_title">
+            <div id="content_title">
               <h2>プリペイド式デビットカード</h2>
             </div>
             <div id="main_inner">

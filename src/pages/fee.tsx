@@ -44,7 +44,7 @@ const Component = () => {
           <div id="contents_inner">
             <Header />
 
-            <div id="fee_title">
+            <div id="content_title">
               <h2>手数料・処理時間</h2>
             </div>
             <div id="fee_inner">
