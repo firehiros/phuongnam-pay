@@ -43,13 +43,13 @@ const Component = () => {
             <Header />
 
             <div id="content_title">
-              <h2>パートナー</h2>
+              <h2>パートナー制度</h2>
             </div>
             <div id="main_inner">
               <div id="flow_1">
                 <div id="about_inner">
                   <div className="about1 partner_first">
-                    <h3>パートナーズ</h3>
+                    <h3>パートナー制度とは</h3>
                     <p>
                     Rays Walletでは、提携パートナーを募集しております。パートナー企業及び個人様向けのパートナープログラムをご用意しております。Rays Walletを決済導入いただける企業様ご紹介で報酬を得られるプランとなります。パートナーズ登録をご希望の企業及び個人様は「Rays Walletアカウント」を開設後、申請フォームをご記入頂き、お申し込みとなります。
                       なお、提携パートナーへのご登録・ご相談は下記メールアドレスまでメールにてお問い合わせください。
@@ -62,7 +62,7 @@ const Component = () => {
                     </p>
                   </div>
                   <div className="about1 pr_flow">
-                    <h3 className="prh3">パートナーズ契約の流れ</h3>
+                    <h3 className="prh3">パートナー制度ご契約の流れ</h3>
                     <ul className="partner_flow">
                       <li className="pr_box">
                         <h4 className="prh4">パーソナル講座開設</h4>

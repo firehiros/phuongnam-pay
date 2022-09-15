@@ -140,10 +140,10 @@ const Component = () => {
                       width="993"
                       height="565"
                       alt="Rays Wallet"
-                    />{' '}
+                    />
                   </figure>
                 </div>
-                <div id="content_1">
+                {/* <div id="content_1">
                   <div id="content_1_inner">
                     <p style={{ width: 'auto' }}>
                       Rays
@@ -255,7 +255,7 @@ const Component = () => {
                       </dl>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div id="feature_inner">
@@ -328,7 +328,7 @@ const Component = () => {
                       <li>カードにチャージ</li>
                       <li>↓</li>
                       <li>
-                        店舗のワレットに
+                        店舗のウォレットに
                         <br />
                         仮想通貨を送金
                       </li>
@@ -369,7 +369,7 @@ const Component = () => {
                 </div>
               </section>
             </div>
-            <div id="store_wrap">
+            {/* <div id="store_wrap">
               <section id="store_box">
                 <h2>Rays Walletが使えるお店</h2>
                 <h4>Rays Walletは様々なサービスでご利用いただけます!</h4>
@@ -444,7 +444,7 @@ const Component = () => {
                   Walletの残高のみ利用可能です。
                 </h4>
               </section>
-            </div>
+            </div> */}
             <div id="faq_wrap">
               <section id="faq_inner">
                 <h2>よくあるご質問</h2>

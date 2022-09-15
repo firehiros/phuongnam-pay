@@ -52,18 +52,17 @@ const Component = () => {
                       <div className="tbl-row">
                         <div className="tbl-cell tbl-th-cell">事業者の名称</div>
                         <div className="tbl-cell">
-                          株式会社アンノーン(Unoun, Inc.)
+                          VERTEX RAISE LIMITED
                         </div>
                       </div>
                       <div className="tbl-row">
                         <div className="tbl-cell tbl-th-cell">代表者</div>
-                        <div className="tbl-cell">鈴木 才智</div>
+                        <div className="tbl-cell">ZHANG Xiaoxia</div>
                       </div>
                       <div className="tbl-row">
                         <div className="tbl-cell tbl-th-cell">所在地</div>
                         <div className="tbl-cell">
-                          〒103-0014 東京都中央区日本橋蛎殻町1-17-11
-                          カナメビル5F新館
+                          Room 25, L1, Mirror Tower, 61 Mody Road, Tsim Sha Tsui, Hong Kong
                         </div>
                       </div>
                       <div className="tbl-row">

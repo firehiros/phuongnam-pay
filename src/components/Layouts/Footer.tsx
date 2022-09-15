@@ -157,7 +157,7 @@ const Component = ({ ...props }) => {
                     </ul>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div id="sns_box">
                     <h2>公式SNSアカウント</h2>
                     <ul>
@@ -187,7 +187,7 @@ const Component = ({ ...props }) => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             

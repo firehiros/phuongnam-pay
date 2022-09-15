@@ -91,11 +91,11 @@ const Component = () => {
                           <tbody>
                             <tr>
                               <th>会社名</th>
-                              <td></td>
+                              <td>ZHANG Xiaoxia</td>
                             </tr>
                             <tr>
                               <th>住所</th>
-                              <td></td>
+                              <td>Room 25, L1, Mirror Tower, 61 Mody Road, Tsim Sha Tsui, Hong Kong</td>
                             </tr>
                           </tbody>
                         </table>
