@@ -5,7 +5,7 @@ const Component = ({ ...props }) => {
   return (
     <>
       {/* DISPLAY PC ONLY */}
-      <table className="tayp_table table_xl">
+      <table className="tayp_table">
         <tbody>
           <tr className="tayp_title">
             <th></th>
@@ -43,8 +43,6 @@ const Component = ({ ...props }) => {
             <td>ご利用可能な法定通貨</td>
             <td>
               JPY/USD/EUR/PHP
-              <br />
-              エクスチェンジのみ{' '}
             </td>
             <td>JPY/USD/EUR/PHP</td>
             <td className="non_line">JPY/USD/EUR/PHP</td>

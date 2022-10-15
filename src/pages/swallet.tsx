@@ -222,7 +222,7 @@ const Component = () => {
                 </div> */}
               </div>
             </div>
-            {/* <div id="tiger_about2">
+            <div id="tiger_about2">
               <div id="tiger_about_inner2">
                 <h3>提携通貨、仮想通貨の両替が可能</h3>
                 <figure className="about_img_pc">
@@ -240,7 +240,7 @@ const Component = () => {
                   />
                 </figure>
               </div>
-            </div> */}
+            </div>
             <div id="tiger_about3">
               <div id="tiger_about_inner3">
                 <h3>Rays Wallet</h3>
@@ -431,10 +431,10 @@ const Component = () => {
                     </tbody>
                   </table>
                 </div>
-                {/* <h3>口座タイプにおける機能比較</h3>
+                <h3>口座タイプにおける機能比較</h3>
                 <div id="table_box">
                   <PriceTable />
-                </div> */}
+                </div>
               </div>
             </div>
             <div id="tiger_about5">

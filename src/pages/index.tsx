@@ -146,8 +146,7 @@ const Component = () => {
                 {/* <div id="content_1">
                   <div id="content_1_inner">
                     <p style={{ width: 'auto' }}>
-                      Rays
-                      Walletのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
+                      Rays Walletのアカウント一つで、提携の通貨と仮想通貨の両方を保有、管理することができます。
                     </p>
                     <h4>取り扱い通貨：</h4>
                     <div id="content_1_list">

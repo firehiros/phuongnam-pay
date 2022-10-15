@@ -148,23 +148,7 @@ const Component = () => {
                     <h3>01</h3>
                     <p>
                     Rays Walletにログイン後、右上の【My
-                      Account】から【口座アップグレード】を選択します。
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div id="flow_2">
-                <div className="flow_box">
-                  <figure className="flow_img">
-                    <img src="./img/kyc_img2.png" alt="口座開設トップ画面" />
-                  </figure>
-                  <div className="flow_text">
-                    <h3>02</h3>
-                    <p>
-                      【Standard口座】が選択されていることを確認して【次へ】をクリック。
-                      <br />
-                      <br />
-                      Standard口座は、Fiat通貨のご入金やご出金など、Fast口座よりも多くの機能が利用でき、送金などの各種手数料が割安となっています。また、利用金額の上限も高くなっているので幅広くご利用いただけます。月額手数料は無料です。
+                      Account】から【KYC書類認証】を選択します。
                     </p>
                   </div>
                 </div>
@@ -178,9 +162,9 @@ const Component = () => {
                     />
                   </figure>
                   <div className="flow_text">
-                    <h3>03</h3>
+                    <h3>02</h3>
                     <p>
-                      本人確認提出書類と同じ内容である必要があるため、必要な場合は変更。変更内容を全て入力しましたら、【変更】をクリック
+                      本人確認提出書類と同じ内容である必要があるため、必要な場合は変更。変更内容を全て入力しましたら、【情報を更新する】をクリック
                     </p>
                   </div>
                 </div>
@@ -196,7 +180,7 @@ const Component = () => {
                   <div className="flow_text">
                     <h3>04</h3>
                     <p>
-                      入力内容に誤りがないか確認をし、間違いがありましたら【戻る】ボタンで入力画面に戻ります。誤りがなければ、【次へ】をクリック。
+                      入力内容に誤りがないか確認をし、間違いがありましたら【戻る】ボタンで入力画面に戻ります。誤りがなければ、【更新】をクリック。
                     </p>
                   </div>
                 </div>
@@ -212,7 +196,7 @@ const Component = () => {
                   <div className="flow_text">
                     <h3>05</h3>
                     <p>
-                      ※印のついた箇所の入力とプルダウン選択で全て入力し、【次へ】をクリック。
+                      ※印のついた箇所の入力とプルダウン選択で全て入力し、【確認】をクリック。
                       <br />
                       <br />
                       ※住所は、現在お住まいで、郵便物を受け取れる情報をお願いします。
@@ -223,7 +207,7 @@ const Component = () => {
                   </div>
                 </div>
               </div>
-              <div id="flow_6">
+              {/* <div id="flow_6">
                 <div className="flow_box">
                   <figure className="flow_img">
                     <img
@@ -238,7 +222,7 @@ const Component = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div id="flow_7">
                 <div className="flow_box">
                   <figure className="flow_img">
@@ -248,7 +232,7 @@ const Component = () => {
                     />
                   </figure>
                   <div className="flow_text">
-                    <h3>07</h3>
+                    <h3>06</h3>
                     <p>
                       本人確認書類として、ご本人証明書類と住所確認書類をそれぞれ【ファイル選択】からアップロード。
                       <br />

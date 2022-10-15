@@ -56,7 +56,7 @@ const Component = () => {
                         </div>
                       </div>
                       <div className="tbl-row">
-                        <div className="tbl-cell tbl-th-cell">代表者</div>
+                        <div className="tbl-cell tbl-th-cell">代表者名</div>
                         <div className="tbl-cell">ZHANG Xiaoxia</div>
                       </div>
                       <div className="tbl-row">
@@ -96,8 +96,8 @@ const Component = () => {
                           ホームページURL
                         </div>
                         <div className="tbl-cell">
-                          <a href="https://unoun.co.jp/" title="UNOUN">
-                            https://unoun.co.jp/
+                          <a href="https://www.vertex-raise.com/" title="UNOUN">
+                            https://www.vertex-raise.com/
                           </a>
                         </div>
                       </div>

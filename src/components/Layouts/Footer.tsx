@@ -83,7 +83,7 @@ const Component = ({ ...props }) => {
                 </li>
                 <li>
                   <Link href="/partner">
-                    <a>パートナー</a>
+                    <a>パートナー制度</a>
                   </Link>
                 </li>
                 <li>
